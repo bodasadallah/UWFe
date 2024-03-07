@@ -23,19 +23,12 @@ Participle                       174
 • Participles: 
 • Subject-verb agreement(SVA):
 • Auxiliary verb: 
-• Verb tense: incongruities in verb tenses, such
-as erroneous tense shift in a compound sentence, etc.
-• Pronoun-antecedent agreement(PAA): pronouns didn’t agree in number, person, and
-gender with their antecedents.
-• Possessive: misuse of possessive adjectives
-and possessive nouns.
-• Collocation: atypical word combinations that
-are grammatically acceptable but not common.
-• Preposition: misuse of prepositional words.
-• POS confusion: confusions in part of
-speech like noun/adjective confusion(e.g. difficulty, difficult), adjective/adverb confusion(e.g. ready, readily), etc.
-• Article: wrong use of article.
-• Number: confusion in singular or plural form
-of nouns.
-• Transition: extra preposition after transitive
-verbs and missing proposition after intransitive verbs.
+• Verb tense:
+• Pronoun-antecedent agreement(PAA): 
+• Possessive: 
+• Collocation:
+• Preposition:
+• POS confusion: 
+• Article: 
+• Number: 
+• Transition:
