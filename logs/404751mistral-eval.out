@@ -1,0 +1,69 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B-Instruct
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'disadvantages', 'end': 4, 'error': 'disadvantage', 'explanation': 'The noun "disadvantage" requires either pluralization or an article. It refers to a result of something, so it is often plural because it is assumed that any action can cause multiple results. Unless it is known that there is only one singular disadvantage, usually it is used in the plural. Also, the phrase "one of" implies that there are multiple potential members of a group, so what comes after it must be plural.', 'start': 3}, {'correct': '-', 'end': 13, 'error': 'the', 'explanation': 'I partially agree with the correction because "the" should be deleted, but that does not fix the issue. The phrase "lose interest in" is a commonly used expression, and it never uses an article. The first word is always a verb form, and "loss" is a noun, so it should be changed to "lose."', 'start': 12}, {'correct': 'in', 'end': 15, 'error': 'of', 'explanation': 'The phrase "lose interest in" is a commonly used expression, and it always uses the article "in." The phrase "lose interest of" is incorrect, and it would mean that the "interest" belongs to face-to-face communication or is an aspect of it.', 'start': 14}]
+incorrect_sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+correct_sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: The usage of social media sites indirectly causes a reduction in face-to-face human communication in real life , which will in turn cause the lost of interpersonal skills for many people .
+Correct sentence: The usage of social media sites indirectly causes a reduction in face-to-face human communication in real life , which will in turn cause the loss of interpersonal skills for many people .
+Errors:
+1. Error: lost, Correction: loss
+Explanations:
+1. The verb "cause" is always followed by a noun, and "lost" is the past participle. Therefore, it should be changed to the noun "loss." 
+Erroneous sentence: Besides , there are more people shwing their pictures of yummy food or travelling experience .
+Correct sentence: Besides , there are more people showing their pictures of yummy food or travelling experiences .
+Errors:
+1. Error: shwing, Correction: showing
+2. Error: experience, Correction: experiences
+Explanations:
+1. This is a spelling error. The correct spelling is "showing."
+2. The noun "experience" can be either countable or uncountable, depending on its meaning. It is countable when it refers to events in a person's life and It is uncountable when it refers to work experience or skills or knowledge gained by doing something. intangible things. In the context of sharing photos on social media, it means life events, so it is countable. It should be made plural because the photos show multiple events in the lives of different people.
+Erroneous sentence: However , social media site is a double-sided sword , it also bring in some negative effect on our daily life .
+Correct sentence: However , social media site is a double-sided sword , it also bring some negative effects on our daily lives .
+Errors:
+1. Error: in, Correction:  
+2. Error: life, Correction: lives
+3. Error: effect, Correction: effects
+Explanations:
+1. Unnecessary word. "Bring in" means to yield or earn something, as in "His YouTube career brings in $40 million a year", but this is not the sense you want in your sentence, so just use "bring" on its own.
+2. This sentence is talking about people's daily lives in general, so "life" should be pluralised.
+3. This sentence is talking about negative effects in general, so "effect" should be pluralised.
+Erroneous sentence: With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each others through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important aspect in our life .
+Correct sentence: With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each other through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important role in our life .
+Errors:
+1. Error: others, Correction: other
+2. Error: aspect, Correction: role
+Explanations:
+1. "Each" needs to be followed by a singular noun, because use of "each" in this case means that you are talking about every person separately, so use "other" here.
+2. Incorrect word choice. You could say "it is an important aspect", but in your sentence you are using the verb "play" which "aspect" does not fit with. The word that fits with "play" and the rest of the sentence is "role", as something can "play an important role in our lives".
+Erroneous sentence: Parents know what the best is for their children , thus they will make a right decision after they have be informed .
+Correct sentence: Parents know what the best is for their children , thus they will make the right decision after they have be informed .
+Errors:
+1. Error: a, Correction: the
+Explanations:
+1. The sentence is mentioning one specific decision, i.e., the correct one, so use the definite article, "the".
+Erroneous sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+Correct sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+Errors:
+1. Error: disadvantage, Correction: disadvantages
+2. Error: the, Correction:  
+3. Error: of, Correction: in
+Explanations:
+label: 1. The noun "disadvantage" requires either pluralization or an article. It refers to a result of something, so it is often plural because it is assumed that any action can cause multiple results. Unless it is known that there is only one singular disadvantage, usually it is used in the plural. Also, the phrase "one of" implies that there are multiple potential members of a group, so what comes after it must be plural.
+2. I partially agree with the correction because "the" should be deleted, but that does not fix the issue. The phrase "lose interest in" is a commonly used expression, and it never uses an article. The first word is always a verb form, and "loss" is a noun, so it should be changed to "lose."
+3. The phrase "lose interest in" is a commonly used expression, and it always uses the article "in." The phrase "lose interest of" is incorrect, and it would mean that the "interest" belongs to face-to-face communication or is an aspect of it.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 32.55 seconds
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.8290615239077144
+Precision: 0.8047183582352267
+Recall: 0.8554138309425778
+Cleaned F1: 0.8191170713139905
+Cleaned Precision: 0.8353648115363386
+Cleaned Recall: 0.8037587685717477
+ ending 

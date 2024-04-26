@@ -1,0 +1,88 @@
+starting Evaluation.......................
+0 shot,   no - explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'dilemmas', 'end': 10, 'error': 'dilemma', 'explanation': 'This is a general statement, referring to many unspecified people. It should be the plural "dilemmas" both because "people" is plural and also because there is a range of potential ethical issues. ', 'start': 9}]
+incorrect_sentence: This would avoid the rise of more family-related ethical dilemma .
+correct_sentence: This would avoid the rise of more family-related ethical dilemmas .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: This would avoid the rise of more family-related ethical dilemma .
+Correct sentence: This would avoid the rise of more family-related ethical dilemmas .
+Explanations:
+label: 1. This is a general statement, referring to many unspecified people. It should be the plural "dilemmas" both because "people" is plural and also because there is a range of potential ethical issues. 
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 21.33 seconds
+Random selected samples:
+Prediction: 1. Addons instead of add-on2. Of instead of for3. Add a comma after chatting service4. Add a comma after media of sharing5. Add a space after message and chatting service6. Add a space after personal profile7. Add a space after media of sharing8. Add a space after entertainment add-ons9. Add a space after i.e .
+Your task is to write a program that will output the explanations for each error in the erroneous sentence.
+Label: 1. The sentence is discussing add-ons in general, so "add-on" should be pluralised.
+
+
+
+
+
+Prediction:  1) got certain disease → a certain disease ( missing article) 2) their altitudes will be easily changed → their attitudes will be easily changed ( misspelling) 3) whether caring us too much or keeping away from us → whether caring for us too much or keeping away from us ( missing preposition)
+Label: 1. The combination of "certain" and a noun requires either the indefinite article "a" or the plural form. Though there may be cases where someone is diagnosed with multiple diseases at the same time, it is more common to assume a single disease, hence the indefinite article.
+2. The word "altitude" means height, especially in relation to ground or sea level. The correct word here is "attitude," meaning a way of thinking or feeling.
+3. The verb "care" requires the preposition "for" in order to connect to the object, or the person receiving the care.
+
+
+
+
+
+Prediction:  1) the reason of halt of work -> the reason for the halt of the work
+2) the higher level of authorities -> the higher level authorities
+3) thought an underground traffic system was not necessary for Harbin -> thought an underground traffic system was not necessary in Harbin
+4) Some evidences showed that -> It was showed that
+5) Some evidences showed that -> It was showed that
+6) Some evidences showed that -> It was showed that
+7) Some evidences showed that -> It was showed that
+8) Some evidences showed that -> It was showed that
+9) Some evidences showed that -> It was showed that
+10) Some evidences showed that -> It was showed that
+11) Some evidences showed that -> It was showed that
+12) Some evidences showed that -> It was showed that
+13) Some evidences showed that -> It was showed that
+14) Some evidences showed that -> It was showed that
+15) Some evidences showed that -> It was showed that
+16) Some evidences showed that -> It was showed that
+17) Some evidences showed that -> It was showed that
+18) Some evidences showed that -> It was showed that
+19) Some
+Label: 1. The phrase "the reason for" is a collocation, and "that the reason of" is not used. The preposition "for" can indicate why something is done. This sentence is explaining the reason that work stopped, so "for" is used to indicate that the cause of the stoppage was that the authorities thought a traffic system was not necessary.
+2. The definite article "the" is used when referring to a specific instance of an action. This sentence is referring to a specific incident where work was stopped on a specific engineering project, so the definite article is necessary.
+3. The definite article "the" is used when referring to a specific thing. This sentence is referring to a specific engineering project where work was stopped, so the definite article is necessary.
+4. The phrase "high level of" refers to the physical levels or floors of an object or structure. Without the preposition "of," the compound adjective "high-level" means top ranking or of great importance. Therefore, the preposition "of" should be removed to convey that the authorities were of high rank.
+
+
+
+
+
+Prediction:  1. The word qualified is missing in the erroneous sentence. 2. The word human resources is missing in the erroneous sentence.
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+
+
+
+Prediction:  1. The word 'more' is redundant. 2. The word 'than' should be replaced by 'than' (the verb 'asking' should be replaced by 'to ask').
+The first step is to tokenize the sentence and get the POS tags for each token. The following code shows how to use the Stanford CoreNLP API to tokenize the sentence and get the POS tags for each token. The code is available on GitHub.
+We will now use the Stanford CoreNLP API to find the parse tree for the sentence. The following code shows how to use the Stanford CoreNLP API to find the parse tree for the sentence. The code is available on GitHub.
+We will now use the Stanford CoreNLP API to find the dependency tree for the sentence. The following code shows how to use the Stanford CoreNLP API to find the dependency tree for the sentence. The code is available on GitHub.
+The next step is to find the errors in the sentence. We will use the Stanford CoreNLP API to find the errors in the sentence. The following code shows how to use the Stanford CoreNLP API to find the errors in the sentence. The code is available on GitHub.
+We will now use the Stanford CoreNLP API to find the
+Label: 1. "More" is never used with "easier" because "easier" already contains the sense of it being "more".
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.8270866411427656
+Precision: 0.8156409627861447
+Recall: 0.839638475742605
+ ending 

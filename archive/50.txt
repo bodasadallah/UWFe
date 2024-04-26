@@ -1,0 +1,217 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "qualified" is unnecessary and redundant: The phrase "creative qualified" is redundant because "creative" already implies a high level of skill and expertise. The corrected sentence simply states "creative human resources", which is a more concise and accurate way to express the idea.
+
+Corrected sentence: Therefore, the lack of creative human resources seriously hampers engineering design processes for innovations in China.
+
+Explanation: The error is a result of unnecessary verbosity, which can make the sentence harder to understand and more prone to errors.
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "polices" -> "police":
+The error is a plural noun error. The correct form is "police" (singular) instead of "polices" (plural). Cyber police is a single entity, not multiple entities.
+
+Corrected sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Let me know if you'd like me to explain anything else!
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "reliance of the social media and the Internet" -> "reliance on social media and the Internet"
+
+Error: Missing preposition "on"
+
+Explanation: The correct phrase should include the preposition "on" to indicate the reliance on social media and the Internet, rather than just listing them. The preposition "on" shows the relationship between the subject (reliance) and the object (social media and the Internet).
+
+Corrected sentence: With the frequent usage and reliance on social media and the Internet, a society that socialises through the cyber will be more advance and adapted to the highly connected world.
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "due to the high-velocity technological advancement" -> "due to high-velocity technological advancement"
+
+Error: Unnecessary article "the"
+
+Explanation: The phrase "high-velocity technological advancement" is a noun phrase that refers to a specific concept. Since it's a singular noun phrase, it doesn't need the definite article "the" before it. The corrected sentence removes the unnecessary article, making the sentence more concise and clear.
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "over us" should be "on us":
+The erroneous sentence uses "over us" to indicate the direction of the action, implying that the people are using something above or above us. However, the correct sentence uses "on us", which indicates that the people are using something on or affecting us, which is the intended meaning.
+
+2. "using it" should be "use it":
+The erroneous sentence uses the present continuous tense "using" to describe the action, whereas the correct sentence uses the simple present tense "use" to describe the action. The correct sentence is more concise and natural-sounding.
+
+3. "us" should be "it":
+The erroneous sentence uses "us" to refer to the object being used, whereas the correct sentence uses "it" to refer to the object being used. The correct sentence is more accurate and clear.
+
+4. "However" is missing:
+The erroneous sentence starts with "The more people using it over us", which is a declarative statement. The correct sentence starts with "However", which is a conjunction that indicates a contrast or a change in direction, making the sentence more nuanced and interesting.
+
+So, the corrected sentence "However, the more
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "do" instead of "does":
+
+The error is in the verb agreement. "Social media" is a singular noun, so the verb "create" should be in the singular form "does" instead of "do". The corrected sentence uses the correct verb form "does" to agree with the subject "social media".
+
+Corrected sentence: Though social media does create relationships...
+
+2. (No other errors found)
+
+The rest of the sentence is grammatically correct and does not contain any other errors.
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "contacts" -> "contact": The error is a plural noun error. The correct sentence uses the singular form "contact" instead of the plural form "contacts". This is because "face-to-face human contact" refers to a single instance of interaction, not multiple instances.
+
+Corrected sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decreased.
+
+Note: I also corrected "decresed" to "decreased", as "decresed" is not a valid word in English.
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "claimed" -> "claim":
+The error is a subject-verb agreement mistake. The subject of the sentence is "Many of the teenagers", which is a plural noun, so the verb "claim" should be in the plural form "claim" instead of "claimed", which is the singular form.
+
+Corrected sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media, regardless of their location.
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "Human" should be "Humans":
+	* Error type: Singular noun instead of plural noun
+	* Explanation: The subject of the sentence is "rights and privacy", which are collective and can be possessed by multiple individuals. Therefore, the subject should be in the plural form "Humans" instead of the singular form "Human".
+2. No errors found in the rest of the sentence.
+
+So, the corrected sentence is: "Humans have their own rights and privacy".
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+1. "has" -> "have": The subject of the sentence is "both of his parents", which is a plural noun. Therefore, the verb "have" should be used instead of "has", which is a singular verb.
+
+Corrected sentence: "This means both of his parents have gene A..."
+
+2. "under high risk" -> "at high risk": The phrase "under high risk" is not grammatically correct. Instead, the correct phrase is "at high risk", which is a common idiomatic expression.
+
+Corrected sentence: "They are both at high risk of having disease C."
+
+3. "runing" -> "running": The verb "running" is a present participle (a verb ending in "-ing" that is used to describe an action that is ongoing) and should be used instead of the incorrect "runing".
+
+Corrected sentence: "They could save the cost of running two separate tests..."
+
+4. "know that he has" -> "know that he has" (no change): This part of the sentence is correct, so no change is needed.
+
+Corrected sentence: "If he runs a test and know that he has the gene Aa."
+
+
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

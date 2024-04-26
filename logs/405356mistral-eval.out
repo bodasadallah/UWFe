@@ -1,0 +1,55 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 53, 'error': 'if', 'explanation': 'I agree that "if" needs to be corrected, but have additional edits. First, in the original sentence, the engineer needs to answer two questions: (1) which method is suitable, and (2) if that method is legal. The latter is a choice between two options: if it agrees with existing laws or if it does not. This type choice is better expressed as "whether," which can indicate different choices or possibilities. Therefore, "if" should be changed to whether.', 'start': 52}]
+incorrect_sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and if agrees with existing international laws .
+correct_sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and agrees with existing international laws .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: On top of that , as the genetic risk may pass down to next generation , thus it will involve more than just one family .
+Correct sentence: On top of that , as the genetic risk may pass down to the next generation , thus it will involve more than just one family .
+Errors:
+1. Error:  , Correction: the
+Explanations:
+1. Missing article. As you are talking specifically about the next generation, use the definite article, "the".
+Erroneous sentence: Hence it lessens valuable interaction between human and time we spend away from the computer screen or mobile phone .
+Correct sentence: Hence it lessens valuable interaction between human and the time we spend away from the computer screen or mobile phone .
+Errors:
+1. Error:  , Correction: the
+Explanations:
+1. The definite article "the" is used when referring to a specific thing. This sentence is referring to the time spent on a specific action, not using screens. The definite article conveys that the time in question was spent on this specific action, not on others.
+Erroneous sentence: People indeed go to great length to make their words as shorter as they can .
+Correct sentence: People indeed go to great lengths to make their words as short as they can .
+Errors:
+1. Error: length, Correction: lengths
+2. Error: shorter, Correction: short
+Explanations:
+1. This is a fairly common expression, which can also be expressed as "go to any length". Both versions imply that people will do anything to achieve a particular goal, in this case, "make their words as short as they can", and as that means there are many things that they might try, "lengths" should be pluralised to reflect this.
+2. Incorrect word form. In this part of the sentence it is saying how "short" the words are (as short as possible), and so it doesn't make sense to say "shorter" here, in the same way as you can ask "How short is this?" but you can't ask "How shorter is this?".
+Erroneous sentence: Therefore , I thought a known genetic risk should not be obligated to tell his or her family or relatives .
+Correct sentence: Therefore , I think a known genetic risk should not be obligated to tell his or her family or relatives .
+Errors:
+1. Error: thought, Correction: think
+Explanations:
+1. You are expressing an opinion that you hold now, not something that you thought in the past, so you should use the present tense, "think".
+Erroneous sentence: We can not deny that the genetic testing really helps people a lot when they face the disorder problem .
+Correct sentence: We can not deny that genetic testing really helps people a lot when they face the disorder problem .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+1. The concept of "genetic testing" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific type or instance of genetic testing, instead of the concept in general.
+Erroneous sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and if agrees with existing international laws .
+Correct sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and agrees with existing international laws .
+Errors:
+1. Error: if, Correction:  
+Explanations:
+label: 1. I agree that "if" needs to be corrected, but have additional edits. First, in the original sentence, the engineer needs to answer two questions: (1) which method is suitable, and (2) if that method is legal. The latter is a choice between two options: if it agrees with existing laws or if it does not. This type choice is better expressed as "whether," which can indicate different choices or possibilities. Therefore, "if" should be changed to whether.
+
+Loading Base Model mistralai/Mistral-7B-v0.1
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8387904605931706
+Precision: 0.8111580204632547
+Recall: 0.8696780552466711
+Cleaned F1: 0.8864763167997202
+Cleaned Precision: 0.8905181859930357
+Cleaned Recall: 0.8830010750227504
+ ending 

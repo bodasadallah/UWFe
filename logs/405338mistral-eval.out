@@ -1,0 +1,27 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B-Instruct
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'cause', 'end': 9, 'error': 'causing', 'explanation': 'This sentence is not talking about something that is currently happening, but something that could happen, so you need to change the present continuous "causing" to the present "cause".', 'start': 8}]
+incorrect_sentence: This could lead to psychological implications and thus causing many tremendous social effects that may be harmful to our society .
+correct_sentence: This could lead to psychological implications and thus cause many tremendous social effects that may be harmful to our society .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: This could lead to psychological implications and thus causing many tremendous social effects that may be harmful to our society .
+Correct sentence: This could lead to psychological implications and thus cause many tremendous social effects that may be harmful to our society .
+Errors:
+1. Error: causing, Correction: cause
+Explanations:
+label: 1. This sentence is not talking about something that is currently happening, but something that could happen, so you need to change the present continuous "causing" to the present "cause".
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 28.96 seconds
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.8571326575345464
+Precision: 0.8446198337607913
+Recall: 0.8702789151834117
+Cleaned F1: 0.4882548890180058
+Cleaned Precision: 0.502224696179231
+Cleaned Recall: 0.47521475536955726
+ ending 

@@ -1,0 +1,105 @@
+starting Evaluation.......................
+5 shot,    - no  explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'the', 'end': 15, 'error': 'a', 'explanation': 'The sentence is mentioning one specific decision, i.e., the correct one, so use the definite article, "the".', 'start': 14}]
+incorrect_sentence: Parents know what the best is for their children , thus they will make a right decision after they have be informed .
+correct_sentence: Parents know what the best is for their children , thus they will make the right decision after they have be informed .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: This is the common law in the society .
+Correct sentence: This is the common law in society .
+Explanations:
+1. As "society" is something general and uncountable, it does not need an article, so remove "the".
+Erroneous sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her but just communicate with friends on facebook .
+Correct sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her and just communicate with friends on facebook .
+Explanations:
+1. "But" should be used in the situation where you do one thing, but not the other, so you could say, "they don't speak to the people around them, but do communicate with friends on Facebook," but in the context of your sentence, you are saying that both these actions are going on at the same time, so you should use "and", as in they shun/ignore the people around them AND only communicate with friends on Facebook.
+Erroneous sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+Correct sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+Explanations:
+1. The noun "disadvantage" requires either pluralization or an article. It refers to a result of something, so it is often plural because it is assumed that any action can cause multiple results. Unless it is known that there is only one singular disadvantage, usually it is used in the plural. Also, the phrase "one of" implies that there are multiple potential members of a group, so what comes after it must be plural.
+2. I partially agree with the correction because "the" should be deleted, but that does not fix the issue. The phrase "lose interest in" is a commonly used expression, and it never uses an article. The first word is always a verb form, and "loss" is a noun, so it should be changed to "lose."
+3. The phrase "lose interest in" is a commonly used expression, and it always uses the article "in." The phrase "lose interest of" is incorrect, and it would mean that the "interest" belongs to face-to-face communication or is an aspect of it.
+Erroneous sentence: These green house gases are the main cause to worldwide global warming which give rise to further catastrophes such as the rise in global temperature etc .
+Correct sentence: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc .
+Explanations:
+1. This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."
+2. The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.
+Erroneous sentence: Here I want to share Forest'view on this issue .
+Correct sentence: Here I want to share Forest 's view on this issue .
+Explanations:
+1. An "s" and a space are missing. There should be an "s" after the apostrophe and "view" should be a separate word.
+Erroneous sentence: Parents know what the best is for their children , thus they will make a right decision after they have be informed .
+Correct sentence: Parents know what the best is for their children , thus they will make the right decision after they have be informed .
+Explanations:
+label: 1. The sentence is mentioning one specific decision, i.e., the correct one, so use the definite article, "the".
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 15.94 seconds
+Random selected samples:
+Prediction: 
+Label: 1. "Social media" is an uncountable noun and therefore should not have an article.
+2. Missing word. The correct expression is "get in contact".
+
+
+
+
+
+Prediction: 
+Label: 1. Incorrect conjugation. Use the third person plural "bond" to go with "people".
+2. This sentence is talking about humans in general, so "human" should be pluralised.
+3. Incorrect conjugation. Use the third person plural "live" to go with "humans".
+4. "Aid" used in the sense of help or assistance is an uncountable noun and therefore should not be pluralised.
+
+
+
+
+
+Prediction:  
+1. "Social network site" is an uncountable noun and should not have the article "the."
+2. The word "willing" means a desire to do something, but it is not commonly used in modern English. The word "willingness" is a more commonly used word to express this meaning.
+Label: 1. This sentence is talking about social network sites in general, so "site" should be pluralised.
+
+
+
+
+
+Prediction:  
+1. The phrase "according to a research" is incorrect. The phrase "according to research" is correct.
+2. The phrase "people's lives" is incorrect. The phrase "people's life" is correct.
+3. The phrase "users feel more sad" is incorrect. The phrase "users feel more sad" is correct.
+4. The phrase "this is because" is incorrect. The phrase "this is because" is correct.
+5. The phrase "users unknowingly compare" is incorrect. The phrase "users unknowingly compare" is correct.
+Erroneous sentence: In the past , the most important thing is that the teachers can teach the students the knowledge and skills that they need in their future career .
+Correct sentence: In the past , the most important thing was that teachers could teach students the knowledge and skills they needed in their future careers .
+Explanations:
+1. The phrase "the most important thing is" is incorrect. The phrase "the most important thing was" is correct.
+2. The phrase "the teachers can teach the students" is incorrect. The phrase "teachers could teach students" is correct.
+3. The phrase "the knowledge and skills that they need in their future career" is incorrect. The phrase "
+Label: 1. "Research" is an uncountable noun and therefore should not have an article.
+2. This sentence is talking about users in general and therefore should not have an article.
+3. "Facebook" is a proper noun and therefore should not have an article.
+
+
+
+
+
+Prediction: 
+Label: 1. The phrase "stay another year" is used in spoken English and casual contexts, but in formal writing, the grammatically correct phrase "stay for another year" should be used. The preposition "for" is used to indicate an amount of time or space, in this case, one more year.
+2. With the definite article "the," the phrase "the secondary school" refers to a specific secondary school. "Secondary school" with no article means secondary school in a less specific sense. The meaning of this sentence is not that the student was asked to remain at a specific secondary school for another year, but to remain a secondary school student for another year, so the more general "secondary school" is a better choice.
+3. The phrase "the top student" is a common phrase meaning "the number-one student." The adjective "top" means highest in rank. Combined with the definite article "the," which refers to one specific thing, it can only mean the number-one performing student in his province. The number is redundant and ungrammatical, so it should be removed.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.595878837009271
+Precision: 0.5803367532789707
+Recall: 0.6129021640453074
+Cleaned F1: 0.6123586243225468
+Cleaned Precision: 0.6146519631147385
+Cleaned Recall: 0.6105432212352753
+ ending 

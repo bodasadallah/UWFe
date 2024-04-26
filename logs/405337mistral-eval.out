@@ -1,0 +1,54 @@
+starting Evaluation.......................
+ 5 shot,    -    0  explicit errors,  -    Meta-Llama-3-8B-Instruct
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'The engineering', 'end': 1, 'error': 'Engineering', 'explanation': 'The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.', 'start': 0}, {'correct': '-', 'end': 10, 'error': 'fused', 'explanation': 'The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.', 'start': 9}, {'correct': '-', 'end': 29, 'error': 'on', 'explanation': 'I don\'t agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."', 'start': 28}, {'correct': '-', 'end': 34, 'error': 'desired deeds', 'explanation': 'I don\'t agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it\'s true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."', 'start': 32}]
+incorrect_sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+correct_sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Hence it lessens valuable interaction between human and time we spend away from the computer screen or mobile phone .
+Correct sentence: Hence it lessens valuable interaction between human and the time we spend away from the computer screen or mobile phone .
+Explanations:
+1. The definite article "the" is used when referring to a specific thing. This sentence is referring to the time spent on a specific action, not using screens. The definite article conveys that the time in question was spent on this specific action, not on others.
+Erroneous sentence: So , the manufacture company , for example , the company that the innovators are working for , is one of the major investors that is providing the fund .
+Correct sentence: So , the manufacture company , for example , the company that innovators are working for , is one of the major investors that is providing the fund .
+Explanations:
+1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+Erroneous sentence: It means that one can not know another 's real thought and personalities by reading things that he or she put on social network media .
+Correct sentence: It means that one can not know another 's real thoughts and personality by reading things that he or she put on social network media .
+Explanations:
+1. The singular noun "thought" refers to a single idea or opinion. For example, "I think I'd like eggs for breakfast" or "She thinks it would be fun to try beekeeping" are two thoughts. But this sentence is referring to a person's worldview, overall thinking, set of values, or general outlook. In this context, "thoughts" should be pluralized.
+2. The singular noun "personality" means a collection of traits, behaviors, or emotional qualities that make up an individual's character. The plural noun "personalities" refers to the personalities of multiple people.
+Erroneous sentence: There are many people in the social media with beautiful image and good content in their pages , however in real life , he or she may do not have jobs or live poorly .
+Correct sentence: There are many people on social media with beautiful images and good content on their pages , however in real life , he or she may not have jobs or live poorly .
+Explanations:
+1. Having a presence on a social media platform is referred to as being "on" social media. This is a collocation, or it may be because "on" can refer to a state of connection, such as in "on the Internet" or "on the phone."
+2. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific social media sites, instead of such sites in general.
+3. When referencing images as a general concept, the plural "images" should be used because it references all or any images. The singular "image" is used to refer to an individual image, with "an image" meaning any image and "the image" meaning one specific image. Also, in this sentence, the images are posted by "people," which is plural, so even if each person only posts one image, it still constitutes multiple images.
+4. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific social media sites, instead of such sites in general. Also, the concept of posts on pages is derived from bulletin boards, where people would post flyers and notices. This used the preposition "on" because papers would be attached to the face of the bulletin board.
+5. The phrase "may not have" already has one auxiliary verb: "may." It is incorrect and redundant to have two auxiliary verbs in a row, so "do" should be deleted. Also, the subject "he or she" is singular, so "jobs" should be changed to "a job" so that the statement refers to one person.
+Erroneous sentence: It will make people spend more time on chatting on the internet rather than communicate face to face such that the interpersonal skill will be badly affected .
+Correct sentence: It will make people spend more time chatting on the internet rather than communicate face to face such that the interpersonal skills will be badly affected .
+Explanations:
+1. Unnecessary word. You would use "on" with "spend" if it was going with a noun, as in "You need to spend more time on your essay", but when it is used with a verb, as is the case here with "chatting", you do not need to use "on".
+2. This sentence is talking about interpersonal skills in general, so "skill" should be pluralised.
+Erroneous sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+Correct sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+Explanations:
+label: 1. The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.
+2. The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.
+3. I don't agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."
+4. I don't agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it's true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 9.08 seconds
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.8294208053913381
+Precision: 0.805696080542273
+Recall: 0.8549644537270069
+Cleaned F1: 0.7626272444095876
+Cleaned Precision: 0.7658051484160953
+Cleaned Recall: 0.7598782169322172
+ ending 

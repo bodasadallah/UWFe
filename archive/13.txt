@@ -1,0 +1,171 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction: 
+1. The adjective "creative" modifies the noun "human resources," so it doesn't need to be repeated.
+2. This sentence is talking about human resources in general, so "resource" should be pluralized. Also, the verb "hampers" is not used with countable nouns, so "resources" should be changed to the uncountable noun "resource." 
+3. None
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction: 
+1. The noun "police" can be either countable or uncountable, depending on context. In this case, it is referring to individual law enforcement officers, so it should be made plural with an "s." 
+2. None
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction: 
+1. Incorrect preposition. Use "on" instead.
+2. Unnecessary word. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific social media sites, instead of such sites in general. For example, you would say "Facebook or Twitter," but not "the Facebook or the Twitter." Also, it's redundant to use both "social media" and "Internet" because they mean essentially the same thing. Therefore, remove "the" from "the social media." 
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: Nowadays , with the rapid development of science and technology , people 's lives have become much easier than before .
+Correct sentence: Nowadays , due to the rapid development of science and technology , people 's lives have become much easier than before .
+Errors:
+1. Error: With, Correction: Due to
+2. Error: the, Correction:  
+Explanations:
+1. Incorrect expression. Use "due to" instead.
+2. Unnecessary word. The concept of "science and technology" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific advances in science and technology, instead of such advances in general. For example, you would say "advances in genetic engineering," but not "the advances in genetic engineering." Therefore, remove "the" from "the science and technology."
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction: 
+1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances of technological advancement, instead of to the concept in general. Therefore, it should not have an article.
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction: 
+1. Incorrect word choice. "The" should be changed to "However".
+2. This is not grammatically correct. Use the gerund "using" instead of the infinitive "to use".
+3. Incorrect word choice. "On" refers to placing something on top of something else, while "over" means that one person or group has control over another.
+4. Incorrect word choice. "On" refers to placing something on top of something else, while "over" means that one person or group has control over another.
+5. None
+6. None
+7. None
+8. None
+9. None
+10. None
+11. None
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction: 
+1. Incorrect conjugation. Use the third person singular "does" to go with "social media". The subject "social media" is one individual thing, so use the singular "does".
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction: 
+1. The concept of "human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances of human contact, instead of as a general concept.
+2. This sentence is talking about human contact in general, so "contacts" should be changed to the singular "contact." 
+3. Incorrect spelling. The correct spelling is "decreased." 
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction: 
+1. The present tense refers to actions or states that are currently ongoing or occur frequently, while the past tense refers to actions or states that were completed in the past. This sentence is not talking about something that happened in the past, so use the present tense, "claim". Also, the subject here is "many teenagers", which is plural, so you need to use the third person plural form, "claim". Therefore, the verb should be changed from "claimed" to "claim".
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction: 
+1. The definite article "the" is used to refer to specific groups of people, while the indefinite article "a/an" or plural "humans" is used to refer to unspecified groups of people. This sentence is talking about human beings in general, so use the plural "humans".
+2. Incorrect conjugation. Use the third person plural "have" to go with the subject "humans".
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction: 
+1. Incorrect conjugation. Use the third person plural "have" to go with "both of his parents".
+2. Incorrect word choice. The correct expression is "at risk", not "under risk".
+3. Incorrect word choice. The correct expression is "at risk", not "under risk".
+4. Incorrect conjugation. Use the third person singular "running" to go with "two separate tests". 
+5. None
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

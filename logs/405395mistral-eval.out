@@ -1,0 +1,23 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'a', 'end': 5, 'error': 'the', 'explanation': '"In a nutshell" is an idiom, and the article does not change. The phrase "in the nutshell" is not used, but the specificity of "the" makes it sound literal. Instead of referring figuratively to something very simple, it would mean something that is literally inside a nutshell.', 'start': 4}]
+incorrect_sentence: To put it in the nutshell , I believe that people should have the obligation to tell their relatives about the genetic testing result for the good of their health .
+correct_sentence: To put it in a nutshell , I believe that people should have the obligation to tell their relatives about the genetic testing result for the good of their health .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: To put it in the nutshell , I believe that people should have the obligation to tell their relatives about the genetic testing result for the good of their health .
+Correct sentence: To put it in a nutshell , I believe that people should have the obligation to tell their relatives about the genetic testing result for the good of their health .
+Errors:
+1. Error: the, Correction: a
+Explanations:
+label: 1. "In a nutshell" is an idiom, and the article does not change. The phrase "in the nutshell" is not used, but the specificity of "the" makes it sound literal. Instead of referring figuratively to something very simple, it would mean something that is literally inside a nutshell.
+
+Loading Base Model mistralai/Mistral-7B-v0.1
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8195178603960408
+Precision: 0.8067653936644396
+Recall: 0.8334542148643069
+Cleaned F1: 0.8228075520859824
+Cleaned Precision: 0.8344039639665021
+Cleaned Recall: 0.8119836101929346
+ ending 

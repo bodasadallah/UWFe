@@ -1,0 +1,127 @@
+starting Evaluation.......................
+5 shot,    - no  explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 8, 'error': 'the', 'explanation': 'The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.', 'start': 7}]
+incorrect_sentence: These are not the only challenges that the innovators are going to deal with .
+correct_sentence: These are not the only challenges that innovators are going to deal with .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Hence it lessens valuable interaction between human and time we spend away from the computer screen or mobile phone .
+Correct sentence: Hence it lessens valuable interaction between human and the time we spend away from the computer screen or mobile phone .
+Explanations:
+1. The definite article "the" is used when referring to a specific thing. This sentence is referring to the time spent on a specific action, not using screens. The definite article conveys that the time in question was spent on this specific action, not on others.
+Erroneous sentence: We should respect that everyone has human rights and without other 's permission , this should not be placed or implanted to anyone .
+Correct sentence: We should respect that everyone has human rights and without permission , this technology should not be placed or implanted in anyone .
+Explanations:
+1. As "permission" is something granted by another person, this is already taken for granted without needing to explicitly say "other's". 
+2. You should explicitly state "technology" for clarity.
+3. An implant goes inside the body, so you need to use "in" accordingly.
+Erroneous sentence: Whose duty it is to inform at risk relatives or not greatly depends on the personal moral and the nature of how 'directive ' the risk is to them .
+Correct sentence: Whose duty it is to inform at risk relatives or not greatly depends on personal moral morals the nature of how 'directive ' the risk is to them .
+Explanations:
+1. An individual's value system consists of multiple elements, so the plural "morals" is correct. The singular "moral" is used mostly to refer to a lesson gleaned from a parable, e.g. "the moral of the story."
+2. The concept of "personal morals" is an abstract noun and does not generally require an article. It only uses an article when referring to the values of a specific person, for example, "the personal morals of an individual."
+Erroneous sentence: A family of four having dinners in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Correct sentence: A family of four having dinner in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Explanations:
+1. The plural "dinners" refers either to each family member's individual orders at the restaurant or to multiple instances of gathering for dinner. A meal is still referred to in the singular when it is shared by multiple people. Therefore, it should be "having dinner" rather than "having dinners."
+Erroneous sentence: These implants and products are also been used as surveillance tools .
+Correct sentence: These implants and products have also been used as surveillance tools .
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: These are not the only challenges that the innovators are going to deal with .
+Correct sentence: These are not the only challenges that innovators are going to deal with .
+Explanations:
+label: 1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 8.69 seconds
+Random selected samples:
+Prediction:  
+1. "Face-to-face" is a phrase meaning in person. The phrase "face-to-face human contacts" is redundant and can be shortened to "face-to-face contact." 
+2. The verb "decrease" is in the present tense, but the subject "importance" is in the singular. This is not grammatically correct. "Decrease" should be in the singular, as "importance" is. 
+3. "Decresed" is a misspelling of "decreased," which is the past tense of "decrease."
+Erroneous sentence: The more time people spent on the social media sites , the more their writing skills will be reduced .
+Correct sentence: The more time people spend on the social media sites , the more their writing skills will be reduced .
+Explanations:
+1. "Spend" is the correct verb to use in this context. "Spend" means to use time or money. The phrase "time spent" is commonly used, whereas "time used" is not as commonly used.
+2. The more time people spend on social media sites, the more their writing skills will be reduced. This is a common way of expressing a cause and effect relationship. The first phrase is the
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+
+
+
+Prediction:  
+1. The possessive "innovators" is used to show that the challenges are associated with the innovators, not the innovators themselves. 
+2. The present tense should be used to show that the challenges are currently still happening. To create the present tense, we use "are" and the present participle "dealing with."
+Erroneous sentence: The term "big brother" is a well known term from the book 1984 by George Orwell .
+Correct sentence: The term "big brother" is a well known term from the book 1984 by George Orwell .
+Explanations: 
+1. The article "a" is used to refer to a single entity. In this case, "the book 1984" is a single entity, so "a" is not needed. 
+2. The possessive "Orwell's" is used to show that the book was written by Orwell, not by someone else. 
+3. The book is not a single entity, so "the book 1984" is not needed.
+Erroneous sentence: The article "a" is used to refer to a single entity .
+Correct sentence: The article "a" is used to refer to a single entity .
+Explanations
+Label: 1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+
+
+
+
+
+Prediction:  1. A comma is always needed before a non-restrictive clause. A non-restrictive clause is a clause that adds additional information to the sentence and that can be removed. The phrase "According to... design processes," is a full sentence on its own, making the phrase "which are... implementing it" a non-restrictive clause, so it requires a comma.
+Erroneous sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+Correct sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+Explanations: 1. The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes. 2. The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted. 3. I don't agree with this
+Label: 1. A comma is always needed before a non-restrictive clause. A non-restrictive clause is a clause that adds additional information to the sentence and that can be removed. The phrase "According to... design processes," is a full sentence on its own, making the phrase "which are... implementing it" a non-restrictive clause, so it requires a comma.
+
+
+
+
+
+Prediction:  1. Use "claim" instead of "claimed" because the sentence is talking about the general idea that teenagers can keep in touch with their friends regardless of their location.
+Erroneous sentence: Social media also provide a platform for people to share their views and ideas .
+Correct sentence: Social media also provides a platform for people to share their views and ideas .
+Explanations:
+1. Use "provides" instead of "provide" because it is a single action, and "provides" is the third-person singular form of the verb "to provide."
+Erroneous sentence: In the case of Facebook , it is also a social network that has been widely used by people around the world .
+Correct sentence: In the case of Facebook , it is also a social network that has been widely used by people around the world .
+Explanations:
+1. Use "is" instead of "has been" because Facebook is still in use and not a past action.
+Erroneous sentence: Social media is a technology that has been used by people to communicate with each other .
+Correct sentence: Social media is a technology that has been used by people to communicate with each other .
+Explanations:
+1. Use "is" instead of "has been" because social
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+
+
+
+Prediction:  
+1. The phrase "to put it in a nutshell" means "to summarize the main point in a few words." The word "nutshell" is a metaphor for a small box that contains a nut. The metaphor is not used in the phrase, so the word "the" should not be used.
+Erroneous sentence: However , the communication between parents and their children should be kept confidential .
+Correct sentence: However , communication between parents and their children should be kept confidential .
+Explanations:
+1. The phrase "between parents and their children" is a prepositional phrase that modifies "communication." The phrase should be placed as close as possible to the word it modifies. 
+Erroneous sentence: Moreover , the genetic test result should be shared among family members .
+Correct sentence: Moreover , the genetic test result should be shared among family members .
+Explanations:
+1. The phrase "among family members" is a prepositional phrase that modifies "shared." The phrase should be placed as close as possible to the word it modifies. 
+Erroneous sentence: In addition , it is important to note that the genetic testing result should be kept confidential .
+Correct sentence: In addition , it is important to note that the genetic testing result should be kept
+Label: 1. "In a nutshell" is an idiom, and the article does not change. The phrase "in the nutshell" is not used, but the specificity of "the" makes it sound literal. Instead of referring figuratively to something very simple, it would mean something that is literally inside a nutshell.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.5958786776496304
+Precision: 0.5803365169299973
+Recall: 0.6129020994736089
+ ending 

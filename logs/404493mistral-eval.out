@@ -1,0 +1,59 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'loss', 'end': 25, 'error': 'lost', 'explanation': 'The verb "cause" is always followed by a noun, and "lost" is the past participle. Therefore, it should be changed to the noun "loss." ', 'start': 24}]
+incorrect_sentence: The usage of social media sites indirectly causes a reduction in face-to-face human communication in real life , which will in turn cause the lost of interpersonal skills for many people .
+correct_sentence: The usage of social media sites indirectly causes a reduction in face-to-face human communication in real life , which will in turn cause the loss of interpersonal skills for many people .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Hence , some seen it as being considerate in keeping the genetic risk of getting the disease in confidential .
+Correct sentence: Hence , some seen it as being considerate in keeping the genetic risk of getting the disease confidential .
+Errors:
+1. Error: in, Correction:  
+Explanations:
+1. The statement is confusing two phrases: "keep confidential" and "in confidence." The phrase "keep confidential" is common and is used without variation in wording.
+Erroneous sentence: It is just because that you do not become strong enough to overcome the hard time .
+Correct sentence: It is just because that you do not become strong enough to overcome the hard times .
+Errors:
+1. Error: time, Correction: times
+Explanations:
+1. When generally referring to a period of hardship, time is pluralised, so the correct expression is "the hard times".
+Erroneous sentence: Serendipity is usually defined as a discovery under an accidental case , and it often results the invention of a new technology .
+Correct sentence: Serendipity is usually defined as the phenomenon of making an unintentional discovery , and it often results in the invention of a new technology .
+Errors:
+1. Error: a discovery under an accidental case, Correction: the phenomenon of making an unintentional discovery
+2. Error:  , Correction: in
+Explanations:
+1. I agree with this correction partially. There is no issue with either "accidental" or "unintentional" so that edit is a stylistic one. As for the rest, firstly, the structure "under an accidental case" is not commonly used. A clearer way of describing such a discovery is "making an accidental discovery." Secondly, the phrase "Serendipity is usually defined as making an accidental discovery" is grammatically correct, but that doesn't sound like a definition. Phrases like "a phenomenon of" are frequently used to make definitions match the part of speech of the word being defined. Since "serendipity" is a noun, its definition is easier to understand if it begins with a noun, like "phenomenon," instead of a gerund like "making."
+2. The verb "result" needs the preposition "in" to indicate the outcome or result of the action.
+Erroneous sentence: In addition , privacy issue has become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share at the first place .
+Correct sentence: In addition , privacy issues have become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share in the first place .
+Errors:
+1. Error: issue, Correction: issues
+2. Error: has, Correction: have
+3. Error: at, Correction: in
+Explanations:
+1. This sentence is talking about privacy issues in general, so "issue" should be pluralised.
+2. Incorrect conjugation. "Privacy issues" is the third person plural, so use "have" to correspond with it.
+3. Incorrect word. The correct expression is "in the first place".
+Erroneous sentence: Therefore , there is need to discuss the advantages and disadvantages of social media .
+Correct sentence: Therefore , there is a need to discuss the advantages and disadvantages of social media .
+Errors:
+1. Error:  , Correction: a
+Explanations:
+1. This is a common phrase. When it is singular, there is always an article. It is usually "there is a need," but sometimes "there is the need," referring to a specific need that has already been mentioned in the text or that is being compared to another need. There is no article in the plural "there are needs," but otherwise an article is always used.
+Erroneous sentence: The usage of social media sites indirectly causes a reduction in face-to-face human communication in real life , which will in turn cause the lost of interpersonal skills for many people .
+Correct sentence: The usage of social media sites indirectly causes a reduction in face-to-face human communication in real life , which will in turn cause the loss of interpersonal skills for many people .
+Errors:
+1. Error: lost, Correction: loss
+Explanations:
+label: 1. The verb "cause" is always followed by a noun, and "lost" is the past participle. Therefore, it should be changed to the noun "loss." 
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.819930667264594
+Precision: 0.776626841061645
+Recall: 0.869659418033229
+Cleaned F1: 0.8913938593533304
+Cleaned Precision: 0.8945172458059258
+Cleaned Recall: 0.8888901877734396
+ ending 

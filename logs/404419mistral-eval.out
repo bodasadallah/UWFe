@@ -1,0 +1,15 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'hand', 'end': 4, 'error': 'side', 'explanation': 'The phrase "on the other side" is likely understandable, but is not really used in English. The sentence is much easier to understand with the common set phrase idiom "on the other hand."', 'start': 3}, {'correct': 'wants', 'end': 13, 'error': 'want', 'explanation': 'The subject, "a person" is singular, and so for the sake of subject-verb agreement, the verb should be "wants," not "want."', 'start': 12}]
+incorrect_sentence: On the other side , as stated above , a person who want to confirm and has been prepared to face the result can choose to do the genetic testing individually .
+correct_sentence: On the other hand , as stated above , a person who wants to confirm and has been prepared to face the result can choose to do the genetic testing individually .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: On the other side , as stated above , a person who want to confirm and has been prepared to face the result can choose to do the genetic testing individually .
+Correct sentence: On the other hand , as stated above , a person who wants to confirm and has been prepared to face the result can choose to do the genetic testing individually .
+Explanations:
+label: 1. The phrase "on the other side" is likely understandable, but is not really used in English. The sentence is much easier to understand with the common set phrase idiom "on the other hand."
+2. The subject, "a person" is singular, and so for the sake of subject-verb agreement, the verb should be "wants," not "want."
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+ ending 

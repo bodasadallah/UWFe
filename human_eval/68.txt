@@ -1,0 +1,281 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction: 
+1. This sentence is talking about human resources in general, so "qualified" should be removed.
+2. This sentence is talking about human resources in general, so "resource" should be pluralised.
+3. None
+4. This sentence is talking about human resources in general, so "resource" should be pluralised.
+5. This sentence is talking about human resources in general, so "resource" should be pluralised.
+6. This sentence is talking about human resources in general, so "resource" should be pluralised.
+7. This sentence is talking about human resources in general, so "resource" should be pluralised.
+8. This sentence is talking about human resources in general, so "resource" should be pluralised.
+9. This sentence is talking about human resources in general, so "resource" should be pluralised.
+10. This sentence is talking about human resources in general, so "resource" should be pluralised.
+11. This sentence is talking about human resources in general, so "resource" should be pluralised.
+12. This sentence is talking about human resources in general, so "resource" should be pluralised.
+13. This sentence is talking about human resources in general, so "resource" should be pluralised.
+14. This sentence is talking about human resources in general, so "resource" should be pluralised.
+15. This sentence is talking about human resources in general, so "resource" should be pluralised.
+16. This sentence is talking about human resources in general, so "resource" should be pluralised.
+17. This sentence is talking about human resources in general, so "resource" should be pluralised.
+18. This sentence is talking about human resources in general, so "resource" should be pluralised.
+19. This sentence is talking about human resources in general, so "resource" should be pluralised.
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction: 
+1. This is a spelling error. The correct spelling is "police."
+2. This is a spelling error. The correct spelling is "police."
+3. The concept of "cyber police" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+4. The concept of "cyber police" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+5. The concept of "cyberspace" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+6. The concept of "social networking platforms" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+7. The concept of "hoaxes" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+8. The concept of "people" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+9. The concept of "spreading" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+10. The concept of "around" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups or instances, instead of such concepts in general. Therefore, the article should be removed.
+11. The concept of "information" is a general concept and can be assumed to be understood by the reader. It takes the defin
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction: 
+1. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific social media sites, instead of such sites in general.
+2. Incorrect spelling. The correct spelling is "on".
+3. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+4. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+5. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+6. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+7. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+8. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+9. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+10. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+11. The concept of "the Internet" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific parts of the internet, instead of the internet as a whole.
+12. The concept
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction: 
+1. The concept of "high-velocity technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+2. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+3. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+4. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+5. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+6. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+7. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+8. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or examples of this concept, instead of as a concept in general. Therefore, it should not have an article here.
+9. The concept
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction: 
+1. Incorrect word choice. Use "however" instead.
+2. Incorrect conjugation. Use the third person plural "use" to go with "people".
+3. Incorrect spelling. The correct spelling is "over".
+4. Incorrect conjugation. Use the third person plural "have" to go with "people".
+5. Incorrect spelling. The correct spelling is "power".
+6. Incorrect preposition. To indicate who has power over whom, you should say "the more power they will have over us".
+7. Missing comma. Use a comma to separate the two clauses.
+8. Incorrect verb form. Use the past tense "had" to go with "will".
+9. Missing article. Use the indefinite article "a" to refer to one unspecified instance of something.
+10. Unnecessary word. It's not clear what "it" refers to here, so remove it.
+11. Punctuation needed. Add a full stop at the end of the sentence.
+12. Spelling mistake. The correct spelling is "disadvantage".
+13. Sentence structure issue. This part of the sentence needs to be rephrased or removed as it does not fit well with the rest of the sentence. Remove this phrase.
+14. Wrong word. "Disadvantages" means multiple disadvantages, while "disadvantage" means one single disadvantage. As only one disadvantage is being discussed, change "disadvantages" to "disadvantage".
+15. Comma splice. Two independent clauses need to be separated by a semicolon or joined by a coordinating conjunction such as "and", "but", or "or". Also, add a space after the comma.
+16. Subject-verb disagreement. For the subject "information", use the third person singular "tells".
+17. Run-on sentence. Two independent clauses need to be separated by a semicolon or joined by a coordinating conjunction such as "and", "but", or "or". Also, add a space after the comma.
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction: 
+1. The subject here is "social media," which is singular, so for subject-verb agreement's sake, the verb should be changed to "does" instead of "do."
+2. Incorrect spelling. The correct spelling is "communication."
+3. Missing article. Use "an" to indicate one option among multiple options.
+4. Incorrect spelling. The correct spelling is "relationships."
+5. Incorrect spelling. The correct spelling is "firm."
+6. Incorrect spelling. The correct spelling is "real."
+7. Missing article. Use "an" to indicate one option among multiple options.
+8. Incorrect spelling. The correct spelling is "experiences."
+9. Incorrect spelling. The correct spelling is "communication."
+10. Incorrect spelling. The correct spelling is "interaction."
+11. Incorrect spelling. The correct spelling is "face-to-face."
+12. Missing article. Use "an" to indicate one option among multiple options.
+13. Incorrect spelling. The correct spelling is "Facebook."
+14. Incorrect spelling. The correct spelling is "Twitter."
+15. Incorrect spelling. The correct spelling is "Instagram."
+16. Incorrect spelling. The correct spelling is "Snapchat."
+17. Incorrect spelling. The correct spelling is "WhatsApp."
+18. Incorrect spelling. The correct spelling is "Skype."
+19. Incorrect spelling. The correct spelling is "WeChat."
+20. Incorrect spelling. The correct spelling is "QQ."
+21. Incorrect spelling. The correct spelling is "Line."
+22. Incorrect spelling. The correct spelling is "Viber."
+23. Incorrect spelling. The correct spelling is "Telegram."
+24. Incorrect spelling. The correct spelling is "Kik."
+25. Incorrect spelling. The correct spelling is "Tumblr."
+26. Incorrect spelling. The correct spelling is "Reddit."
+27. Incorrect spelling. The correct spelling is "Pinterest."
+
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction: 
+1. The concept of "human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances, with "a human contact" or "the human contact."
+2. Incorrect spelling. The correct spelling is "contact."
+3. When used as a noun, the verb "decrease" requires the preposition "of" to indicate what is being decreased. Therefore, it should be changed to "has decreased."
+4. Unnecessary word. This comma does not serve any grammatical purpose so it should be removed.
+5. The subject here is "importance," which is singular, so the plural "contacts" should be changed to the singular "contact."
+Unnecessary word. This comma does not serve any grammatical purpose so it should be removed.
+The concept of "human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances, with "a human contact" or "the human contact."
+Incorrect spelling. The correct spelling is "contact."
+When used as a noun, the verb "decrease" requires the preposition "of" to indicate what is being decreased. Therefore, it should be changed to "has decreased."
+Unnecessary word. This comma does not serve any grammatical purpose so it should be removed.
+The subject here is "importance," which is singular, so the plural "contacts" should be changed to the singular "contact."
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction: 
+1. The present tense refers to actions or states that are currently ongoing or occur often, while the past tense refers to actions or states that were completed in the past. This sentence is talking about what teenagers do now, so use the present tense, "claim."
+2. Incorrect conjugation. Use the third person plural "claim" to go with "teenagers."
+3. None 
+4. Missing article. Use the definite article, "the," because you are referring to one specific group of people (social media), which has already been mentioned.
+5. None 
+6. Unnecessary comma. Commas are used to separate items in a list only when there are three or more items. There are only two items in this list ("Many of the teenagers today" and "regardless of their location"), so no comma is needed.
+7. A run-on sentence occurs when two independent clauses are joined without proper punctuation or conjunction. An independent clause can stand on its own as a complete sentence. Both "Many of the teenagers today claim that they are able to keep in touch with their friends through social media" and "regardless of their location" are independent clauses, but they are not connected by a coordinating conjunction such as "for," "and," "nor," "but," "or," "yet," or a correlative conjunction such as "either...or," "whether...or," "neither...nor," or "not only...but also." Therefore, it should be either "Many of the teenagers today claim that they are able to keep in touch with their friends through social media, regardless of their location" or "Many of the teenagers today claim that they are able to keep in touch with their friends through social media; regardless of their location."
+8. None 
+9. None 
+10. None 
+11. None 
+12. None 
+13. None 
+14. None 
+15. None 
+16. None 
+17. None 
+18. None 
+19. None 
+20. None
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction: 
+1. Incorrect conjugation. This sentence is talking about people in general, so use the third person plural "humans" to go with "their".
+2. None 
+3. The subject here is "Humans", which is plural, so you need to add an "s" at the end of "rights" to make it plural as well.
+4. Nonstandard spelling. The correct spelling is "privacy".
+5. Subject-verb disagreement. For the subject "Humans", use the third person plural "have".
+6. Nonstandard spelling. The correct spelling is "privacy".
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction: 
+1. Incorrect conjugation. Use the third person plural "have" to go with "both of his parents".
+2. Incorrect spelling. The correct spelling is "risk".
+3. Incorrect conjugation. Use the third person plural "are" to go with "they".
+4. Incorrect spelling. The correct spelling is "risk".
+5. Unnecessary word. "Running" is not used as a gerund here, so it should be removed.
+6. Missing article. As you are talking about one specific test, use the definite article, "the".
+7. Incorrect conjugation. Use the third person singular "knows" to go with "he".
+8. Incorrect spelling. The correct spelling is "gene".
+Correct sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+Explanations:
+1. Incorrect conjugation. Use the third person plural "have" to go with "both of his parents".
+2. Incorrect spelling. The correct spelling is "risk".
+3. Incorrect conjugation. Use the third person plural "are" to go with "they".
+4. Incorrect spelling. The correct spelling is "risk".
+5. Unnecessary word. "Running" is not used as a gerund here, so it should be removed.
+6. Missing article. As you are talking about one specific test, use the definite article, "the".
+7. Incorrect conjugation. Use the third person singular "knows" to go with "he".
+8. Incorrect spelling. The correct spelling is "gene".
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

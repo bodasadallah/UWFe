@@ -1,0 +1,102 @@
+starting Evaluation.......................
+0 shot,   explicit errors, mixtral finetuned model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': ',', 'end': 11, 'error': '-', 'explanation': 'Add a comma to separate the clauses.', 'start': 11}, {'correct': 'particularly', 'end': 14, 'error': 'in particularly for', 'explanation': '"In particularly for" does not make sense, it is correct here to use "particularly" on its own.', 'start': 11}, {'correct': '-', 'end': 15, 'error': 'the', 'explanation': 'This sentence is talking about small children in general and therefore it does not need an article.', 'start': 14}]
+incorrect_sentence: This can protect the students from being in a dangerous situation in particularly for the small children who are studying in nursery .
+correct_sentence: This can protect the students from being in a dangerous situation , particularly small children who are studying in nursery .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: This can protect the students from being in a dangerous situation in particularly for the small children who are studying in nursery .
+Correct sentence: This can protect the students from being in a dangerous situation , particularly small children who are studying in nursery .
+Errors:
+1. Error:  , Correction: ,
+2. Error: in particularly for, Correction: particularly
+3. Error: the, Correction:  
+Explanations:
+label: 1. Add a comma to separate the clauses.
+2. "In particularly for" does not make sense, it is correct here to use "particularly" on its own.
+3. This sentence is talking about small children in general and therefore it does not need an article.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mixtral-explicit-errors/mistralai/Mixtral-8x7B-v0.1/checkpoint-18500/
+Random selected samples:
+Prediction: 
+1. The phrase "despite of" has two words. This is incorrect as "despite" is not a noun with a "of" modifying it. The correct preposition to use is "despite." In everyday usage, "despite" can stand on its own, so the preposition can be omitted. This is not considered a grammatical error, but it is considered a stylistic error. Please use the more formal version, "despite the distance," with the preposition included. "Despite of" is also used by some writers to indicate "in spite of." While this is fairly common, the use of "of" is unnecessary and therefore best omitted. It is advisable to use "in spite of" with the preposition "of," instead of "despite of." The phrase "despite of" can be ambiguous and may even be considered an error, so it is better to just use "despite" with or without the preposition "the" as needed.  
+Sometimes, "despite" means "without." "Despite the distance," means "because of the distance." To express this idea, use the phrase "without the distance." This means that people can stay in contact without being separated by physical distance. If this is what you are trying to express, that contact via social media is less affected by distance than in the past, then you should use this option. However, if you are trying to express instead that social media allows people to maintain a good relationship even when distance keeps us apart, then use the phrase given, "despite (the) distance."
+Label: 1. Unnecessary word. If you were using "in spite" it would be okay to write "in spite of the distance", but "of" is not necessary when using "despite".
+
+
+
+
+
+Prediction: 
+1. This sentence is discussing two different characteristics, and there is no need to add the additional information of "genetic," which modifies nothing.
+2. This sentence refers to multiple genes, so it should use the plural "genes." The noun "gene" refers to a single gene, but this sentence states that some genes can be passed to either boys or girls, which refers to multiple genes (not all of which). Therefore, "gene" is incorrect, and the plural "genes" is needed.  
+Errors:
+1. Error: genetic, Correction:  
+2. Error: gene, Correction: genes
+Explanations:
+1. This sentence is discussing two different characteristics, and there is no need to add the additional information of "genetic," which modifies nothing.
+2. This sentence refers to multiple genes, so it should use the plural "genes." The noun "gene" refers to a single gene, but this sentence states that some genes can be passed to either boys or girls, which refers to multiple genes (not all of which). Therefore, "gene" is incorrect, and the plural "genes" is needed.  
+Errors:
+1. Error: genetic, Correction:  
+2. Error: gene, Correction: genes
+Explanations:
+1. This sentence is discussing two different characteristics, and there is no need to add the additional information of "genetic," which modifies nothing.
+2. This sentence refers to multiple genes, so it should use the plural "genes." The noun "gene" refers to a single gene, but this sentence states that some genes can be passed to either boys or girls, which refers to multiple genes (not all of which). Therefore, "gene" is incorrect, and the plural "genes" is needed.  
+Errors:
+1. Error: genetic, Correction:  
+2. Error: gene, Correction: genes
+Explanations:
+1. This sentence is discussing two different characteristics, and there is no need to add the additional information of "genetic," which modifies nothing.
+2. This sentence refers to multiple genes, so it should use the plural "genes." The noun "gene" refers to a single gene, but this sentence states that some genes can be passed to either boys or girls, which refers to multiple genes (not all of
+Label: 1. The adjective "genetic" means of or relating to genes, so "genetic genes" is redundant and "genetic" should be deleted.
+2. The word "some" means an unspecified amount or a large amount. It is usually used with plural nouns. Also, it is unlikely that there is only one gene that can only be inherited by a specific gender, so logically it is more likely to be the plural.
+
+
+
+
+
+Prediction: 
+1. "Put" is used when talking about the subject causing the object to be placed in danger, while "get" implies that the person is responsible for placing themselves in danger, so the incorrect choice of "get" changes the meaning and also has a word order error. If you were to use "get" as a general statement, you should write, "How can they not tell their loved ones who they really are and get [their loved ones] in danger?" Because the verb "get" carries unspecified meaning, you should include the direct object "your loved ones" for clarity. However, this is the wrong grammatical choice in this case. If the subject "they" was not mentioned and the sentence were just talking about a risk for anyone, you should word the sentence, "How can anyone not tell their loved ones who they really are and [get] in danger?" In this case, you could use the pronoun "they" to generalize about the group of people mentioned earlier, but "get" cannot be used when referring specifically to the subject of the sentence. "Put" has the meaning of a risk that is forced upon the object and requires the use of "their loved ones" as the direct object, just like "get", so changing it to "put" is the correct answer to use for this sentence.
+Label: 1. The phrase "put in danger" is a common expression and the verb does not change. The verb "put" means to cause someone to be in a particular place or position.
+
+
+
+
+
+Prediction: 
+1. This sentence expresses a disadvantage, and needs a conjunction. "However" is one that can be used here.
+2. The subject is plural, so it needs to take the plural form "use", not the singular form "use".
+3. "Over" is used to mean "more than" when used with uncountable nouns, such as "power" or "advantage". It is used to talk about an area or surface when used with countable nouns or noun phrases, such as "The carpet is over the floor." The sentence is talking about the influence that technology has over people, so should be "power over".
+4. This sentence expresses a disadvantage, and needs a conjunction. "However" is one that can be used here.
+5. The subject is plural, so it needs to take the plural form "use", not the singular form "use".
+6. "Over" is used to mean "more than" when used with uncountable nouns, such as "power" or "advantage". It is used to talk about an area or surface when used with countable nouns or noun phrases, such as "The carpet is over the floor." The sentence is talking about the influence that technology has over people, so should be "power over".
+7. The sentence is talking about the influence that technology has over people, so should be "power over".
+8. "Over" is used to mean "more than" when used with uncountable nouns, such as "power" or "advantage". It is used to talk about an area or surface when used with countable nouns or noun phrases, such as "The carpet is over the floor." Because social media is something people interact with directly, "on" is more appropriate here.
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+
+
+
+Prediction: 
+1. This sentence uses the imperfect aspect, "were," in the first part of the sentence and the perfect aspect, "have been," for the second part of the sentence. This usage doesn't work because it creates a tense shift. The tense should stay the same in both parts of the sentence so that the reader can identify the time frame that the sentence is referring to. Since this sentence is talking about an action that used to happen in the past, that means it was completed in the past, and therefore cannot currently be happening, so the perfect tense is the only correct option. "Are being" refers to current or ongoing actions that are still happening and "was being" refers to actions that happened in the past but were unfinished before ending. The perfect tense is formed by taking the subject plus "have/has" plus the past participle (third principal part) of the verb. For "use," the past participle is "used," which conjugates as "has/have been used," because the second verb (the gerund "being") acts as an adjective modifying the past participle and cannot be negated with the past participle verb. The auxiliary verb "be" is omitted in this structure. Therefore, the correction should be "have been used." The conjugations of "have/has" are:
+First person singular: I have
+Second person singular: You have
+Third person singular: He/she/it has
+First person plural: We have
+Second person plural: You have
+Third person plural: They have
+Label: 1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+
+
+
+
+
+Model: mistralai/Mixtral-8x7B-v0.1
+F1: 0.8475968034731017
+Precision: 0.8197079276045164
+Recall: 0.8781315204170015
+ ending 

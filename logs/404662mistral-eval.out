@@ -1,0 +1,65 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B-Instruct
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 8, 'error': ',', 'explanation': 'Unnecessary comma. The position of the comma is grammatically incorrect.', 'start': 7}, {'correct': 'reflected', 'end': 20, 'error': 'relfected', 'explanation': 'Incorrect spelling. The correct spelling is "reflected".', 'start': 19}]
+incorrect_sentence: Another problem with social media is that , the benefits from investing such enormous time and energy is not relfected as something positive to the users .
+correct_sentence: Another problem with social media is that the benefits from investing such enormous time and energy is not reflected as something positive to the users .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediate to the people around them .
+Correct sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediately to the people around them .
+Errors:
+1. Error: immediate, Correction: immediately
+Explanations:
+1. Incorrect form. "Immediate" is an adjective, so it needs to go with an adjective, but in this sentence it is being used with the verb disseminate, so you need to use the adverb form, "immediately". Consider the following rearranged and simplified sentence: "Social media is powerful as a tool as it can almost immediately disseminate information to people".
+Erroneous sentence: The medical treatment technology during that time is not advanced enough to completely cure him .
+Correct sentence: The medical treatment technology during that time was not advanced enough to completely cure him .
+Errors:
+1. Error: is, Correction: was
+Explanations:
+1. Talking about something that happened in the past, so use the past tense "was".
+Erroneous sentence: The children rely the parent to live .
+Correct sentence: The children rely on the parents to live .
+Errors:
+1. Error:  , Correction: on
+2. Error: parent, Correction: parents
+Explanations:
+1. The verb "rely" always uses the preposition "on" or "upon." It is a collocation, and it reflects the relationship of dependence. If A relies on B, then figuratively, A is supported by or resting on B.
+2. The subject is "children," which is plural. Because the statement refers to multiple children, it involves multiple parents, so "parents" should be plural too.
+Erroneous sentence: In corporate world , employers often block social media network to prevent employees to spend their office time on their personal leisure than concentrating on their work .
+Correct sentence: In the corporate world , employers often block social media networks to prevent employees to spending their office time on their personal leisure than concentrating on their work .
+Errors:
+1. Error:  , Correction: the
+2. Error: network, Correction: networks
+3. Error: spend, Correction: spending
+Explanations:
+1. The definite article "the" differentiates the "corporate world" from other worlds, like the fashion world, the music world, the academic world, etc. The definite article is used to refer to a specific thing, so it implies that this world is distinct from other ones.
+2. When referencing social media networks as a general concept, the plural "networks" should be used because it references to most or all networks. An employer blocking websites due to productivity concerns will likely block multiple sites, not just one, which is implied by the singular "network."
+3. The phrase "prevent from" is a phrasal verb, and the verb is always changed to the gerund after the preposition. Therefore, "spend" should be changed to "spending."
+Erroneous sentence: The auto correction software is so effective when using electronic device until we did not realize the importance of writing .
+Correct sentence: The auto correction software is so effective when using electronic devices until we did not realize the importance of writing .
+Errors:
+1. Error: device, Correction: devices
+Explanations:
+1. Auto-correct is a feature that is common to many different electronic devices, so the plural "devices" should be used. The singular "device" is used to refer to individual devices, with "a device" meaning any device and "the device" meaning one specific device.
+Erroneous sentence: Another problem with social media is that , the benefits from investing such enormous time and energy is not relfected as something positive to the users .
+Correct sentence: Another problem with social media is that the benefits from investing such enormous time and energy is not reflected as something positive to the users .
+Errors:
+1. Error: ,, Correction:  
+2. Error: relfected, Correction: reflected
+Explanations:
+label: 1. Unnecessary comma. The position of the comma is grammatically incorrect.
+2. Incorrect spelling. The correct spelling is "reflected".
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 52.30 seconds
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.8279041345748637
+Precision: 0.8025427671770254
+Recall: 0.8554234753052393
+Cleaned F1: 0.8195724441773362
+Cleaned Precision: 0.837011367496517
+Cleaned Recall: 0.8030780839423338
+ ending 

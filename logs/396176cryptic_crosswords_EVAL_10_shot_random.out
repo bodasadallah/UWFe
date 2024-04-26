@@ -1,0 +1,93 @@
+starting Evaluation.......................
+finetuned, explicit errors,
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'and', 'end': 26, 'error': 'but', 'explanation': 'The conjunction "and" is used to introduce new information that adds on to or agrees with a previous idea, while "but" is used to introduce new information that contradicts existing information or subverts expectations. With "and," the sentence means that one might neglect people in order to use Facebook instead, or that one is neglecting people while also using Facebook. The use of "but" implies that ignoring people and using Facebook are somehow contradictory.', 'start': 25}]
+incorrect_sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her but just communicate with friends on facebook .
+correct_sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her and just communicate with friends on facebook .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her but just communicate with friends on facebook .
+Correct sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her and just communicate with friends on facebook .
+Errors:
+1. Error: but, Correction: and
+Explanations:
+label: 1. The conjunction "and" is used to introduce new information that adds on to or agrees with a previous idea, while "but" is used to introduce new information that contradicts existing information or subverts expectations. With "and," the sentence means that one might neglect people in order to use Facebook instead, or that one is neglecting people while also using Facebook. The use of "but" implies that ignoring people and using Facebook are somehow contradictory.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mistral-explicit-errors/mistralai/Mistral-7B-v0.1/best
+Random selected samples:
+Prediction: 
+1. The phrase "the more" is used to modify a noun, so it cannot be followed by the preposition "of."
+2. The phrase "on the social media sites" is a prepositional phrase, and the preposition "in" is used to indicate location inside of something. The phrase "on the social media sites" means that the sites are located on the Internet, so "in" should be changed to "on." 
+Erroneous sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Correct sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Errors:
+1. Error: it is, Correction: it's
+Explanations:
+1. This is a spelling error. The word "it" is one word, with no space. The correct spelling is "it's." 
+Erroneous sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Correct sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Errors:
+1. Error: it is, Correction: it's
+Explanations:
+1. This is a spelling error. The word "it" is one word, with no space. The correct spelling is "it's." 
+Erroneous sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Correct sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Errors:
+1. Error: it is, Correction: it's
+Explanations:
+1. This is a spelling error. The word "it" is one word, with no space. The correct spelling is "it's." 
+Erroneous sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Correct sentence: The social media sites are the most popular sites in the world , and it is the most convenient way to communicate with others .
+Errors:
+1
+Label: 1. I partially agree with this correction because "of" needs to be removed, but that does not fix the problem. The sentence should be rephrased as "the more time spent on social media sites, the more a person's writing skills will be reduced." First, this construction does not use "of." Second, it always consists of two phrases, and the first is always the cause and the second is always the outcome. Therefore, "time spent on social media" should come first and "writing skills will be reduced" should come second. 
+This suggestion also fixes the other grammar issues. First, it is not common to say "time used on social media sites." Instead, it is common to say "time spent on social media sites" or "time spent using social media sites." Second, the phrase "the more of the writing skills" is not commonly used and is different to understand. Also, it is not clear to whom the phrase "writing skills" refers, so it should be changed to "the more a person's writing skills." This makes the meaning clear.
+2. When talking about "time spent," English uses the preposition "in" for physical locations and "on" for activities or pursuits. For example, a dedicated scholar might spend a lot of time in the library or spend a lot of time on her studies. Social media is not a physical location, so "on" is appropriate here. 
+
+
+
+
+
+Prediction: 
+1. This sentence is talking about society in general, so it does not need an article. The definite article "the" is used to refer to specific groups of people, but "society" is a general concept and can be assumed to be understood by the reader. Also, the noun "society" is uncountable, so it cannot be made plural with an "s" or have an article. The plural "societies" is used to refer to multiple groups of people, but "society" is used to refer to the concept of human interaction in general. Therefore, the article should be removed.
+Label: 1. The concept of "society" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific societies, instead of modern society in general.
+
+
+
+
+
+Prediction: 
+1. The preposition "with" is used to indicate that something is provided to someone. It is used with the object "people," so it should be added. 
+2. None
+Label: 1. Missing word. Use "with" to link "provides" and "a way of talking and chatting" so we know what is being provided by social media.
+
+
+
+
+
+Prediction: 
+1. The verb "discriminate" is followed by the preposition "against." This is because it means to treat someone unfairly or to not treat them well. The preposition "against" is used to indicate that the action is being done to someone or something. The object of the preposition "against" is the person or thing that is being treated unfairly or not treated well. In this case, the object is "them," which refers to people with disabilities. Therefore, the preposition "against" should be used to indicate that the action of discrimination is being done to them. This is the correct way to use the verb "discriminate" with the preposition "against." The preposition "against" is used to indicate that the action is being done to someone or something. This is because it means to treat someone unfairly or to not treat them well. The preposition "against" is used to indicate that the action is being done to someone or something. The object of the preposition "against" is the person or thing that is being treated unfairly or not treated well. In this case, the object is "them," which refers to people with disabilities. Therefore, the preposition "against" should be used to indicate that the action of discrimination is being done to them. This is the correct way to use the verb "discriminate" with the preposition "against." The preposition "against" is used to indicate that the action is being done to someone or something. This is because it means to treat someone unfairly or to not treat them well. The preposition "against" is used to indicate that the action is being done to someone or something. The object of the preposition "against" is the person or thing that is being treated unfairly or not treated well. In this case, the object is "them," which refers to people with disabilities. Therefore, the preposition "against" should be used to indicate that the action of discrimination is being done to them. This is the correct way to use the verb "discriminate" with the preposition "against." The preposition "against" is used to indicate that the action is being done to someone or something. This is because it means to treat someone unfairly or to not treat them well. The preposition "against" is used to indicate that the action is being
+Label: 1. The verb "discriminate" is always used together with "against" when describing treating someone differently or unfairly. The preposition "against" can convey the idea of opposition to the object, indicate who is harmed by an action, or mean that an action is unfavorable to someone. These meanings are consistent with the meaning of "discriminate."
+
+
+
+
+
+Prediction: 
+1. The subject is "both of his parents," which is plural, so the verb should be "have" for subject-verb agreement.
+2. The phrase "under risk" is an idiomatic expression, but it is not used with the preposition "under." It is always used with the preposition "at."
+3. The phrase "under risk" is an idiomatic expression, but it is not used with the preposition "under." It is always used with the preposition "at."
+4. Incorrect spelling. The correct spelling is "running."
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+
+
+
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8385585236052672
+Precision: 0.8080707949896654
+Recall: 0.8732612286176946
+ ending 

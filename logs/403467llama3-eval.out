@@ -1,0 +1,135 @@
+starting Evaluation.......................
+0 shot,    -   no explicit errors, llama3 instruct babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 17, 'error': 'the', 'explanation': 'The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.', 'start': 16}, {'correct': 'contact', 'end': 20, 'error': 'contacts', 'explanation': 'The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.', 'start': 19}]
+incorrect_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+Correct sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+Explanations:
+label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 9.13 seconds
+Random selected samples:
+Prediction: 1. The word "researches" is plural, but the word "research" is singular. The word "research" is the correct form.
+2. The word "face-to-face" is a compound adjective, but the word "face-to-face" is a compound noun. The word "face-to-face" is the correct form.
+3. The word "meeting" is a noun, but the word "meet" is a verb. The word "meeting" is the correct form.
+4. The word "frequency" is a noun, but the word "frequent" is an adjective. The word "frequency" is the correct form.
+5. The word "people" is a plural noun, but the word "person" is a singular noun. The word "people" is the correct form.
+6. The word "that" is a relative pronoun, but the word "which" is a relative pronoun. The word "that" is the correct form.
+7. The word "addicted" is an adjective, but the word "addiction" is a noun. The word "addicted" is the correct form.
+8. The word "sites" is a plural noun, but the word "site" is a singular noun
+Label: 1. "Researches" is the third person singular verb form, as in "He/she researches social media use". Based on the context of this sentence, you are most likely talking about research as a noun, and it does not need to be pluralised as it is an uncountable noun, so just use "research".
+2. Incorrect conjugation. "Research" is treated as the third person singular, so use "shows" to correspond with it.
+
+
+
+
+
+Prediction: Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore , there is need to discuss the advantages and disadvantages of social media .
+
+Therefore
+Label: 1. This is a common phrase. When it is singular, there is always an article. It is usually "there is a need," but sometimes "there is the need," referring to a specific need that has already been mentioned in the text or that is being compared to another need. There is no article in the plural "there are needs," but otherwise an article is always used.
+
+
+
+
+
+Prediction: 1. The word "researches" is plural, but the word "research" is singular. The word "research" is the correct form.
+2. The word "face-to-face" is a compound adjective, but the word "face-to-face" is a compound noun. The word "face-to-face" is the correct form.
+3. The word "meeting" is a noun, but the word "meet" is a verb. The word "meeting" is the correct form.
+4. The word "frequency" is a noun, but the word "frequent" is an adjective. The word "frequency" is the correct form.
+5. The word "people" is a plural noun, but the word "person" is a singular noun. The word "people" is the correct form.
+6. The word "that" is a relative pronoun, but the word "which" is a relative pronoun. The word "that" is the correct form.
+7. The word "addicted" is an adjective, but the word "addiction" is a noun. The word "addicted" is the correct form.
+8. The word "sites" is a plural noun, but the word "site" is a singular noun
+Label: 1. "Researches" is the third person singular verb form, as in "He/she researches social media use". Based on the context of this sentence, you are most likely talking about research as a noun, and it does not need to be pluralised as it is an uncountable noun, so just use "research".
+2. Incorrect conjugation. "Research" is treated as the third person singular, so use "shows" to correspond with it.
+
+
+
+
+
+Prediction: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: More and more networking has been transferred to internet from real life .
+Correct sentence: More and more networking has been transferred to the internet from real life .
+Explanations: Glockenspiel
+
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: More and more networking has been transferred to internet from real life .
+Correct sentence: More and more networking has been transferred to the internet from real life .
+Explanations: Glockenspiel
+
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: More and more networking has been transferred to internet from real life .
+Correct sentence: More and more networking has been transferred to the internet from real life .
+Explanations: Glockenspiel
+
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: More and more networking has been transferred to internet from real life .
+Correct sentence: More and more networking has been transferred to the internet from real life .
+Explanations:
+Label: 1. When used as a noun, "Internet" almost always takes the definite article "the." This may be an idiomatic use, or it may be because everyone who uses the Internet is connected to the same network, no matter where they are.
+
+
+
+
+
+Prediction: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+Correct sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+Explanations:钮钮assistant钮钮
+
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+Correct sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+Explanations:钮钮assistant钮钮
+
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+Correct sentence: Though
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+
+
+
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.7905476672781838
+Precision: 0.7605176083743572
+Recall: 0.8258465896877978
+Cleaned F1: 0.2957555771701866
+Cleaned Precision: 0.29076844329635304
+Cleaned Recall: 0.3012378414471944
+ ending 

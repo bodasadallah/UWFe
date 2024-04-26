@@ -1,0 +1,61 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 11, 'error': 'the', 'explanation': 'The concept of "people" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of people instead of to people in general.', 'start': 10}]
+incorrect_sentence: The social network may also creat some negative impacts for the people .
+correct_sentence: The social network may also creat some negative impacts for people .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: We can not deny that the genetic testing really helps people a lot when they face the disorder problem .
+Correct sentence: We can not deny that genetic testing really helps people a lot when they face the disorder problem .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+1. The concept of "genetic testing" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific type or instance of genetic testing, instead of the concept in general.
+Erroneous sentence: Some evidences showed that the reason of halt of work was that the higher level of authorities thought an underground traffic system was not necessary for Harbin .
+Correct sentence: Some evidences showed that the reason for the halt of the work was that the higher level authorities thought an underground traffic system was not necessary for Harbin .
+Errors:
+1. Error: of, Correction: for
+2. Error:  , Correction: the
+3. Error:  , Correction: the
+4. Error: of, Correction:  
+Explanations:
+1. The phrase "the reason for" is a collocation, and "that the reason of" is not used. The preposition "for" can indicate why something is done. This sentence is explaining the reason that work stopped, so "for" is used to indicate that the cause of the stoppage was that the authorities thought a traffic system was not necessary.
+2. The definite article "the" is used when referring to a specific instance of an action. This sentence is referring to a specific incident where work was stopped on a specific engineering project, so the definite article is necessary.
+3. The definite article "the" is used when referring to a specific thing. This sentence is referring to a specific engineering project where work was stopped, so the definite article is necessary.
+4. The phrase "high level of" refers to the physical levels or floors of an object or structure. Without the preposition "of," the compound adjective "high-level" means top ranking or of great importance. Therefore, the preposition "of" should be removed to convey that the authorities were of high rank.
+Erroneous sentence: These are not the only challenges that the innovators are going to deal with .
+Correct sentence: These are not the only challenges that innovators are going to deal with .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+Erroneous sentence: He can even talk to her daughter face-to-face using video call via internet .
+Correct sentence: He can even talk to his daughter face-to-face using video call via the internet .
+Errors:
+1. Error:  , Correction: the
+2. Error: her, Correction: his
+Explanations:
+1. Missing article. "Internet" is the name of a specific network, so use the definite article, "the".
+2. The sentence starts with "He", referring to man, but the third person possessive you have used is the female version. Change to "his" to match with "He" and make it clear that you are talking about a man.
+Erroneous sentence: So , the manufacture company , for example , the company that the innovators are working for , is one of the major investors that is providing the fund .
+Correct sentence: So , the manufacture company , for example , the company that innovators are working for , is one of the major investors that is providing the fund .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+Erroneous sentence: The social network may also creat some negative impacts for the people .
+Correct sentence: The social network may also creat some negative impacts for people .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+label: 1. The concept of "people" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of people instead of to people in general.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8373829685151577
+Precision: 0.8072961270809174
+Recall: 0.8716673081119856
+Cleaned F1: 0.8890086292392678
+Cleaned Precision: 0.891488059113423
+Cleaned Recall: 0.8871245210369428
+ ending 

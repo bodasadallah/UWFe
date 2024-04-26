@@ -1,0 +1,147 @@
+starting Evaluation.......................
+0 shot,    -   explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'bond', 'end': 9, 'error': 'bonds', 'explanation': 'Incorrect conjugation. Use the third person plural "bond" to go with "people".', 'start': 8}, {'correct': 'humans', 'end': 17, 'error': 'human', 'explanation': 'This sentence is talking about humans in general, so "human" should be pluralised.', 'start': 16}, {'correct': 'live', 'end': 18, 'error': 'lives', 'explanation': 'Incorrect conjugation. Use the third person plural "live" to go with "humans".', 'start': 17}, {'correct': 'aid', 'end': 3, 'error': 'aids', 'explanation': '"Aid" used in the sense of help or assistance is an uncountable noun and therefore should not be pluralised.', 'start': 2}]
+incorrect_sentence: With the aids of social media , people bonds globally , information flows rapidly , and human lives happily .
+correct_sentence: With the aid of social media , people bond globally , information flows rapidly , and humans live happily .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: With the aids of social media , people bonds globally , information flows rapidly , and human lives happily .
+Correct sentence: With the aid of social media , people bond globally , information flows rapidly , and humans live happily .
+Errors:
+1. Error: bonds, Correction: bond
+2. Error: human, Correction: humans
+3. Error: lives, Correction: live
+4. Error: aids, Correction: aid
+Explanations:
+label: 1. Incorrect conjugation. Use the third person plural "bond" to go with "people".
+2. This sentence is talking about humans in general, so "human" should be pluralised.
+3. Incorrect conjugation. Use the third person plural "live" to go with "humans".
+4. "Aid" used in the sense of help or assistance is an uncountable noun and therefore should not be pluralised.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 21.67 seconds
+Random selected samples:
+Prediction:  " to " should be " of ", which is the preposition.
+2. Error: a, Correction: the
+Explanations: " a " should be " the ", which is the determiner.
+3. Error: one, Correction: the
+Explanations: " one " should be " the ", which is the determiner.
+4. Error: family, Correction: families
+Explanations: " family " should be " families ", which is the plural form.
+5. Error: have, Correction: has
+Explanations: " have " should be " has ", which is the singular form.
+6. Error: it, Correction: him
+Explanations: " it " should be " him ", which is the pronoun.
+7. Error: this, Correction: that
+Explanations: " this " should be " that ", which is the determiner.
+8. Error: problem, Correction: problem
+Explanations: " problem " should be " problem ", which is the noun.
+9. Error: by, Correction: by
+Explanations: " by " should be " by ", which is the preposition.
+10. Error: family, Correction: families
+Explanations: " family " should be
+Label: 1. Incorrect preposition. As "risk" is a possibility, it should be followed by the preposition "of".
+
+
+
+
+
+Prediction:  
+1. The word "in" is not used correctly in this sentence. It should be "on". 
+2. The word "the" is not used correctly in this sentence. It should be omitted. 
+3. The word "image" is not used correctly in this sentence. It should be "images". 
+4. The word "in" is not used correctly in this sentence. It should be "on". 
+5. The word "do" is not used correctly in this sentence. It should be "not".
+
+Label: 1. Having a presence on a social media platform is referred to as being "on" social media. This is a collocation, or it may be because "on" can refer to a state of connection, such as in "on the Internet" or "on the phone."
+2. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific social media sites, instead of such sites in general.
+3. When referencing images as a general concept, the plural "images" should be used because it references all or any images. The singular "image" is used to refer to an individual image, with "an image" meaning any image and "the image" meaning one specific image. Also, in this sentence, the images are posted by "people," which is plural, so even if each person only posts one image, it still constitutes multiple images.
+4. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific social media sites, instead of such sites in general. Also, the concept of posts on pages is derived from bulletin boards, where people would post flyers and notices. This used the preposition "on" because papers would be attached to the face of the bulletin board.
+5. The phrase "may not have" already has one auxiliary verb: "may." It is incorrect and redundant to have two auxiliary verbs in a row, so "do" should be deleted. Also, the subject "he or she" is singular, so "jobs" should be changed to "a job" so that the statement refers to one person.
+
+
+
+
+
+Prediction:  a should be a
+2. Error:  , Correction: the
+Explanations: the should be the
+3. Error:  , Correction: more
+Explanations: more should be more
+4. Error:  , Correction: convenient
+Explanations: convenient should be convenient
+5. Error:  , Correction: with
+Explanations: with should be with
+6. Error:  , Correction: each
+Explanations: each should be each
+7. Error:  , Correction: others
+Explanations: others should be others
+8. Error:  , Correction: environment
+Explanations: environment should be environment
+9. Error:  , Correction: with
+Explanations: with should be with
+10. Error:  , Correction: improve
+Explanations: improve should be improve
+11. Error:  , Correction: frequency
+Explanations: frequency should be frequency
+12. Error:  , Correction: meeting
+Explanations: meeting should be meeting
+13. Error:  , Correction: each
+Explanations: each should be each
+14. Error:  , Correction: others
+Explanations: others should be others
+15. Error:
+Label: 1. The indefinite article "a" is used when something exists in an unspecified manner or amount, or to express one out of multiple options. The phrase "convenient contact environment" means one potential environment out of many, with varying degrees of convenience. This condition is best expressed by the indefinite article "a."
+
+
+
+
+
+Prediction:  These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide
+Label: 1. This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."
+2. The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.
+
+
+
+
+
+Prediction:  The word "life" should be replaced with "lives".
+2. Error: people's, Correction: people's
+Explanations: The word "people's" should be replaced with "people's".
+3. Error: much more, Correction: much more
+Explanations: The word "much more" should be replaced with "much more".
+4. Error: a lot of, Correction: a lot of
+Explanations: The word "a lot of" should be replaced with "a lot of".
+Explanation: The word "life" should be replaced with "lives".
+Explanation: The word "people's" should be replaced with "people's".
+Explanation: The word "much more" should be replaced with "much more".
+Explanation: The word "a lot of" should be replaced with "a lot of".
+Explanation: The word "life" should be replaced with "lives".
+Explanation: The word "people's" should be replaced with "people's".
+Explanation: The word "much more" should be replaced with "much more".
+Explanation: The word "a lot of" should be replaced with "a lot of".
+Label: 1. The sentence mentions multiple people, so "life" should be pluralised, as there are multiple lives.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.7939944114122126
+Precision: 0.7807663695679771
+Recall: 0.8090055344833268
+Cleaned F1: 0.7951105853749646
+Cleaned Precision: 0.8080744821992185
+Cleaned Recall: 0.7829165069593323
+ ending 

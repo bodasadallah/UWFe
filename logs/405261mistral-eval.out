@@ -1,0 +1,25 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    Meta-Llama-3-8B
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': ',', 'end': 21, 'error': '-', 'explanation': 'A comma is always needed before a non-restrictive clause. A non-restrictive clause is a clause that adds additional information to the sentence and that can be removed. The phrase "According to... design processes," is a full sentence on its own, making the phrase "which are... implementing it" a non-restrictive clause, so it requires a comma.', 'start': 21}]
+incorrect_sentence: According to Khandani ( 2005 ) ,to design an efficient and safe artificial limb may usually need five basic design processes which are defining the problem , gathering pertinent information , generating possible solutions , analyzing and selecting the best possible solution and finally testing and implementing it .
+correct_sentence: According to Khandani ( 2005 ) ,to design an efficient and safe artificial limb may usually need five basic design processes , which are defining the problem , gathering pertinent information , generating possible solutions , analyzing and selecting the best possible solution and finally testing and implementing it .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: According to Khandani ( 2005 ) ,to design an efficient and safe artificial limb may usually need five basic design processes which are defining the problem , gathering pertinent information , generating possible solutions , analyzing and selecting the best possible solution and finally testing and implementing it .
+Correct sentence: According to Khandani ( 2005 ) ,to design an efficient and safe artificial limb may usually need five basic design processes , which are defining the problem , gathering pertinent information , generating possible solutions , analyzing and selecting the best possible solution and finally testing and implementing it .
+Explanations:
+label: 1. A comma is always needed before a non-restrictive clause. A non-restrictive clause is a clause that adds additional information to the sentence and that can be removed. The phrase "According to... design processes," is a full sentence on its own, making the phrase "which are... implementing it" a non-restrictive clause, so it requires a comma.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 23.40 seconds
+Model: Meta-Llama-3-8B
+F1: 0.8270866411427656
+Precision: 0.8156409627861447
+Recall: 0.839638475742605
+Cleaned F1: 0.49128347800837624
+Cleaned Precision: 0.4905766997900274
+Cleaned Recall: 0.49241845144165886
+ ending 

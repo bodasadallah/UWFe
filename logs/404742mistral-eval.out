@@ -1,0 +1,23 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    mistralai/Mixtral-8x7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'the', 'end': 8, 'error': '-', 'explanation': 'The definite article "the" is used when referring to a specific thing. This sentence is referring to the time spent on a specific action, not using screens. The definite article conveys that the time in question was spent on this specific action, not on others.', 'start': 8}]
+incorrect_sentence: Hence it lessens valuable interaction between human and time we spend away from the computer screen or mobile phone .
+correct_sentence: Hence it lessens valuable interaction between human and the time we spend away from the computer screen or mobile phone .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Hence it lessens valuable interaction between human and time we spend away from the computer screen or mobile phone .
+Correct sentence: Hence it lessens valuable interaction between human and the time we spend away from the computer screen or mobile phone .
+Errors:
+1. Error:  , Correction: the
+Explanations:
+label: 1. The definite article "the" is used when referring to a specific thing. This sentence is referring to the time spent on a specific action, not using screens. The definite article conveys that the time in question was spent on this specific action, not on others.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mixtral-explicit-errors/mistralai/Mixtral-8x7B-v0.1/checkpoint-18500/
+Model: mistralai/Mixtral-8x7B-v0.1
+F1: 0.8365182975927988
+Precision: 0.809982241027885
+Recall: 0.866261942519082
+Cleaned F1: 0.8748406714035405
+Cleaned Precision: 0.8695029616355896
+Cleaned Recall: 0.88141436336769
+ ending 

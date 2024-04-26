@@ -1,0 +1,183 @@
+starting Evaluation.......................
+0 shot,    -    explicit errors, llama3 instruct babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'The engineering', 'end': 1, 'error': 'Engineering', 'explanation': 'The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.', 'start': 0}, {'correct': '-', 'end': 10, 'error': 'fused', 'explanation': 'The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.', 'start': 9}, {'correct': '-', 'end': 29, 'error': 'on', 'explanation': 'I don\'t agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."', 'start': 28}, {'correct': '-', 'end': 34, 'error': 'desired deeds', 'explanation': 'I don\'t agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it\'s true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."', 'start': 32}]
+incorrect_sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+correct_sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+Correct sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+Errors:
+1. Error: Engineering, Correction: The engineering
+2. Error: fused, Correction:  
+3. Error: on, Correction:  
+4. Error: desired deeds, Correction:  
+Explanations:
+label: 1. The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.
+2. The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.
+3. I don't agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."
+4. I don't agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it's true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 16.61 seconds
+Random selected samples:
+Prediction: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: It is weird that people sit around the table but all face to their phones and do not talk with each other .
+Correct sentence: It is weird that people sit around the table but all face their phones and do not talk with to other .
+Errors:
+1. Error: with, Correction: to
+2. Error: to, Correction:  
+Explanations:umptech
+
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: It is weird that people sit around the table but all face to their phones and do not talk with each other .
+Correct sentence: It is weird that people sit around the table but all face their phones and do not talk with to other .
+Errors:
+1. Error: with, Correction: to
+2. Error: to, Correction:  
+Explanations:umptech
+
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous
+Label: 1. When referring to conversation, the phrases "talk with" and "talk to" are mostly interchangeable, so I'm not sure if I agree with this correction. I agree that it is more common to say "talk to" when the pronoun "each other" is used, but "talk with each other" is not grammatically incorrect. The phrase "talk to" may also have a more general meaning, where "talk with" can have the nuance of consulting with someone, or of a conversation between peers or equals.
+2. The verb "face" is an intransitive verb meaning to turn one's body or head toward something. It can be used without an object, and it already indicates the direction without a preposition.
+
+
+
+
+
+Prediction: #include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main()
+{
+string s1, s2;
+cin >> s1 >> s2;
+vector<string> v1, v2;
+string temp;
+for (int i = 0; i < s1.size(); i++)
+{
+if (s1[i] == ' ')
+{
+v1.push_back(temp);
+temp = "";
+}
+else
+{
+temp += s1[i];
+}
+}
+v1.push_back(temp);
+temp = "";
+for (int i = 0; i < s2.size(); i++)
+{
+if (s2[i] == ' ')
+{
+v2.push_back(temp);
+temp = "";
+}
+else
+{
+temp += s2[i];
+}
+}
+v2.push_back(temp);
+for (int i = 0; i < v1.size(); i++)
+{
+if (v1[i] != v2[i])
+{
+cout << "Error: " << v1[i] << ", Correction: " << v2[i] << endl;
+}
+}
+return 0;
+}
+Label: 1. The singular noun "thought" refers to a single idea or opinion. For example, "I think I'd like eggs for breakfast" or "She thinks it would be fun to try beekeeping" are two thoughts. But this sentence is referring to a person's worldview, overall thinking, set of values, or general outlook. In this context, "thoughts" should be pluralized.
+2. The singular noun "personality" means a collection of traits, behaviors, or emotional qualities that make up an individual's character. The plural noun "personalities" refers to the personalities of multiple people.
+
+
+
+
+
+Prediction: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: And after all this scientific research result is applied to daily life , products such as RFID tracking system have become real .
+Correct sentence: And after all this scientific research result is applied to daily life . Products such as RFID tracking systems have become real .
+Errors:
+1. Error: , products, Correction: . Products
+2. Error: system, Correction: systems
+Explanations:
+Label: 1. Use a full stop to separate these two sentences.
+2. The sentence is talking about systems in general, so "system" should be pluralised.
+
+
+
+
+
+Prediction: 2. Error: people, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+3. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+4. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+5. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+6. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+7. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+8. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+9. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+10. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+11. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+12. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+13. Error: the, Correction:  
+Explanations: Glockenspielassistant Glockenspiel
+
+14. Error:
+Label: 1. The sentence is talking about people in general, so it does not need an article.
+
+
+
+
+
+Prediction: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: A family of four having dinners in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Correct sentence: A family of four having dinner in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Errors:
+1. Error: dinners, Correction: dinner
+Explanations:钮扣助手钮扣
+
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: A family of four having dinners in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Correct sentence: A family of four having dinner in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Errors:
+1. Error: dinners, Correction: dinner
+Explanations:钮扣助
+Label: 1. The plural "dinners" refers either to each family member's individual orders at the restaurant or to multiple instances of gathering for dinner. A meal is still referred to in the singular when it is shared by multiple people. Therefore, it should be "having dinner" rather than "having dinners."
+
+
+
+
+
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.7859293325907655
+Precision: 0.7523675353990661
+Recall: 0.8264032275312476
+Cleaned F1: 0.8115723385579057
+Cleaned Precision: 0.8286945993701617
+Cleaned Recall: 0.7953452260957824
+ ending 

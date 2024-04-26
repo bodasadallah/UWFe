@@ -1,0 +1,1 @@
+{"train/loss": 0.8358, "train/grad_norm": 1.3457304239273071, "train/learning_rate": 8.666759857632877e-07, "train/epoch": 14.99, "train/global_step": 19400, "_timestamp": 1712973553.4584014, "_runtime": 43161.09845352173, "_step": 231, "eval/loss": 0.6557243466377258, "eval/runtime": 131.2777, "eval/samples_per_second": 1.097, "eval/steps_per_second": 1.097}

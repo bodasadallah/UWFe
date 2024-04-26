@@ -1,0 +1,27 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'element', 'end': 6, 'error': 'elements', 'explanation': 'The subject of the statement is "that," which is singular, so the noun that describes it should be singular as well.', 'start': 5}]
+incorrect_sentence: That is the most essential elements to overcome the challenges .
+correct_sentence: That is the most essential element to overcome the challenges .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: That is the most essential elements to overcome the challenges .
+Correct sentence: That is the most essential element to overcome the challenges .
+Errors:
+1. Error: elements, Correction: element
+Explanations:
+label: 1. The subject of the statement is "that," which is singular, so the noun that describes it should be singular as well.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 24.06 seconds
+Model: Meta-Llama-3-8B
+F1: 0.793985203322437
+Precision: 0.7807549151281515
+Recall: 0.8089983355667856
+Cleaned F1: 0.7950946734183364
+Cleaned Precision: 0.8080609184172418
+Cleaned Recall: 0.7828978209031953
+ ending 

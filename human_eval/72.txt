@@ -1,0 +1,195 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction: 
+1. The word "qualified" is used to describe something or someone that meets certain standards or requirements. In this case, it is being used to refer to people who have the necessary skills and knowledge to perform a particular job or task. However, in the corrected sentence, the word "creative" is used instead of "qualified", which refers to the ability to think outside the box and come up with new and innovative ideas. This change makes the sentence clearer and more accurate.
+2. The word "resource" is used to refer to something that can be used to achieve a goal or complete a task. In this case, it is being used to refer to people who have the necessary skills and knowledge to perform a particular job or task. However, in the corrected sentence, the word "resources" is used instead of "resource", which refers to multiple people or things that can be used to achieve a goal or complete a task. This change makes the sentence clearer and more accurate.
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction: The plural form of “police” is “police”, not “polices”.
+2. Error: cybers, Correction: cyber
+Explanations: The singular form of “cyber” is “cyber”, not “cybers”.
+3. Error: platform, Correction: platforms
+Explanations: The plural form of “platform” is “platforms”, not “platform”.
+4. Error: spread, Correction: spreading
+Explanations: The gerund form of “spread” is “spreading”, not “spread”.
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction: 
+1. Explanation: The word "of" should be replaced with "on", as it is used incorrectly in the original sentence. In the corrected sentence, "on" is used instead of "of", which is grammatically correct.
+2. Explanation: The word "the" should be removed from the original sentence, as it is unnecessary and does not add any value to the meaning of the sentence. In the corrected sentence, "the" has been removed, making the sentence clearer and more concise.
+Example 2:
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: It's raining cats and dogs !
+Correct sentence: It's raining cats and dogs!
+Errors:
+1. Error: Its, Correction: It's
+2. Error: exclamation mark (!), Correction: period (.)
+Explanations:
+1. Explanation: The word "Its" should be replaced with "It's", as it is used incorrectly in the original sentence. In the corrected sentence, "It's" is used instead of "Its", which is grammatically correct.
+2. Explanation: The exclamation mark (!) should be replaced with a period (.), as it is used incorrectly in the original sentence. In the corrected sentence, a period is used instead of an exclamation mark, which is grammatically correct.
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction: The word “the” should be omitted as it is redundant.
+2. Error: velocity, Correction: 
+Explanations: The word “velocity” should be corrected to “high-velocity”.
+3. Error: technology, Correction: 
+Explanations: The word “technology” should be corrected to “technological”.
+4. Error: advanced, Correction: 
+Explanations: The word “advanced” should be corrected to “advancement”.
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction: 
+1. "The" should be replaced with "however". This is because "the" is used to refer to something specific, while "however" is used to introduce a contrasting idea.
+2. "Using" should be replaced with "use". This is because "using" is present tense, while "use" is past tense.
+3. "Over" should be replaced with "on". This is because "over" means "in control of", while "on" means "affected by".
+4. "On" should be replaced with "over". This is because "on" means "affected by", while "over" means "in control of".
+Example 2:
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: I don't know what you want me to do !
+Correct sentence: What do you want me to do ?
+Errors:
+1. Error: Want, Correction: Do
+2. Error: Me, Correction: I
+3. Explanations:
+1. "Want" should be replaced with "do". This is because "want" is passive voice, while "do" is active voice.
+2. "Me" should be replaced with "I". This is because "me" is indirect object, while "I" is subject.
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction: The verb “create” is conjugated as “does”, not “do”.
+2. Error: relationship, Correction: relationships
+Explanation: The plural of “relationship” is “relationships”.
+3. Error: friendship, Correction: friendships
+Explanation: The plural of “friendship” is “friendships”.
+4. Error: experience, Correction: experiences
+Explanation: The plural of “experience” is “experiences”.
+5. Error: communication, Correction: communications
+Explanation: The plural of “communication” is “communications”.
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction: 
+1. The word “the” is used to refer to something that we have already mentioned or can be understood from the context. For example, if I am talking about my friend John’s car, then I could say “John’s car is red.” However, if I were to say “The car is red,” it would be unclear whether I was referring to John’s car or someone else’s car. In general, you should avoid using “the” at the beginning of a sentence unless it is clear what you are referring to.
+2. The word “contacts” is usually used to refer to personal relationships with other people (e.g., friends, family members, acquaintances). On the other hand, the word “contact” typically refers to some form of communication between two parties (e.g., phone calls, emails, text messages). Therefore, when describing how much time people spend on social media sites, it makes more sense to use the word “contact” rather than “contacts.”
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction: The verb "claim" is used when someone makes a statement or assertion about something without providing any proof or evidence to support it. In contrast, the verb "claim" is used when someone asserts ownership or possession of something. For example, "I claim this prize" means that I am asserting my right to receive the prize, while "I claim that you are lying" means that I am accusing you of making a false statement.
+2. Error: stated, Correction: state
+Explanations: The verb "state" refers to the act of expressing one's opinion or viewpoint on a particular issue or topic. It can also be used to refer to the act of announcing or declaring something publicly. For example, "He stated his intention to run for president" means that he expressed his desire to run for president, while "She stated her views on climate change" means that she expressed her opinion on the issue of climate change.
+3. Error: declared, Correction: declare
+Explanations: The verb "declare" refers to the act of making a public announcement or proclamation. It can also be used to refer to the act of officially recognizing or acknowledging something. For example, "The judge declared the defendant not guilty" means that the judge made a public announcement that the defendant was not guilty, while "The company declared bankruptcy" means that the company officially acknowledged that it was unable to pay its debts.
+4. Error: affirmed, Correction: affirm
+Explanations: The verb "affirm" refers to the act of confirming or verifying something. It can also be used to refer to the act of supporting or endorsing something. For example, "He affirmed his commitment to the project" means that he confirmed his dedication to the project, while "She affirmed her belief in equality" means that she supported the idea of equality.
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction: 
+1. The word “Human” should be pluralized to “Humans”, as it refers to more than one person.
+2. The verb “has” should be changed to “have”, as it is referring to multiple subjects (humans).
+3. The word “their” should be corrected to “their”.
+4. The word “own” should be corrected to “own”.
+5. The word “rights” should be corrected to “rights”.
+6. The word “and” should be corrected to “and”.
+7. The word “privacy” should be corrected to “privacy”.
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction: 
+1. The subject “both of his parents” is plural, so it should be “have”, not “has”.
+2. Both “under” and “at” can be used as prepositions or adverbs meaning “below (in position)”. However, only “at” can be used as an adjective modifying nouns like “risk”.
+3. Only “at” can be used as an adjective modifying nouns like “risk”.
+4. There is no such word as “runing”.
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

@@ -1,0 +1,23 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 16, 'error': 'the', 'explanation': 'The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.', 'start': 15}]
+incorrect_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+Correct sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mistral-explicit-errors/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8540157874425253
+Precision: 0.8286337898009353
+Recall: 0.882443136225144
+Cleaned F1: 0.8598018926050928
+Cleaned Precision: 0.8378468073076673
+Cleaned Recall: 0.8843279261555936
+ ending 

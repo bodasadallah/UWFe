@@ -1,0 +1,28 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    Meta-Llama-3-8B
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'The engineering', 'end': 1, 'error': 'Engineering', 'explanation': 'The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.', 'start': 0}, {'correct': '-', 'end': 10, 'error': 'fused', 'explanation': 'The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.', 'start': 9}, {'correct': '-', 'end': 29, 'error': 'on', 'explanation': 'I don\'t agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."', 'start': 28}, {'correct': '-', 'end': 34, 'error': 'desired deeds', 'explanation': 'I don\'t agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it\'s true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."', 'start': 32}]
+incorrect_sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+correct_sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+Correct sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+Explanations:
+label: 1. The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.
+2. The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.
+3. I don't agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."
+4. I don't agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it's true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 77.18 seconds
+Model: Meta-Llama-3-8B
+F1: 0.8268961695333322
+Precision: 0.8166614683965842
+Recall: 0.8383487251897653
+Cleaned F1: 0.8362292171352439
+Cleaned Precision: 0.832957088533375
+Cleaned Recall: 0.840526770386431
+ ending 

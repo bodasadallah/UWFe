@@ -1,0 +1,14 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'gives', 'end': 11, 'error': 'give', 'explanation': 'Incorrect conjugation. Use the third person singular "gives" to go with "wife".', 'start': 10}]
+incorrect_sentence: If your wife is not aware of the truth and give birth to the baby , it will be possible for your child to carry the same genetic risk as well .
+correct_sentence: If your wife is not aware of the truth and gives birth to the baby , it will be possible for your child to carry the same genetic risk as well .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: If your wife is not aware of the truth and give birth to the baby , it will be possible for your child to carry the same genetic risk as well .
+Correct sentence: If your wife is not aware of the truth and gives birth to the baby , it will be possible for your child to carry the same genetic risk as well .
+Errors:
+1. Error: give, Correction: gives
+Explanations:
+label: 1. Incorrect conjugation. Use the third person singular "gives" to go with "wife".
+

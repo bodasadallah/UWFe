@@ -1,0 +1,29 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'for', 'end': 7, 'error': 'of', 'explanation': 'The phrase "the reason for" is a collocation, and "that the reason of" is not used. The preposition "for" can indicate why something is done. This sentence is explaining the reason that work stopped, so "for" is used to indicate that the cause of the stoppage was that the authorities thought a traffic system was not necessary.', 'start': 6}, {'correct': 'the', 'end': 7, 'error': '-', 'explanation': 'The definite article "the" is used when referring to a specific instance of an action. This sentence is referring to a specific incident where work was stopped on a specific engineering project, so the definite article is necessary.', 'start': 7}, {'correct': 'the', 'end': 9, 'error': '-', 'explanation': 'The definite article "the" is used when referring to a specific thing. This sentence is referring to a specific engineering project where work was stopped, so the definite article is necessary.', 'start': 9}, {'correct': '-', 'end': 16, 'error': 'of', 'explanation': 'The phrase "high level of" refers to the physical levels or floors of an object or structure. Without the preposition "of," the compound adjective "high-level" means top ranking or of great importance. Therefore, the preposition "of" should be removed to convey that the authorities were of high rank.', 'start': 15}]
+incorrect_sentence: Some evidences showed that the reason of halt of work was that the higher level of authorities thought an underground traffic system was not necessary for Harbin .
+correct_sentence: Some evidences showed that the reason for the halt of the work was that the higher level authorities thought an underground traffic system was not necessary for Harbin .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Some evidences showed that the reason of halt of work was that the higher level of authorities thought an underground traffic system was not necessary for Harbin .
+Correct sentence: Some evidences showed that the reason for the halt of the work was that the higher level authorities thought an underground traffic system was not necessary for Harbin .
+Errors:
+1. Error: of, Correction: for
+2. Error:  , Correction: the
+3. Error:  , Correction: the
+4. Error: of, Correction:  
+Explanations:
+label: 1. The phrase "the reason for" is a collocation, and "that the reason of" is not used. The preposition "for" can indicate why something is done. This sentence is explaining the reason that work stopped, so "for" is used to indicate that the cause of the stoppage was that the authorities thought a traffic system was not necessary.
+2. The definite article "the" is used when referring to a specific instance of an action. This sentence is referring to a specific incident where work was stopped on a specific engineering project, so the definite article is necessary.
+3. The definite article "the" is used when referring to a specific thing. This sentence is referring to a specific engineering project where work was stopped, so the definite article is necessary.
+4. The phrase "high level of" refers to the physical levels or floors of an object or structure. Without the preposition "of," the compound adjective "high-level" means top ranking or of great importance. Therefore, the preposition "of" should be removed to convey that the authorities were of high rank.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mistral-explicit-errors/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8794392930964628
+Precision: 0.8669965730773078
+Recall: 0.8934315724505318
+Cleaned F1: 0.88680584438973
+Cleaned Precision: 0.879498110877143
+Cleaned Recall: 0.8951080296602514
+ ending 

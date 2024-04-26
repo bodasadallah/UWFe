@@ -1,0 +1,157 @@
+starting Evaluation.......................
+5 shot,    -   explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 13, 'error': 'the', 'explanation': 'The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.', 'start': 12}]
+incorrect_sentence: So , the manufacture company , for example , the company that the innovators are working for , is one of the major investors that is providing the fund .
+correct_sentence: So , the manufacture company , for example , the company that innovators are working for , is one of the major investors that is providing the fund .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: There is an element of seeking out for attention rather than expressing one 's true opinion on social networks .
+Correct sentence: There is an element of seeking out attention rather than expressing one 's true opinion on social networks .
+Errors:
+1. Error: for, Correction:  
+Explanations:
+1. Unnecessary word. "Seek out" does not require the preposition "for" to indicate what is being sought out.
+Erroneous sentence: Personally I am study in oversea , busy study life keeps me away from contact my old friend .
+Correct sentence: Personally I am studying oversea , busy study life keeps me away from contact my old friends .
+Errors:
+1. Error: study, Correction: studying
+2. Error: in, Correction:  
+3. Error: friend, Correction: friends
+Explanations:
+1. This is using the present continuous tense, which is made up of the verb "to be" plus a gerund. It means that something is currently occurring or in progress. This construction cannot use the bare infinitive "study," so it should be changed to "studying."
+2. The adverb "overseas" already implies the idea of being in a foreign country or location, as "over seas" means "across the sea." It does not need a preposition.
+3. When referencing friendships as a general concept, the plural "friends" should be used because it references multiple people. The singular "friend" is used to refer to an individual friend, with "a friend" meaning any friend and "the friend" meaning one specific friend.
+Erroneous sentence: However , social media site is a double-sided sword , it also bring in some negative effect on our daily life .
+Correct sentence: However , social media site is a double-sided sword , it also bring some negative effects on our daily lives .
+Errors:
+1. Error: in, Correction:  
+2. Error: life, Correction: lives
+3. Error: effect, Correction: effects
+Explanations:
+1. Unnecessary word. "Bring in" means to yield or earn something, as in "His YouTube career brings in $40 million a year", but this is not the sense you want in your sentence, so just use "bring" on its own.
+2. This sentence is talking about people's daily lives in general, so "life" should be pluralised.
+3. This sentence is talking about negative effects in general, so "effect" should be pluralised.
+Erroneous sentence: Thus , having the knowledge that such genetic disorder is benign would be beneficial towards their emotinal thoughts .
+Correct sentence: Thus , having the knowledge that such genetic disorder is benign would be beneficial towards their emotional thoughts .
+Errors:
+1. Error: emotinal, Correction: emotional
+Explanations:
+1. This is a typo. The correct spelling is "emotional."
+Erroneous sentence: I agree that RFID technology shall not be made available to the public for easy abuse and distorted usage .
+Correct sentence: I agree that RFID technology should not be made available to the public for easy abuse and distorted usage .
+Errors:
+1. Error: shall, Correction: should
+Explanations:
+1. "Shall" is an old-fashioned way of expressing future tense and is not commonly used in modern English. "Should" is a more commonly used word to express an opinion. The author believes making RFID available to the public is not beneficial, so "should not" is used. 
+Erroneous sentence: So , the manufacture company , for example , the company that the innovators are working for , is one of the major investors that is providing the fund .
+Correct sentence: So , the manufacture company , for example , the company that innovators are working for , is one of the major investors that is providing the fund .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+label: 1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 8.64 seconds
+Random selected samples:
+Prediction:  
+1. The sentence is saying that people interact with "each other", not "each others".
+2. The word "aspect" means a part of something or a particular feature. It is usually used with plural nouns. It is more logical to say that human interaction plays an important role in our life, as it is an important part of our lives.
+Erroneous sentence: The reason why it is so popular is because of the fact that it is free and it is easy to use .
+Correct sentence: The reason why it is so popular is because it is free and it is easy to use .
+Errors:
+1. Error: because of the fact that, Correction: because
+Explanations:
+1. "Because of the fact that" is redundant and can be replaced with just "because".
+Erroneous sentence: This is a very useful website for people who want to find information about their family history , and they can also get to know their family members .
+Correct sentence: This is a very useful website for people who want to find information about their family history , and they can also get to know their family members .
+Errors:
+1. Error: and, Correction: 
+Explanations:
+1. "And" is redundant and can be deleted.
+Err
+Label: 1. "Each" needs to be followed by a singular noun, because use of "each" in this case means that you are talking about every person separately, so use "other" here.
+2. Incorrect word choice. You could say "it is an important aspect", but in your sentence you are using the verb "play" which "aspect" does not fit with. The word that fits with "play" and the rest of the sentence is "role", as something can "play an important role in our lives".
+
+
+
+
+
+Prediction: 
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+
+
+
+Prediction:  
+1. Incorrect word choice. "Bond" is a verb, but the sentence is describing a current state, so it should be the noun "bond" instead.
+2. Incorrect word choice. The sentence is describing people in general, so it should be "humans" instead of "human".
+3. Incorrect word choice. "Lives" is a noun, but the sentence is describing a current state, so it should be the verb "live" instead.
+4. Incorrect word choice. "Aids" is a noun, but the sentence is describing a current state, so it should be the noun "aid" instead.
+Erroneous sentence: Social media is a good platform for people to connect with each others and sharing their personal information and views on any issues .
+Correct sentence: Social media is a good platform for people to connect with each other and share their personal information and views on any issues .
+Errors:
+1. Error: others, Correction: other
+Explanations:
+1. "Each" needs to be followed by a singular noun, because use of "each" in this case means that you are talking about every person separately, so use "other" here.
+Erroneous sentence: The social media is a good way to connect with
+Label: 1. Incorrect conjugation. Use the third person plural "bond" to go with "people".
+2. This sentence is talking about humans in general, so "human" should be pluralised.
+3. Incorrect conjugation. Use the third person plural "live" to go with "humans".
+4. "Aid" used in the sense of help or assistance is an uncountable noun and therefore should not be pluralised.
+
+
+
+
+
+Prediction:  
+1. "Get" is a transitive verb that requires an object, so it is incorrect to use "get" without an object. "Put" is an intransitive verb that does not require an object, so it is correct to use "put" without an object.
+Erroneous sentence: So ,the question is ,how do we make social media a more positive space for everyone ?
+Correct sentence: So , the question is , how do we make social media a more positive space for everyone ?
+Errors:
+1. Error: , Correction: 
+2. Error: , Correction: 
+Explanations:
+1. The comma is used to separate two independent clauses. However, the two clauses in this sentence are not independent, so the comma is unnecessary.
+2. The comma is used to separate two independent clauses. However, the two clauses in this sentence are not independent, so the comma is unnecessary.
+Erroneous sentence: Social media has become a place where people are sharing their thoughts and ideas and it is also a place where people are sharing their thoughts and ideas .
+Correct sentence: Social media has become a place where people share their thoughts and ideas .
+Errors:
+1. Error: where people are sharing, Correction: where people share
+Explan
+Label: 1. The phrase "put in danger" is a common expression and the verb does not change. The verb "put" means to cause someone to be in a particular place or position.
+
+
+
+
+
+Prediction:  
+1. "With" is used to introduce a person or thing that is doing something. "With" is a preposition, and the noun it introduces should be an object, so it should be singular. "With each others" is a plural object, so it should not be used.
+Erroneous sentence: It provides people with more convenient contact environment and improve the frequency of meeting with each others .
+Correct sentence: It provides people with a more convenient contact environment and improve the frequency of meeting with each others .
+Errors:
+1. Error:  , Correction: a
+Explanations: 
+1. "With" is used to introduce a person or thing that is doing something. "With" is a preposition, and the noun it introduces should be an object, so it should be singular. "With each others" is a plural object, so it should not be used.
+Erroneous sentence: The potential of using social networking sites for education is very large and it is a very important and useful tool for teachers to use in their teaching .
+Correct sentence: The potential of using social networking sites for education is very large , and it is a very important and useful tool for teachers to use in their teaching .
+Errors:
+1. Error: and,
+Label: 1. The indefinite article "a" is used when something exists in an unspecified manner or amount, or to express one out of multiple options. The phrase "convenient contact environment" means one potential environment out of many, with varying degrees of convenience. This condition is best expressed by the indefinite article "a."
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.7146264074577225
+Precision: 0.692676753219631
+Recall: 0.7388522066175938
+Cleaned F1: 0.7509740160571204
+Cleaned Precision: 0.7545056065751446
+Cleaned Recall: 0.7478377612100707
+ ending 

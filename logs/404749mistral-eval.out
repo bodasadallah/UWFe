@@ -1,0 +1,59 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'sites', 'end': 15, 'error': 'site', 'explanation': 'This sentence is talking about social network sites in general, so "site" should be pluralised.', 'start': 14}]
+incorrect_sentence: With the willing of people to become the best among others , social network site now become a place to show off .
+correct_sentence: With the willing of people to become the best among others , social network sites now become a place to show off .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: As we all know , the interpersonal skills are essential for us to communicate with each other and to present our views and ideas .
+Correct sentence: As we all know , interpersonal skills are essential for us to communicate with each other and to present our views and ideas .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+1. This sentence is talking about interpersonal skills in general and therefore should not have an article.
+Erroneous sentence: These implants and products are also been used as surveillance tools .
+Correct sentence: These implants and products have also been used as surveillance tools .
+Errors:
+1. Error: are, Correction: have
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: The advantages and disadvantages of using such social media in the society are elaborated on as follows .
+Correct sentence: The advantages and disadvantages of using such social media in society are elaborated on as follows .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+1. The concept of "society" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific society, instead of the concept in general.
+Erroneous sentence: Human has their own rights and privacy .
+Correct sentence: Humans have their own rights and privacy .
+Errors:
+1. Error: Human, Correction: Humans
+2. Error: has, Correction: have
+Explanations:
+1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+Erroneous sentence: When electronic devices are not grounded properly , there is a probability that the user might get an electric shock when he/she accidentally come into contact with the device .
+Correct sentence: When electronic devices are not grounded properly , there is a probability that the user might get an electric shock when he/she accidentally comes into contact with the device .
+Errors:
+1. Error: come, Correction: comes
+Explanations:
+1. The subject is "he/she," which is singular, so the verb should be singular for subject-verb agreement.
+Erroneous sentence: With the willing of people to become the best among others , social network site now become a place to show off .
+Correct sentence: With the willing of people to become the best among others , social network sites now become a place to show off .
+Errors:
+1. Error: site, Correction: sites
+Explanations:
+label: 1. This sentence is talking about social network sites in general, so "site" should be pluralised.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 26.98 seconds
+Model: Meta-Llama-3-8B
+F1: 0.7146239260004627
+Precision: 0.6926791282991568
+Recall: 0.7388441715803411
+Cleaned F1: 0.7509749937388632
+Cleaned Precision: 0.7545042816135619
+Cleaned Recall: 0.7478409475750394
+ ending 

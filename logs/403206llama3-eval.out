@@ -1,0 +1,84 @@
+starting Evaluation.......................
+0 shot,    -   no explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'on', 'end': 3, 'error': '-', 'explanation': 'The verb "rely" always uses the preposition "on" or "upon." It is a collocation, and it reflects the relationship of dependence. If A relies on B, then figuratively, A is supported by or resting on B.', 'start': 3}, {'correct': 'parents', 'end': 5, 'error': 'parent', 'explanation': 'The subject is "children," which is plural. Because the statement refers to multiple children, it involves multiple parents, so "parents" should be plural too.', 'start': 4}]
+incorrect_sentence: The children rely the parent to live .
+correct_sentence: The children rely on the parents to live .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: The children rely the parent to live .
+Correct sentence: The children rely on the parents to live .
+Explanations:
+label: 1. The verb "rely" always uses the preposition "on" or "upon." It is a collocation, and it reflects the relationship of dependence. If A relies on B, then figuratively, A is supported by or resting on B.
+2. The subject is "children," which is plural. Because the statement refers to multiple children, it involves multiple parents, so "parents" should be plural too.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 15.08 seconds
+Random selected samples:
+Prediction:  1. The word "other" is not needed in the sentence. 2. The word "without" is not needed in the sentence. 3. The word "this" is not needed in the sentence. 4. The word "should" is not needed in the sentence. 5. The word "not" is not needed in the sentence. 6. The word "be" is not needed in the sentence. 7. The word "placed" is not needed in the sentence. 8. The word "or" is not needed in the sentence. 9. The word "implanted" is not needed in the sentence. 10. The word "in" is not needed in the sentence. 11. The word "anyone" is not needed in the sentence.
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: We should respect that everyone has human rights and without other 's permission , this should not be placed or implanted to anyone .
+Correct sentence: We should respect that everyone has human rights and without permission , this technology should not be placed or implanted in anyone .
+Explanations: 1. The word "other
+Label: 1. As "permission" is something granted by another person, this is already taken for granted without needing to explicitly say "other's". 
+2. You should explicitly state "technology" for clarity.
+3. An implant goes inside the body, so you need to use "in" accordingly.
+
+
+
+
+
+Prediction:  1. The word “would” is used in the wrong tense. It should be “want”. 2. The word “indicates” is used in the wrong tense. It should be “indicate”. 3. The word “carrying” is used in the wrong tense. It should be “carry”. 4. The word “certain” is used in the wrong tense. It should be “certainly”.
+Label: 1. Incorrect preposition. "To" would indicate an aspiration or opportunity, as in "I hope I have the chance to see Big Ben when I'm in London". As "chance" here is a possibility, it should be followed by the preposition "of".
+2. "Carry" is the present tense, but seeing as we are talking about a potential future, the present continuous, "carrying", should be used.
+
+
+
+
+
+Prediction:  1. The word "add-on" is misspelled as "add-ons". 2. The word "media" is misspelled as "media of sharing". 3. The word "entertainment" is misspelled as "entertainment add-on".
+Label: 1. The sentence is discussing add-ons in general, so "add-on" should be pluralised.
+
+
+
+
+
+Prediction:  1. The word elements is incorrect. The correct word is element. 2. The word to is incorrect. The correct word is for.
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: That is the most essential elements to overcome the challenges .
+Correct sentence: That is the most essential element to overcome the challenges .
+Explanations: 1. The word elements is incorrect. The correct word is element. 2. The word to is incorrect. The correct word is for.
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: That is the most essential elements to overcome the challenges .
+Correct sentence: That is the most essential element to overcome the challenges .
+Explanations: 1. The word elements is incorrect. The correct word is element. 2. The word to is incorrect. The correct word is for.
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: That is the most essential elements to overcome the challenges .
+Correct sentence: That is the most essential element to overcome the challenges
+Label: 1. The subject of the statement is "that," which is singular, so the noun that describes it should be singular as well.
+
+
+
+
+
+Prediction:  1. The word "other" is not needed in the sentence. 2. The word "without" is not needed in the sentence. 3. The word "this" is not needed in the sentence. 4. The word "should" is not needed in the sentence. 5. The word "not" is not needed in the sentence. 6. The word "be" is not needed in the sentence. 7. The word "placed" is not needed in the sentence. 8. The word "or" is not needed in the sentence. 9. The word "implanted" is not needed in the sentence. 10. The word "in" is not needed in the sentence. 11. The word "anyone" is not needed in the sentence.
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: We should respect that everyone has human rights and without other 's permission , this should not be placed or implanted to anyone .
+Correct sentence: We should respect that everyone has human rights and without permission , this technology should not be placed or implanted in anyone .
+Explanations: 1. The word "other
+Label: 1. As "permission" is something granted by another person, this is already taken for granted without needing to explicitly say "other's". 
+2. You should explicitly state "technology" for clarity.
+3. An implant goes inside the body, so you need to use "in" accordingly.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.8269017044868734
+Precision: 0.8166638803150919
+Recall: 0.8383579833639992
+Cleaned F1: 0.836226468698846
+Cleaned Precision: 0.8329538065526221
+Cleaned Recall: 0.840524598542187
+ ending 

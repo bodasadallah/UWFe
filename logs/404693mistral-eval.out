@@ -1,0 +1,21 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    cognitivecomputations/dolphin-2.8-mistral-7b-v02
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'the', 'end': 7, 'error': 'a', 'explanation': 'The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".', 'start': 6}]
+incorrect_sentence: The earlier we tell them , a better habit they will arise and better for the rest of their lives .
+correct_sentence: The earlier we tell them , the better habit they will arise and better for the rest of their lives .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: The earlier we tell them , a better habit they will arise and better for the rest of their lives .
+Correct sentence: The earlier we tell them , the better habit they will arise and better for the rest of their lives .
+Explanations:
+label: 1. The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/cognitivecomputations/dolphin-2.8-mistral-7b-v02/best
+Model: cognitivecomputations/dolphin-2.8-mistral-7b-v02
+F1: 0.8094135171009434
+Precision: 0.7743546238376035
+Recall: 0.8487067139810986
+Cleaned F1: 0.8107376736071374
+Cleaned Precision: 0.776337674094571
+Cleaned Recall: 0.8493160054915481
+ ending 

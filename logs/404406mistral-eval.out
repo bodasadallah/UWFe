@@ -1,0 +1,18 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    cognitivecomputations/dolphin-2.8-mistral-7b-v02
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'on', 'end': 3, 'error': '-', 'explanation': 'Missing word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".', 'start': 3}, {'correct': 'parents', 'end': 5, 'error': 'parent', 'explanation': 'This sentence is either referring to the parents of specific children, or parents and children in general, but either way, "parents" should be pluralised.', 'start': 4}]
+incorrect_sentence: The children rely the parent to live .
+correct_sentence: The children rely on the parents to live .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: The children rely the parent to live .
+Correct sentence: The children rely on the parents to live .
+Errors:
+1. Error:  , Correction: on
+2. Error: parent, Correction: parents
+Explanations:
+label: 1. Missing word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. This sentence is either referring to the parents of specific children, or parents and children in general, but either way, "parents" should be pluralised.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/cognitivecomputations/dolphin-2.8-mistral-7b-v02/best
+ ending 

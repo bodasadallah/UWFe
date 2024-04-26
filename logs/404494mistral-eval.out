@@ -1,0 +1,73 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    cognitivecomputations/dolphin-2.8-mistral-7b-v02
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 4, 'error': 'the', 'explanation': 'The sentence is talking about people in general, so it does not need an article.', 'start': 3}]
+incorrect_sentence: Therefore , considering the people 's privacy and the existence of wrong testing , for the peace of the family , I support that a know genetic risk should not be obligated to tell his or her family or relatives without the person 's permission .
+correct_sentence: Therefore , considering people 's privacy and the existence of wrong testing , for the peace of the family , I support that a know genetic risk should not be obligated to tell his or her family or relatives without the person 's permission .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: The more people using it over us , the more power they will have on us .
+Correct sentence: However , the more people use it on us , the more power they will have over us .
+Errors:
+1. Error: The, Correction: However , the
+2. Error: using, Correction: use
+3. Error: over, Correction: on
+4. Error: on, Correction: over
+Explanations:
+1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+Erroneous sentence: Seconly , the relatives of the carrier can also choose to do genetic testing regardless of the dignosis of the carrier .
+Correct sentence: Secondly , the relatives of the carrier can also choose to do genetic testing regardless of the diagnosis of the carrier .
+Errors:
+1. Error: dignosis, Correction: diagnosis
+2. Error: Seconly, Correction: Secondly
+Explanations:
+1. Incorrect spelling. The correct spelling is "diagnosis".
+2. Incorrect spelling. The correct spelling is "Secondly".
+Erroneous sentence: In the past decades , when the social media sites are not yet fully developed , people connect with others who live far away by using a phone , or even a letter .
+Correct sentence: In past decades , when the social media sites were not yet fully developed , people connected with others who lived far away by using a phone , or even a letter .
+Errors:
+1. Error: the, Correction:  
+2. Error: are, Correction: were
+3. Error: connect, Correction: connected
+4. Error: live, Correction: lived
+Explanations:
+1. The concept of "past decades" is a general concept and can be assumed to be understood by the reader. It takes the definite article only with the singular "the past decade," meaning the last ten years, or with an adjective like "the past few decades," which refer to specific decades, instead of past decades in general.
+2. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "observes" implies that social media sites are still not yet fully developed, so it should be the past tense "were" instead.
+3. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "connect" implies that phone calls and letters are still the default method of communication, so it should be the past tense "connected" instead.
+4. This sentence is referring to past events, as shown by the phrase "In past decades." It's discussing how people in the past communicated with friends and relatives living far away. Because it is referring to the same time period, the present tense "live" should be changed to the past tense "lived."
+Erroneous sentence: People indeed go to great length to make their words as shorter as they can .
+Correct sentence: People indeed go to great lengths to make their words as short as they can .
+Errors:
+1. Error: length, Correction: lengths
+2. Error: shorter, Correction: short
+Explanations:
+1. This is a fairly common expression, which can also be expressed as "go to any length". Both versions imply that people will do anything to achieve a particular goal, in this case, "make their words as short as they can", and as that means there are many things that they might try, "lengths" should be pluralised to reflect this.
+2. Incorrect word form. In this part of the sentence it is saying how "short" the words are (as short as possible), and so it doesn't make sense to say "shorter" here, in the same way as you can ask "How short is this?" but you can't ask "How shorter is this?".
+Erroneous sentence: Although the surveillance technology is an issue in invading the human privacy , it has also brought us lots of benefits and security .
+Correct sentence: Although surveillance technology is an issue in safeguarding human privacy , it has also brought us lots of benefits and security .
+Errors:
+1. Error: the, Correction:  
+2. Error: invading, Correction: safeguarding
+3. Error: the, Correction:  
+Explanations:
+1. This sentence is talking about surveillance technology in general and therefore does not need an article.
+2. None
+3. The sentence is discussing human privacy in general, so it does not require an article.
+Erroneous sentence: Therefore , considering the people 's privacy and the existence of wrong testing , for the peace of the family , I support that a know genetic risk should not be obligated to tell his or her family or relatives without the person 's permission .
+Correct sentence: Therefore , considering people 's privacy and the existence of wrong testing , for the peace of the family , I support that a know genetic risk should not be obligated to tell his or her family or relatives without the person 's permission .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+label: 1. The sentence is talking about people in general, so it does not need an article.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/cognitivecomputations/dolphin-2.8-mistral-7b-v02/best
+Model: cognitivecomputations/dolphin-2.8-mistral-7b-v02
+F1: 0.8173932433128357
+Precision: 0.772338081151247
+Recall: 0.8691853603555096
+Cleaned F1: 0.8894451322654883
+Cleaned Precision: 0.8896233261459403
+Cleaned Recall: 0.8899575430485938
+ ending 

@@ -1,0 +1,149 @@
+starting Evaluation.......................
+5 shot,    - explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '. Products', 'end': 14, 'error': ', products', 'explanation': 'Use a full stop to separate these two sentences.', 'start': 12}, {'correct': 'systems', 'end': 19, 'error': 'system', 'explanation': 'The sentence is talking about systems in general, so "system" should be pluralised.', 'start': 18}]
+incorrect_sentence: And after all this scientific research result is applied to daily life , products such as RFID tracking system have become real .
+correct_sentence: And after all this scientific research result is applied to daily life . Products such as RFID tracking systems have become real .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+Correct sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+Errors:
+1. Error: the, Correction:  
+2. Error: contacts, Correction: contact
+Explanations:
+1. "Contact" is an uncountable noun and therefore should not have an article.
+2. When used in the context of "face-to-face human contact", "contact" is an uncountable noun and therefore should not have an "s" at the end.
+Erroneous sentence: Writing is an essential skill of person who express their own feelings and opinions .
+Correct sentence: Writing is an essential skill for person who express their own feelings and opinions .
+Errors:
+1. Error: of, Correction: for
+Explanations:
+1. Incorrect preposition. Use "for" to link what is essential (the skill of writing) with regard to whom (a person).
+Erroneous sentence: This would avoid the rise of more family-related ethical dilemma .
+Correct sentence: This would avoid the rise of more family-related ethical dilemmas .
+Errors:
+1. Error: dilemma, Correction: dilemmas
+Explanations:
+1. This is a general statement, referring to many unspecified people. It should be the plural "dilemmas" both because "people" is plural and also because there is a range of potential ethical issues. 
+Erroneous sentence: Also , according to a research , it has been proven that the users feel more sad after using the Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Correct sentence: Also , according to research , it has been proven that users feel more sad after using Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Errors:
+1. Error: a, Correction:  
+2. Error: the, Correction:  
+3. Error: the, Correction:  
+Explanations:
+1. "Research" is an uncountable noun and therefore should not have an article.
+2. This sentence is talking about users in general and therefore should not have an article.
+3. "Facebook" is a proper noun and therefore should not have an article.
+Erroneous sentence: Researches show that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Correct sentence: Research shows that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Errors:
+1. Error: Researches, Correction: Research
+2. Error: show, Correction: shows
+Explanations:
+1. "Researches" is the third person singular verb form, as in "He/she researches social media use". Based on the context of this sentence, you are most likely talking about research as a noun, and it does not need to be pluralised as it is an uncountable noun, so just use "research".
+2. Incorrect conjugation. "Research" is treated as the third person singular, so use "shows" to correspond with it.
+Erroneous sentence: And after all this scientific research result is applied to daily life , products such as RFID tracking system have become real .
+Correct sentence: And after all this scientific research result is applied to daily life . Products such as RFID tracking systems have become real .
+Errors:
+1. Error: , products, Correction: . Products
+2. Error: system, Correction: systems
+Explanations:
+label: 1. Use a full stop to separate these two sentences.
+2. The sentence is talking about systems in general, so "system" should be pluralised.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 11.98 seconds
+Random selected samples:
+Prediction:  
+1. The concept of "society" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific society, instead of the concept in general.
+Erroneous sentence: There is an element of seeking out for attention rather than expressing one 's true opinion on social networks .
+Correct sentence: There is an element of seeking out attention rather than expressing one 's true opinion on social networks .
+Errors:
+1. Error: for, Correction:  
+Explanations:
+1. Unnecessary word. "Seek out" does not require the preposition "for" to indicate what is being sought out.
+Erroneous sentence: Finding old friends through Facebook , for example , is more easier than asking people around in real life .
+Correct sentence: Finding old friends through Facebook , for example , is easier than asking people around in real life .
+Errors:
+1. Error: more, Correction:  
+Explanations:
+1. "More" is never used with "easier" because "easier" already contains the sense of it being "more".
+Erroneous sentence: Based on the statistic report , the more of the writing skills will be reduced when the more time used in the social media sites
+Label: 1. As "society" is something general and uncountable, it does not need an article, so remove "the".
+
+
+
+
+
+Prediction:  
+1. This sentence is talking about a single result, so should use a singular verb form. Also, there is no need to separate "research result" as they are two words in the same phrase. Therefore, you should use a comma and a space before "products" instead.
+2. "System" is an uncountable noun and therefore should not have an "s" at the end.
+Erroneous sentence: So it is clear that people need to spend more time with their family and friends , instead of spending their time on social media sites .
+Correct sentence: So it is clear that people need to spend more time with their family and friends instead of spending their time on social media sites .
+Errors:
+1. Error: , instead of, Correction: instead of
+Explanations:
+1. Incorrect preposition. Use "instead of" to link what is essential (spending time with family and friends) with what is not (spending time on social media sites).
+Erroneous sentence: The first reason is that people spend more time on social media sites , instead of spending their time with their family and friends .
+Correct sentence: The first reason is that people spend more time on social media sites instead of spending their time with their family and friends
+Label: 1. Use a full stop to separate these two sentences.
+2. The sentence is talking about systems in general, so "system" should be pluralised.
+
+
+
+
+
+Prediction: 
+Label: 1. This is a spelling error. The correct spelling is "believe."
+
+
+
+
+
+Prediction:  
+1. Incorrect use of the definite article. A "nutshell" is a metaphor for a small container, so it is a general concept, not a specific one. Therefore, it should be "a" instead of "the".
+Erroneous sentence: However , it is still debatable whether people should tell their relatives about the genetic testing result or not .
+Correct sentence: However , it is still debatable whether people should tell their relatives about the genetic testing result or not .
+Errors:
+1. Error:  , Correction: the
+Explanations:
+1. Missing article. As you are talking specifically about the genetic testing result, use the definite article, "the".
+Erroneous sentence: Although it is a very personal information , it is also a very important information to know about .
+Correct sentence: Although it is a very personal information , it is also very important information to know about .
+Errors:
+1. Error: to, Correction:  
+Explanations:
+1. Incorrect use of "to". The word "to" is a preposition, which is used to indicate a direction. In the context of the sentence, it is more appropriate to use "about" to indicate the topic of the information.
+Erroneous sentence: In the future
+Label: 1. "In a nutshell" is an idiom, and the article does not change. The phrase "in the nutshell" is not used, but the specificity of "the" makes it sound literal. Instead of referring figuratively to something very simple, it would mean something that is literally inside a nutshell.
+
+
+
+
+
+Prediction:  
+1. "Researches" is a plural noun and does not agree with the singular verb "has been decreasing". The singular noun "research" is the correct choice.
+2. The verb "show" is the singular form of the verb "shows" and is used with a singular subject. The verb "shows" is used with a plural subject.
+Erroneous sentence: This is the reason why it is very important to be aware of the effects of the use of social media and to keep in mind that we have to make a balance between the use of social media and the real life .
+Correct sentence: This is the reason why it is very important to be aware of the effects of the use of social media and to keep in mind that we have to make a balance between the use of social media and real life .
+Errors:
+1. Error: real, Correction:  
+Explanations:
+1. The adjective "real" is used to describe things that are genuine and authentic. It does not generally require an article. The noun "real life" is used to describe a person's daily life and the experiences they have in it. It does require an article.
+Erroneous sentence: The use of social media has a positive effect on the way we communicate
+Label: 1. "Research" is an uncountable noun, so it does not take the indefinite article "a." To refer to one specific study, it is common to say "according to a research study" or "according to research by [author/institution]," but for research-based knowledge in general, the phrase is "according to research."
+2. The subject is "research," which is singular, so the verb should be changed to "shows" for subject-verb agreement.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.7146260142326355
+Precision: 0.6926766120725207
+Recall: 0.7388516664505005
+ ending 

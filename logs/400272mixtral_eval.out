@@ -1,0 +1,66 @@
+starting Evaluation.......................
+0 shot,   explicit errors, mistral finetuned model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 6, 'error': 'the', 'explanation': 'This sentence is talking about interpersonal skills in general and therefore should not have an article.', 'start': 5}]
+incorrect_sentence: As we all know , the interpersonal skills are essential for us to communicate with each other and to present our views and ideas .
+correct_sentence: As we all know , interpersonal skills are essential for us to communicate with each other and to present our views and ideas .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: As we all know , the interpersonal skills are essential for us to communicate with each other and to present our views and ideas .
+Correct sentence: As we all know , interpersonal skills are essential for us to communicate with each other and to present our views and ideas .
+Errors:
+1. Error: the, Correction:  
+Explanations:
+label: 1. This sentence is talking about interpersonal skills in general and therefore should not have an article.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mistral-explicit-errors/mistralai/Mistral-7B-v0.1/best
+Random selected samples:
+Prediction: 
+1. Incorrect spelling. The correct spelling is "diagnosis".
+2. This is a spelling error. The correct spelling is "Secondly". This word implies there is another related point that should be mentioned as well, i.e. Firstly, secondly, etc. "Seconly" is not a real word and should be corrected. Some people write "Secondly" and some "Secondly", but there are no spaces between words in English, so no space is used. In words like "first", "second", or "twentieth", the S comes after the R; in words like "firstly", "secondly", or "twentiethly", the Y or LY comes after the R. Therefore, the "S" in "Secondly" is always spelled as "Y" and there is no space after it. Also, "second" (unspace) and "secondly" (space) cannot be used interchangeably. You should not use "second" as an adverb, and you should not use "secondly" as an adjective, as both could mean either in the second place ("second place") or relating to the number two, especially in math or with ordinal numbers ("the second car"). This expression always uses the adverb "Secondly", which means "in the second instance", or in other words, "another point is". In other words, "Firstly, he went to the store and the movie. Secondly, he ate dinner." "Secondly" is used in instances where it could be either of the two meanings, and it often clarifies what the meaning is. In informal writing it's acceptable to say "second", but it can be unclear. "Secondly" is always unambiguous. It also helps avoid mixing up "firstly" and "secondly" and using one where you intended the other. For example, "Secondly, he ate dinner and he went to the store and movie." is nonsensical because the sequence of events is incorrect, but "Firstly, he ate dinner, and then he went to the store and movie." is clear and correct. Although "Secondly" always uses a space, in writing the space can easily be left out by accident and the meaning can still be understood, but "Secondly, he ate dinner and the movie. " does not always make sense in these contexts, so
+Label: 1. Incorrect spelling. The correct spelling is "diagnosis".
+2. Incorrect spelling. The correct spelling is "Secondly".
+
+
+
+
+
+Prediction: 
+1. The past tense refers to something that has already happened, but in this scenario, the present or future is likely to be used. The present tense "passes" would refer to the present time, meaning that more friends are appearing on social media lists now, or it could refer to the future, meaning that more friends will appear on lists in the future. This would be less common, as it is difficult to predict when someone will join a social media site, but in general, most social media sites have grown faster in recent years. Also, the word "passes" does not make the sentence sound as if it is talking about the past, whereas "passed" might imply that this is no longer the case. Instead, the present tense does not imply whether there are more or fewer friends now than in the past. However, if you think that there are currently fewer friends now than in the past, you could use "is passing" to indicate that the trend continues, or that we are in the middle of the trend. Also, if some friends from the past are no longer on social media, but new friends from the present have joined, then it is more common to say that there are more friends "now." It is possible and common for people to have fewer friends on social media as time passes, but that does not mean that fewer friends in general have joined social media sites; that number is still growing. Therefore, overall, "passes" is the most accurate option. But because the sentence is only speculating what will happen and is not talking about trends in the past or future, it is best to refer to the present, which makes it a present continuous tense. Also, a subject and verb are required to make a complete sentence, so the verb "passes" is added. I am also unsure if you are using the words "friend list," which means a list of specific friends on the social media site, or "friends" on social media sites in general. If the former, then it sounds unnatural to say "on the list," so I have cut this out. Also, I have changed "having" to "have" because the phrase "to have" means to possess or own something, which is not relevant to the context; instead, you would use the verb "add" or "share" to mean that someone shares their friendship status on social media. Instead, "have more friends" or "have 20 friends" means that you have
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "passed" implies that the author's perspective is in the past, but this sentence is about events in the present. Therefore, the present tense "passes" should be used.
+
+
+
+
+
+Prediction: 
+1. In the current context, the sentence is talking about people in general. Therefore, the plural "human" should be changed to "humans."
+2. The subject here is the plural noun "humans." The verb should be changed from "has" to "have" to correspond with it. Also, the concept of individual human rights is a general statement that is considered self-evident in modern times, so it is best to use the present tense, with "have."
+Otherwise, this sentence is correct. It doesn't express an opinion, and none of the errors affects the meaning. Therefore, it is not necessary to explain why the original statement is incorrect. However, I chose to elaborate on the plural because I believe this correction makes it more clear that "human" is being used to refer to mankind as a whole, rather than individual humans. I felt a second explanation was warranted.
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+
+
+
+Prediction: 
+1. Incorrect word choice. Use "their" to indicate ownership/possession, and "the" to indicate that something is the only one of its kind. The parents likely have more than one right, and none of these rights are singular, so "the" should come first to indicate that just one right is being specified. Then, "their" comes next to indicate who owns this right. Generally, if multiple nouns are part of a single concept, then "their" will only modify the noun that ends the compound. For example, "The father and mother have the right to know" or "Both parent and child have the right to know." Otherwise, if each noun is part of the same concept, then it is "the" followed by "their" if it refers to the parents together, or "their" followed by "the" if it refers to each parent separately. For example, "The parents have the right to know" or "Both parent and child have their right to know in the context of whether they are together or separately. This sentence is talking about the right of both parents separately, so use "their" first followed by "the."
+Label: 1. Incorrect word choice. The sentence is talking about a specific right that anyone is entitled to, not just the parents discussed in the sentence, so it should be "the right", not "their right".
+
+
+
+
+
+Prediction: 
+1. The phrase "social media" is uncountable and therefore should not have an article. Also, it already includes the concept of "people" because "social media" refers to any means of sharing content and interacting with other people over the internet. The concept of "people" also applies to social media as a general concept, so it is unnecessary to add it a second time. Because of this, the definite article "the" should be removed. Furthermore, the phrase "social media" is basically synonymous with the singular "media", which also does not use an article, so an article should not be used here. This phrase is rarely used with an article, but the definite "the" is used when referencing a specific kind of social media, instead of social media in general. This could be the case in the situation "People should avoid the social media...", where the writer is referring to the specific case of the social media causing problems, as opposed to social media in general. For example: The negative effects of the Internet and social media outweigh potential benefits to society. If you think about social media in general, the use of the definite article is unusual. If you think about specific examples, such as Facebook and Twitter, then this sentence can make sense. Otherwise, it is confusing and unnatural for a general statement. In this case, it seems that the writer is discussing social media in general. The author could argue that "social media in general" is clear, but the structure being expressed is "social media is..." The sentence is not "social media, in general...". It's not clear what is being modified, so "social media" should not have an article. If something had to modify "in general", it would be social media in general...  .  Also consider that "the" can indicate possession or a unique instance, but "social media" is one concept that is not owned or unique to any one person or company. Therefore, "the" is not necessary. Also consider that "in general" and "social media" are being used together to modify "people", so it is the meaning, not the word, that is being generalized. Therefore, the "the" should be removed, and the concept of media used without an article.
+Label: 1. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+
+
+
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8556460204223791
+Precision: 0.8287044415871302
+Recall: 0.8851720442374548
+ ending 

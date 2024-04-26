@@ -1,0 +1,40 @@
+starting Evaluation.......................
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'a', 'end': 8, 'error': '-', 'explanation': 'The combination of "certain" and a noun requires either the indefinite article "a" or the plural form. Though there may be cases where someone is diagnosed with multiple diseases at the same time, it is more common to assume a single disease, hence the indefinite article.', 'start': 8}, {'correct': 'attitudes', 'end': 13, 'error': 'altitudes', 'explanation': 'The word "altitude" means height, especially in relation to ground or sea level. The correct word here is "attitude," meaning a way of thinking or feeling.', 'start': 12}, {'correct': 'for', 'end': 20, 'error': '-', 'explanation': 'The verb "care" requires the preposition "for" in order to connect to the object, or the person receiving the care.', 'start': 20}]
+incorrect_sentence: When people around us know that we got certain disease , their altitudes will be easily changed , whether caring us too much or keeping away from us .
+correct_sentence: When people around us know that we got a certain disease , their attitudes will be easily changed , whether caring for us too much or keeping away from us .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Based on the statistic report , the more of the writing skills will be reduced when the more time used in the social media sites .
+Correct sentence: Based on the statistic report , the more the writing skills will be reduced when the more time used on the social media sites .
+Explanations:
+1. I partially agree with this correction because "of" needs to be removed, but that does not fix the problem. The sentence should be rephrased as "the more time spent on social media sites, the more a person's writing skills will be reduced." First, this construction does not use "of." Second, it always consists of two phrases, and the first is always the cause and the second is always the outcome. Therefore, "time spent on social media" should come first and "writing skills will be reduced" should come second. 
+This suggestion also fixes the other grammar issues. First, it is not common to say "time used on social media sites." Instead, it is common to say "time spent on social media sites" or "time spent using social media sites." Second, the phrase "the more of the writing skills" is not commonly used and is different to understand. Also, it is not clear to whom the phrase "writing skills" refers, so it should be changed to "the more a person's writing skills." This makes the meaning clear.
+2. When talking about "time spent," English uses the preposition "in" for physical locations and "on" for activities or pursuits. For example, a dedicated scholar might spend a lot of time in the library or spend a lot of time on her studies. Social media is not a physical location, so "on" is appropriate here. 
+Erroneous sentence: Also , according to a research , it has been proven that the users feel more sad after using the Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Correct sentence: Also , according to research , it has been proven that users feel more sad after using Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Explanations:
+1. "Research" is an uncountable noun and therefore should not have an article.
+2. This sentence is talking about users in general and therefore should not have an article.
+3. "Facebook" is a proper noun and therefore should not have an article.
+Erroneous sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+Correct sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+Explanations:
+1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+Erroneous sentence: Writing is an essential skill of person who express their own feelings and opinions .
+Correct sentence: Writing is an essential skill for person who express their own feelings and opinions .
+Explanations:
+1. Incorrect preposition. Use "for" to link what is essential (the skill of writing) with regard to whom (a person).
+Erroneous sentence: There is an element of seeking out for attention rather than expressing one 's true opinion on social networks .
+Correct sentence: There is an element of seeking out attention rather than expressing one 's true opinion on social networks .
+Explanations:
+1. Unnecessary word. "Seek out" does not require the preposition "for" to indicate what is being sought out.
+Erroneous sentence: When people around us know that we got certain disease , their altitudes will be easily changed , whether caring us too much or keeping away from us .
+Correct sentence: When people around us know that we got a certain disease , their attitudes will be easily changed , whether caring for us too much or keeping away from us .
+Explanations:
+label: 1. The combination of "certain" and a noun requires either the indefinite article "a" or the plural form. Though there may be cases where someone is diagnosed with multiple diseases at the same time, it is more common to assume a single disease, hence the indefinite article.
+2. The word "altitude" means height, especially in relation to ground or sea level. The correct word here is "attitude," meaning a way of thinking or feeling.
+3. The verb "care" requires the preposition "for" in order to connect to the object, or the person receiving the care.
+
+Loading Base Model mistralai/Mistral-7B-v0.1
+Random selected samples:
+ ending 

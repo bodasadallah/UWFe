@@ -1,0 +1,120 @@
+starting Evaluation.......................
+5 shot,    -   no explicit errors, llama3 instruct babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'of', 'end': 9, 'error': 'to', 'explanation': 'This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."', 'start': 8}, {'correct': 'gives', 'end': 14, 'error': 'give', 'explanation': 'The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.', 'start': 13}]
+incorrect_sentence: These green house gases are the main cause to worldwide global warming which give rise to further catastrophes such as the rise in global temperature etc .
+correct_sentence: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: And if you still decide to have the baby , since the technology has been developed so advanced , it might be possible in the future that the application of altering gene is perfected and widely used , you can then choose to give birth to babies by giving them a brighter future .
+Correct sentence: And if you still decide to have the baby , since the technology has been developed so advanced , it might be possible in the future that the application of altering genes is perfected and widely used , you can then choose to give birth to babies by giving them a brighter future .
+Explanations:
+1. The technology to alter genetic material could be applied not just to a single gene but any and all genes. For that reason, it's correct to use the plural "genes" rather than the singular "gene."
+Erroneous sentence: In the past decades , when the social media sites are not yet fully developed , people connect with others who live far away by using a phone , or even a letter .
+Correct sentence: In past decades , when the social media sites were not yet fully developed , people connected with others who lived far away by using a phone , or even a letter .
+Explanations:
+1. The concept of "past decades" is a general concept and can be assumed to be understood by the reader. It takes the definite article only with the singular "the past decade," meaning the last ten years, or with an adjective like "the past few decades," which refer to specific decades, instead of past decades in general.
+2. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "observes" implies that social media sites are still not yet fully developed, so it should be the past tense "were" instead.
+3. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "connect" implies that phone calls and letters are still the default method of communication, so it should be the past tense "connected" instead.
+4. This sentence is referring to past events, as shown by the phrase "In past decades." It's discussing how people in the past communicated with friends and relatives living far away. Because it is referring to the same time period, the present tense "live" should be changed to the past tense "lived."
+Erroneous sentence: This would avoid the rise of more family-related ethical dilemma .
+Correct sentence: This would avoid the rise of more family-related ethical dilemmas .
+Explanations:
+1. This is a general statement, referring to many unspecified people. It should be the plural "dilemmas" both because "people" is plural and also because there is a range of potential ethical issues. 
+Erroneous sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+Correct sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+Explanations:
+1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+Erroneous sentence: Therefore , there is need to discuss the advantages and disadvantages of social media .
+Correct sentence: Therefore , there is a need to discuss the advantages and disadvantages of social media .
+Explanations:
+1. This is a common phrase. When it is singular, there is always an article. It is usually "there is a need," but sometimes "there is the need," referring to a specific need that has already been mentioned in the text or that is being compared to another need. There is no article in the plural "there are needs," but otherwise an article is always used.
+Erroneous sentence: These green house gases are the main cause to worldwide global warming which give rise to further catastrophes such as the rise in global temperature etc .
+Correct sentence: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc .
+Explanations:
+label: 1. This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."
+2. The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 44.22 seconds
+Random selected samples:
+Prediction: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: For example , five percent of the population in Singapore is 1000 times lesser than five percent of the population in the China .
+Correct sentence: For example , five percent of the population in Singapore is 1000 times less than five percent of the population in China .
+Explanations:
+1. The adjective "lesser" means smaller in size and quality, while "less" is used to compare the quantity or degree of something. The subject here is "five percent," which is a number/quantity, so "lesser" should be changed to "less."
+2. China is a proper noun, and most proper nouns do not take the definite article "the." This is because the function of "the" is to indicate that a noun is one specific thing, which is unnecessary with proper nouns because they are specific by nature.
+Erroneous sentence: Social media provides people a way of talking and chatting which can never be considered as a way of communication .
+Correct sentence: Social media provides people with a way of talking and chatting which can never be considered as
+Label: 1. Missing word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. This sentence is either referring to the parents of specific children, or parents and children in general, but either way, "parents" should be pluralised.
+
+
+
+
+
+Prediction: 1. The word "but" is used to introduce a contrasting idea. It is not used to introduce an additional idea, which is what "in addition" means. The correct word here is "and."
+2. The word "neglect" means to ignore or forget. The correct word here is "neglect," which means to ignore or forget.
+Erroneous sentence: In the past , people used to write letters to their friends , but now they just send messages on the social network website .
+Correct sentence: In the past , people used to write letters to their friends , but now they just send messages on the social network website .
+Explanations:
+1. The word "used" is used to describe a past action that is no longer done. The correct word here is "used to," which describes a past action that is no longer done.
+2. The word "to" is used to introduce a purpose or destination. It is not used to introduce a person, which is what "to" means. The correct word here is "to," which introduces a person.
+Erroneous sentence: The social network website is a good way to communicate with friends , but it is not a good way to communicate with strangers .
+Correct sentence: The social network
+Label: 1. "But" should be used in the situation where you do one thing, but not the other, so you could say, "they don't speak to the people around them, but do communicate with friends on Facebook," but in the context of your sentence, you are saying that both these actions are going on at the same time, so you should use "and", as in they shun/ignore the people around them AND only communicate with friends on Facebook.
+
+
+
+
+
+Prediction: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: It provides people with more convenient contact environment and improve the frequency of meeting with each others .
+Correct sentence: It provides people with a more convenient contact environment and improve the frequency of meeting with each others .
+Explanations:
+1. The indefinite article "a" is used when something exists in an unspecified manner or amount, or to express one out of multiple options. The phrase "convenient contact environment" means one potential environment out of many, with varying degrees of convenience. This condition is best expressed by the indefinite article "a."
+Erroneous sentence: Writing is an essential skill of person who express their own feelings and opinions .
+Correct sentence: Writing is an essential skill for person who express their own feelings and opinions .
+Explanations:
+1. Incorrect preposition. Use "for" to link what is essential (the skill of writing) with regard to whom (a person).
+Erroneous sentence: With the aids of social media , people bonds globally , information flows rapidly , and human lives happily .
+Correct sentence: With the aid of social media , people bond
+Label: 1. The singular noun "thought" refers to a single idea or opinion. For example, "I think I'd like eggs for breakfast" or "She thinks it would be fun to try beekeeping" are two thoughts. But this sentence is referring to a person's worldview, overall thinking, set of values, or general outlook. In this context, "thoughts" should be pluralized.
+2. The singular noun "personality" means a collection of traits, behaviors, or emotional qualities that make up an individual's character. The plural noun "personalities" refers to the personalities of multiple people.
+
+
+
+
+
+Prediction: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Thirdly , social media sites keep us up-to-date on latest news and updates from almost everywhere in the world , all with a click away on the refresh button .
+Correct sentence: Thirdly , social media sites keep us up-to-date on the latest news and updates from almost everywhere in the world , all with a click away on the refresh button .
+Explanations:
+1. Missing article. As our planet is a countable noun but also the only one we know of, we call it "the world".
+Erroneous sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+Correct sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+Explanations:
+1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be re
+Label: 1. From the sentence we can surmise that the people would have more than one check, so the plural "checks" should be used.
+
+
+
+
+
+Prediction: 1. The phrase "the face-to-face human contacts" is not commonly used. Instead, the phrase "face-to-face human contact" is used. The phrase "face-to-face" means in person, as opposed to online. The phrase "human contact" means the act of interacting with another person. The phrase "human contacts" means the people with whom one interacts. The phrase "human contact" is used here because the author is talking about the act of interacting with another person, not the people with whom one interacts.
+2. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "decrease" means to become smaller or less. The verb "de
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+
+
+
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.8258753534820344
+Precision: 0.8014875240623951
+Recall: 0.8522312310006883
+Cleaned F1: 0.8540911008086469
+Cleaned Precision: 0.8535332145790259
+Cleaned Recall: 0.8552584788865514
+ ending 

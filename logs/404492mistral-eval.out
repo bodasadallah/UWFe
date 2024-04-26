@@ -1,0 +1,45 @@
+starting Evaluation.......................
+ 5 shot,    -    0  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'an', 'end': 15, 'error': 'a', 'explanation': 'The article "a" is used before a word starting with a consonant that makes a consonant sound. The article "an" is used before a word starting with a vowel that makes a vowel sound. "Unhealthy" begins with the vowel "u", and it is pronounced as a vowel, so you should use "an" before it.', 'start': 14}, {'correct': 'the', 'end': 26, 'error': '-', 'explanation': '"End" here is a noun that goes with "cause", and it requires an article before it in the same way as "cause the death". As a marriage can only have one end, this is a specific noun that is being referred to, so you should use "the".', 'start': 26}]
+incorrect_sentence: Or else , if he holds back the genetic risk , they may have a unhealthy baby and may cause the death of the baby or end of their marriage .
+correct_sentence: Or else , if he holds back the genetic risk , they may have an unhealthy baby and may cause the death of the baby or the end of their marriage .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Researches show that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Correct sentence: Research shows that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Explanations:
+1. "Research" is an uncountable noun, so it does not take the indefinite article "a." To refer to one specific study, it is common to say "according to a research study" or "according to research by [author/institution]," but for research-based knowledge in general, the phrase is "according to research."
+2. The subject is "research," which is singular, so the verb should be changed to "shows" for subject-verb agreement.
+Erroneous sentence: For example , we tend send a birthday wishes when Facebook promts us " Today is someone 's birthday " .
+Correct sentence: For example , we tend send birthday wishes when Facebook promts us " Today is someone 's birthday " .
+Explanations:
+1. The indefinite article "a" is singular, so it cannot be used with the plural "birthday wishes." Either "birthday wishes" or "a birthday wish" would be acceptable.
+Erroneous sentence: Some genetic gene will pass only to boys rather than girls , some are on the contrary .
+Correct sentence: Some genes will pass only to boys rather than girls , some are on the contrary .
+Explanations:
+1. The adjective "genetic" means of or relating to genes, so "genetic genes" is redundant and "genetic" should be deleted.
+2. The word "some" means an unspecified amount or a large amount. It is usually used with plural nouns. Also, it is unlikely that there is only one gene that can only be inherited by a specific gender, so logically it is more likely to be the plural.
+Erroneous sentence: Seconly , the relatives of the carrier can also choose to do genetic testing regardless of the dignosis of the carrier .
+Correct sentence: Secondly , the relatives of the carrier can also choose to do genetic testing regardless of the diagnosis of the carrier .
+Explanations:
+1. Incorrect spelling. The correct spelling is "diagnosis".
+2. Incorrect spelling. The correct spelling is "Secondly".
+Erroneous sentence: With a small smart phone or a computer at school , at work or at home , we can easily make friends worldwide with a 'click ' and get to know about their life through having conversations with them , reading their blogs , photos and status .
+Correct sentence: With a small smart phone or a computer at school , at work or at home , we can easily make friends worldwide with a 'click ' and get to know about their life through having conversations with them , reading their blogs , photos and statuses .
+Explanations:
+1. The list is talking about things in general, and so "status" should be pluralised to match "conversations", "blogs" and "photos".
+Erroneous sentence: Or else , if he holds back the genetic risk , they may have a unhealthy baby and may cause the death of the baby or end of their marriage .
+Correct sentence: Or else , if he holds back the genetic risk , they may have an unhealthy baby and may cause the death of the baby or the end of their marriage .
+Explanations:
+label: 1. The article "a" is used before a word starting with a consonant that makes a consonant sound. The article "an" is used before a word starting with a vowel that makes a vowel sound. "Unhealthy" begins with the vowel "u", and it is pronounced as a vowel, so you should use "an" before it.
+2. "End" here is a noun that goes with "cause", and it requires an article before it in the same way as "cause the death". As a marriage can only have one end, this is a specific noun that is being referred to, so you should use "the".
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8094451969696416
+Precision: 0.771503982030683
+Recall: 0.8522792909708288
+Cleaned F1: 0.8604288225372633
+Cleaned Precision: 0.855058069444365
+Cleaned Recall: 0.8670235267943807
+ ending 

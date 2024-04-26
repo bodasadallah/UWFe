@@ -1,0 +1,1050 @@
+Error_type: Article
+Error: When I was returning from Syleth , I called the girl and talked to her and told her that I had got chance at university , but  girl said that she knew .
+Correct: When I was returning from Syleth , I called the girl and talked to her and told her that I had got chance at university , but the girl said that she knew .
+Wrong word: [NONE]
+Correct word: the
+Explanation: the error in the erroneous sentence is the missing 'the' before 'girl.' the correction adds 'the' before 'girl' to make the sentence grammatically correct.
+Ex1_error: he went to market and bought some fruits.
+Ex1_correct: he went to the market and bought some fruits.
+Ex2_error: she is going to see doctor today.
+Ex2_correct: she is going to see the doctor today.
+Ex3_error: i am going to bank to withdraw some money.
+Ex3_correct: i am going to the bank to withdraw some money.
+
+--------------------------------------------------------------------------------
+Error_type: Article
+Error: Whatever the choice is , it will leave the mark on their lives forever .
+Correct: Whatever the choice is , it will leave a mark on their lives forever .
+Wrong word: the
+Correct word: a
+Explanation: the error is the use of 'the mark' instead of 'a mark'. when referring to leaving an impression or impact, 'a mark' is more appropriate.
+Ex1_error: i made the mistake of choosing the wrong path in life, it will leave the mark on my journey forever.
+Ex1_correct: i made the mistake of choosing the wrong path in life, it will leave a mark on my journey forever.
+Ex2_error: no matter what decision you make, it will leave the mark on your fate forever.
+Ex2_correct: no matter what decision you make, it will leave a mark on your fate forever.
+Ex3_error: the impact of his actions will leave the mark on his reputation forever.
+Ex3_correct: the impact of his actions will leave a mark on his reputation forever.
+
+--------------------------------------------------------------------------------
+Error_type: Article XX
+Error: Also , because of the fact that the urbanization has not helped most countries to adapt the cities into more accessible places for senior citizens .
+Correct: Also , because of the fact that  urbanization has not helped most countries to adapt the cities into more accessible places for senior citizens .
+Wrong word: the
+Correct word: [NONE]
+Explanation: the phrase 'the fact that' is unnecessary and can be removed without changing the meaning of the sentence.
+Ex1_error: he was late due to the fact that his car broke down.
+Ex1_correct: he was late due to his car breaking down.
+Ex2_error: she left early because of the fact that she was feeling unwell.
+Ex2_correct: she left early because she was feeling unwell.
+Ex3_error: we decided to cancel the event due to the fact that it was raining heavily.
+Ex3_correct: we decided to cancel the event due to the heavy rain.
+
+--------------------------------------------------------------------------------
+Error_type: Article XX
+Error: All my yoga lessons and massage sessions are conducted in line with  Correct Approach to Spine CAS method , so they are very safe and based on scientific theory .
+Correct: All my yoga lessons and massage sessions are conducted in line with the Correct Approach to Spine CAS method , so they are very safe and based on scientific theory .
+Wrong word: [NONE]
+Correct word: the
+Explanation: there should not be a space before the comma in 'correct approach to spine cas method ,'
+Ex1_error: i always follow the rules of the road safety code , therefore i am a responsible driver.
+Ex1_correct: i always follow the rules of the road safety code, therefore i am a responsible driver.
+Ex2_error: she uses the latest online marketing tools , to promote her business effectively.
+Ex2_correct: she uses the latest online marketing tools, to promote her business effectively.
+Ex3_error: the teacher follows the guidelines of the school improvement plan , to enhance student learning outcomes.
+Ex3_correct: the teacher follows the guidelines of the school improvement plan, to enhance student learning outcomes.
+
+--------------------------------------------------------------------------------
+Error_type: Article     XX
+Error: Furthermore , the government are enhancing the public transportation services . They are providing them at a lower cost . The fairs for rides on public transportation are less than the cost of driving a car the same distance .
+Correct: Furthermore , the government are enhancing  public transportation services . They are providing them at a lower cost . The fairs for rides on public transportation are less than the cost of driving a car the same distance .
+Wrong word: the
+Correct word: [NONE]
+Explanation: the error is in subject-verb agreement. 'government' is a singular noun and therefore should be paired with a singular verb 'is', not 'are'.
+Ex1_error: the team are winning the championship.
+Ex1_correct: the team is winning the championship.
+Ex2_error: the company are planning to expand their operations.
+Ex2_correct: the company is planning to expand their operations.
+Ex3_error: the committee are meeting tomorrow to discuss the issue.
+Ex3_correct: the committee is meeting tomorrow to discuss the issue.
+
+--------------------------------------------------------------------------------
+Error_type: Auxiliary Verb  XX
+Error: Today we can try to imagine how our lives can change in the next 50 years , if they will be better or worse .
+Correct: Today we can try to imagine how our lives might change in the next 50 years , if they will be better or worse .
+Wrong word: can
+Correct word: might
+Explanation: the error in the erroneous sentence is the use of 'will' after 'if'. in english, 'will' should not be used after 'if' in a future hypothetical statement. it is more appropriate to use 'might' to indicate possibility.
+Ex1_error: i will go to the beach tomorrow, if it will not rain.
+Ex1_correct: i will go to the beach tomorrow, if it does not rain.
+Ex2_error: she will start her own business next year, if she will find a good location.
+Ex2_correct: she will start her own business next year, if she finds a good location.
+Ex3_error: we will travel to europe in the summer, if we will have enough money saved up.
+Ex3_correct: we will travel to europe in the summer, if we have enough money saved up.
+
+--------------------------------------------------------------------------------
+Error_type: Auxiliary Verb CC
+Error: I am a really sporty person and I think I would be the person who you are looking for because I 'm really capable and patient with children .
+Correct: I am a really sporty person and I think I might be the person who you are looking for because I 'm really capable and patient with children .
+Wrong word: would
+Correct word: might
+Explanation: the error in the original sentence is the use of 'would' instead of 'might' to express possibility or likelihood. 'might' is the correct modal verb to use in this context.
+Ex1_error: she would be a great fit for the job since she has the necessary qualifications.
+Ex1_correct: she might be a great fit for the job since she has the necessary qualifications.
+Ex2_error: i would go to the party if i finish my work on time.
+Ex2_correct: i might go to the party if i finish my work on time.
+Ex3_error: he would be the one who stole my phone because he was in the room.
+Ex3_correct: he might be the one who stole my phone because he was in the room.
+
+--------------------------------------------------------------------------------
+Error_type: Auxiliary Verb CX
+Error: It will is fantastic !
+Correct: It will be fantastic !
+Wrong word: is
+Correct word: be
+Explanation: the error in the erroneous sentence is the unnecessary use of 'is' after 'will'. to form a correct sentence, 'be' should be used instead of 'is'.
+Ex1_error: she will will go on vacation next week !
+Ex1_correct: she will go on vacation next week !
+Ex2_error: he will will arrive late to the meeting !
+Ex2_correct: he will arrive late to the meeting !
+Ex3_error: they will will complete the project by friday !
+Ex3_correct: they will complete the project by friday !
+
+--------------------------------------------------------------------------------
+Error_type: Auxiliary Verb CX
+Error: Nevertheless , a study by The New England Journal of Medicine claims that only diastolic blood pressure is affected by nitrate supplement , since they did not found in their study a significant change to systolic blood pressure after nitrate supplementation in healthy volunteers .
+Correct: Nevertheless , a study by The New England Journal of Medicine claims that only diastolic blood pressure is affected by nitrate supplement , since they did not find in their study a significant change to systolic blood pressure after nitrate supplementation in healthy volunteers .
+Wrong word: found
+Correct word: find
+Explanation: the error is in the past participle form of the verb 'find'. 'found' should be corrected to 'find' to maintain the correct verb tense.
+Ex1_error: the research team has not noticed any adverse effects in the participants after taking the medication.
+Ex1_correct: the research team has not noticed any adverse effects in the participants after taking the medication.
+Ex2_error: the scientists have not proved any correlation between the two variables in their experiment.
+Ex2_correct: the scientists have not proven any correlation between the two variables in their experiment.
+Ex3_error: the study group had not shown any improvements in their condition even after the experimental treatment.
+Ex3_correct: the study group had not shown any improvements in their condition even after the experimental treatment.
+
+--------------------------------------------------------------------------------
+Error_type: Auxiliary Verb CC
+Error: But that does not mean that public transport does not having a future .
+Correct: But that does not mean that public transport does not have a future .
+Wrong word: having
+Correct word: have
+Explanation: the error in the erroneous sentence is the incorrect use of 'having' after 'does not'. the correct form is 'have' because 'does not' is already a helping verb indicating present tense.
+Ex1_error: she does not enjoying swimming.
+Ex1_correct: she does not enjoy swimming.
+Ex2_error: they does not understanding the instructions.
+Ex2_correct: they do not understand the instructions.
+Ex3_error: he does not wanting to go to school.
+Ex3_correct: he does not want to go to school.
+
+--------------------------------------------------------------------------------
+Error_type: Collocation XX
+Error: They can drive at any time , they can come and go at any moment .
+Correct: They can drive at any time , they can come and go at any time .
+Wrong word: moment
+Correct word: time
+Explanation: the error is in the repetition of 'at any time' in the second part of the sentence. this repetition makes the sentence sound awkward and redundant. by replacing 'at any moment' with 'at any time', the sentence becomes clearer and more concise.
+Ex1_error: she can eat pizza for breakfast , she can have a sandwich for lunch .
+Ex1_correct: she can eat pizza for breakfast , she can have a sandwich for lunch .
+Ex2_error: he can watch tv in the living room , he can read a book in the bedroom .
+Ex2_correct: he can watch tv in the living room , he can read a book in the bedroom .
+Ex3_error: they can visit the museum in the morning , they can go to the beach in the afternoon .
+Ex3_correct: they can visit the museum in the morning , they can go to the beach in the afternoon .
+
+--------------------------------------------------------------------------------
+Error_type: Collocation CC
+Error: Since Michael was a child he had always dreamt of moving to Australia , where he could practise kitesurfing all day long , meet open - minded people , chill on a sandy beach and drink good Australian alcohol .
+Correct: Since Michael was a child he had always dreamt of moving to Australia , where he could go kitesurfing all day long , meet open - minded people , chill on a sandy beach and drink good Australian alcohol .
+Wrong word: practise
+Correct word: go
+Explanation: the error lies in the use of 'practise' instead of 'go' when referring to the activity of kitesurfing. 'practise' is used for habitual or repeated actions, while 'go' is used to indicate engaging in an activity.
+Ex1_error: i want to practise skiing in the mountains this winter.
+Ex1_correct: i want to go skiing in the mountains this winter.
+Ex2_error: she decided to practise dancing every evening to improve her skills.
+Ex2_correct: she decided to go dancing every evening to improve her skills.
+Ex3_error: they practise swimming in the pool every sunday.
+Ex3_correct: they go swimming in the pool every sunday.
+
+--------------------------------------------------------------------------------
+Error_type: Collocation CC
+Error: I 'm writing to you to tell you that I will go to your home next month . I hope that you are at home because I need your help . I want to buy a present for Mary and I do not know what her favourite colour is .
+Correct: I 'm writing to you to tell you that I am coming to your home next month . I hope that you are at home because I need your help . I want to buy a present for Mary and I do not know what her favourite colour is .
+Wrong word: coming
+Correct word: am
+Explanation: the error is the use of 'will go' instead of 'am coming.' 'will go' indicates a future action, while 'am coming' is more immediate.
+Ex1_error: i will visit the museum tomorrow.
+Ex1_correct: i am visiting the museum tomorrow.
+Ex2_error: she will cook dinner tonight.
+Ex2_correct: she is cooking dinner tonight.
+Ex3_error: they will have a party next weekend.
+Ex3_correct: they are having a party next weekend.
+
+--------------------------------------------------------------------------------
+Error_type: Collocation CC
+Error: Riding a horse gives me a state of freedom .
+Correct: Riding a horse gives me a sense of freedom .
+Wrong word: state
+Correct word: sense
+Explanation: the error in the sentence is the incorrect usage of 'state' instead of 'sense'. in this context, 'sense' is the correct term to indicate the feeling of freedom obtained from riding a horse.
+Ex1_error: i have a state of security when i'm with my friends.
+Ex1_correct: i have a sense of security when i'm with my friends.
+Ex2_error: being in nature gives me a state of calm.
+Ex2_correct: being in nature gives me a sense of calm.
+Ex3_error: playing music brings me a state of joy.
+Ex3_correct: playing music brings me a sense of joy.
+
+--------------------------------------------------------------------------------
+Error_type: Collocation CC
+Error: If I suffer from any problem , the first step I take is I try to go back to my lovely sister because , deep inside , I know she is the only family member that can assist me .
+Correct: If I suffer from any problem , the first step I take is I try to go back to my lovely sister because , deep inside , I know she is the only family member that can help me .
+Wrong word: assist
+Correct word: help
+Explanation: the error in the original sentence is the use of 'assist me' which is not a common collocation. a more natural choice would be 'help me'.
+Ex1_error: the teacher assisted the students with their project.
+Ex1_correct: the teacher helped the students with their project.
+Ex2_error: please assist me in finding my keys.
+Ex2_correct: please help me in finding my keys.
+Ex3_error: the doctor assisted the patient during the surgery.
+Ex3_correct: the doctor helped the patient during the surgery.
+
+--------------------------------------------------------------------------------
+Error_type: Gerund CC
+Error: The way I see it , finding the origin of languages can be similar to know our own family tree .
+Correct: The way I see it , finding the origin of languages can be similar to knowing our own family tree .
+Wrong word: know
+Correct word: knowing
+Explanation: the error in the erroneous sentence is the use of 'know' instead of 'knowing.' in this context, 'knowing' should be used as a gerund (verbal noun) to show the action of understanding or being aware of the origin of languages.
+Ex1_error: i enjoy play basketball with my friends on weekends.
+Ex1_correct: i enjoy playing basketball with my friends on weekends.
+Ex2_error: she likes read mystery novels in her free time.
+Ex2_correct: she likes reading mystery novels in her free time.
+Ex3_error: they plan visit the museum this saturday.
+Ex3_correct: they plan on visiting the museum this saturday.
+
+--------------------------------------------------------------------------------
+Error_type: Gerund CC
+Error: Governments should take some measures to deal with build more buildings . We will destroy the natural environment .
+Correct: Governments should take some measures to deal with building more buildings . We will destroy the natural environment .
+Wrong word: build
+Correct word: building
+Explanation: the error in the erroneous sentence is the missing gerund form of the verb 'building' before 'more buildings'. the correction includes adding the gerund form 'building'.
+Ex1_error: she needs go to the store.
+Ex1_correct: she needs to go to the store.
+Ex2_error: they enjoy play video games.
+Ex2_correct: they enjoy playing video games.
+Ex3_error: he started learn spanish.
+Ex3_correct: he started learning spanish.
+
+--------------------------------------------------------------------------------
+Error_type: Gerund CC
+Error: Television can be capable of both entertain and educating at the same time .
+Correct: Television can be capable of both entertaining and educating at the same time .
+Wrong word: entertain
+Correct word: entertaining
+Explanation: the error in the erroneous sentence is the incorrect use of 'entertain' and 'educating'. 'entertain' should be in the gerund form 'entertaining' to match with 'educating'.
+Ex1_error: she enjoy dance and sing in her free time.
+Ex1_correct: she enjoys dancing and singing in her free time.
+Ex2_error: i like cook and bake on the weekends.
+Ex2_correct: i like cooking and baking on the weekends.
+Ex3_error: reading can be both relaxing and improving for the mind.
+Ex3_correct: reading can be both relaxing and improving for the mind.
+
+--------------------------------------------------------------------------------
+Error_type: Gerund CC
+Error: Second , it is true that shop in a shopping center is fast and convenient , because one can buy all types of things together .
+Correct: Second , it is true that shopping in a shopping center is fast and convenient , because one can buy all types of things together .
+Wrong word: shop
+Correct word: shopping
+Explanation: the error in the erroneous sentence is the incorrect use of 'shop' instead of 'shopping'. 'shop' is a verb, while 'shopping' is a gerund that acts as a noun in this context.
+Ex1_error: first, it's important that eat breakfast every morning to start the day right.
+Ex1_correct: first, it's important to eat breakfast every morning to start the day right.
+Ex2_error: she enjoys go to the beach on weekends to relax and unwind.
+Ex2_correct: she enjoys going to the beach on weekends to relax and unwind.
+Ex3_error: they decided that watch a movie at the cinema was the best way to spend the evening.
+Ex3_correct: they decided that watching a movie at the cinema was the best way to spend the evening.
+
+--------------------------------------------------------------------------------
+Error_type: Gerund CC
+Error: For the next season there 's going to be a new cycle about WWII and Tom Hanks and Matt Damon will visit the Film Club to speak about the film in which they appeared : " Saving Private Ryan " , and their process for get involved in their characters for realistic acting .
+Correct: For the next season there 's going to be a new cycle about WWII and Tom Hanks and Matt Damon will visit the Film Club to speak about the film in which they appeared : " Saving Private Ryan " , and their process for getting involved in their characters for realistic acting .
+Wrong word: get
+Correct word: getting
+Explanation: the error is the use of 'get' instead of 'getting'. 'get' is the base form of the verb, while 'getting' is the correct present participle form needed in this context.
+Ex1_error: she needs to practice more to improve her skills for run faster.
+Ex1_correct: she needs to practice more to improve her skills for running faster.
+Ex2_error: i enjoy to listen to music while i work.
+Ex2_correct: i enjoy listening to music while i work.
+Ex3_error: they recommend to visit the museum before it get too crowded.
+Ex3_correct: they recommend visiting the museum before it gets too crowded.
+
+--------------------------------------------------------------------------------
+Error_type: Infinitives CC
+Error: After ten minutes , I asked the teacher to called my parents so I could go home .
+Correct: After ten minutes , I asked the teacher to call my parents so I could go home .
+Wrong word: called
+Correct word: call
+Explanation: the error in the sentence is the incorrect use of 'called' after 'to'. the correct form should be 'to call'.
+Ex1_error: he decided to invited his friends to the party.
+Ex1_correct: he decided to invite his friends to the party.
+Ex2_error: she needs to emailed her boss the report by friday.
+Ex2_correct: she needs to email her boss the report by friday.
+Ex3_error: they are going to asked their neighbors for help with the project.
+Ex3_correct: they are going to ask their neighbors for help with the project.
+
+--------------------------------------------------------------------------------
+Error_type: Infinitives CC
+Error: I want working in your cafe .
+Correct: I want to work in your cafe .
+Wrong word: work
+Correct word: to
+Explanation: the error in the erroneous sentence is the missing preposition 'to' before the verb 'work.' the correct sentence uses the preposition 'to' to show the infinitive form of the verb.
+Ex1_error: she enjoys play basketball .
+Ex1_correct: she enjoys playing basketball .
+Ex2_error: he needs finish his homework .
+Ex2_correct: he needs to finish his homework .
+Ex3_error: they like eat sushi .
+Ex3_correct: they like to eat sushi .
+
+--------------------------------------------------------------------------------
+Error_type: Infinitives  CX
+Error: However , both readers and writers do not only do it in an altruistic and philanthropic way , but to get fame and popularity at the same time . Blogs and websites could give them the chance to became famous if they really appeal to a large number of people and they will also be able to earn money thanks to advertising .
+Correct: However , both readers and writers do not only do it in an altruistic and philanthropic way , but to get fame and popularity at the same time . Blogs and websites could give them the chance to become famous if they really appeal to a large number of people and they will also be able to earn money thanks to advertising .
+Wrong word: became
+Correct word: become
+Explanation: the error is in the use of 'became' instead of 'become'. 'became' is the past tense of 'become', but in this context, the correct form is the base form 'become'.
+Ex1_error: she dreams of became a famous singer one day.
+Ex1_correct: she dreams of becoming a famous singer one day.
+Ex2_error: the artist became very wealthy after their first album release.
+Ex2_correct: the artist became very wealthy after their first album release.
+Ex3_error: he became the leader of the company after years of hard work.
+Ex3_correct: he became the leader of the company after years of hard work.
+
+--------------------------------------------------------------------------------
+Error_type: Infinitives XX
+Error: While William Shakespeare wrote his plays and made the thespian art to flourish in England , in Russia it was the very dark and sinister period of Ivan the Terrible 's reign .
+Correct: While William Shakespeare wrote his plays and made the thespian art  flourish in England , in Russia it was the very dark and sinister period of Ivan the Terrible 's reign .
+Wrong word: to
+Correct word: [NONE]
+Explanation: there is a repetition of the word 'the' before 'thespian art' in the erroneous sentence.
+Ex1_error: she went to the the store to buy groceries .
+Ex1_correct: she went to the store to buy groceries .
+Ex2_error: they visited the the famous eiffel tower in paris .
+Ex2_correct: they visited the famous eiffel tower in paris .
+Ex3_error: i like the the color blue.
+Ex3_correct: i like the color blue.
+
+--------------------------------------------------------------------------------
+Error_type: Infinitives CC
+Error: For example , I learned about organization , how  control big groups of children , and entertaining activities for children .
+Correct: For example , I learned about organization , how to control big groups of children , and entertaining activities for children .
+Wrong word: [NONE]
+Correct word: to
+Explanation: the error is the missing word 'to' before the verb 'control'. in english, the infinitive form of a verb is commonly used after certain words, such as 'learned about', 'decided to', 'forgot to', etc.
+Ex1_error: she needs learn how cook.
+Ex1_correct: she needs to learn how to cook.
+Ex2_error: they want know how speak spanish.
+Ex2_correct: they want to know how to speak spanish.
+Ex3_error: he forgot buy milk on the way home.
+Ex3_correct: he forgot to buy milk on the way home.
+
+--------------------------------------------------------------------------------
+Error_type: Number CC
+Error: They mostly depended on animals to pull cart to ride on them .
+Correct: They mostly depended on animals to pull carts and to ride on them .
+Wrong word: and
+Correct word: carts
+Explanation: the error in the erroneous sentence is the use of 'cart' instead of 'carts'. 'cart' should be plural to match the context of animals pulling multiple carts.
+Ex1_error: she used horse to pull cart to transport the goods.
+Ex1_correct: she used horses to pull carts to transport the goods.
+Ex2_error: the farmer relied on ox to pull cart in the fields.
+Ex2_correct: the farmer relied on oxen to pull carts in the fields.
+Ex3_error: the villagers hired donkey to pull cart to bring water from the well.
+Ex3_correct: the villagers hired donkeys to pull carts to bring water from the well.
+
+--------------------------------------------------------------------------------
+Error_type: Number  CX
+Error: For example , lunchtime travelling is very dangerous for pregnant women due to emission of carbon mon oxide , which affects red blood cells and irritates the respiratory system . As a result , they prefer private transport systems to prevent such hazards .
+Correct: For example , lunchtime travelling is very dangerous for pregnant women due to emissions of carbon mon oxide , which affects red blood cells and irritates the respiratory system . As a result , they prefer private transport systems to prevent such hazards .
+Wrong word: emission
+Correct word: emissions
+Explanation: the error in the erroneous sentence is the use of 'emission' instead of 'emissions', which is the correct plural form in this context.
+Ex1_error: during lunchtime, my coworker likes to play music out loud, which can cause distraction to others.
+Ex1_correct: during lunchtime, my coworker likes to play music out loud, which can cause distractions to others.
+Ex2_error: watching tv late at night can cause strain on your eyes leading to poor eyesight.
+Ex2_correct: watching tv late at night can cause strain on your eyes leading to poor eyesight.
+Ex3_error: excessive sugar consumption has been linked to various health issues such as obesity and diabetes.
+Ex3_correct: excessive sugar consumption has been linked to various health issues such as obesity and diabetes.
+
+--------------------------------------------------------------------------------
+Error_type: Number  CX
+Error: Before addressing the question of what is better for young people , I would like to remind you that both activities spending time on a computer and watching television are harmful for children's / teen 's health .
+Correct: Before addressing the question of what is better for young people , I would like to remind you that both activities spending time on a computer and watching television are harmful for children's / teens ' health .
+Wrong word: '
+Correct word: teens
+Explanation: the error in the original sentence is the incorrect use of the apostrophe in 'teen's'. 'teen's' is the possessive form of 'teen,' whereas 'teen' is already a plural noun. therefore, the correct form should be 'teens' to indicate multiple teenagers.
+Ex1_error: the jobs of nurse's and teacher's are both demanding but rewarding.
+Ex1_correct: the jobs of nurses and teachers are both demanding but rewarding.
+Ex2_error: i enjoy listening to all types of music, especially rock's and pop's.
+Ex2_correct: i enjoy listening to all types of music, especially rock and pop.
+Ex3_error: the soccer team's and basketball team's jerseys are blue and white.
+Ex3_correct: the soccer team and basketball team's jerseys are blue and white.
+
+--------------------------------------------------------------------------------
+Error_type: Number XX
+Error: Yesterday morning , a group of American tourist went for a bike ride through the center of Buenos Aires City .
+Correct: Yesterday morning , a group of American tourists went for a bike ride through the center of Buenos Aires City .
+Wrong word: tourist
+Correct word: tourists
+Explanation: the error in the erroneous sentence is the incorrect subject-verb agreement. 'tourist' should be pluralized to 'tourists' to match the plural subject 'group of american tourists'.
+Ex1_error: last week, a student forgot to bring his textbook to the class .
+Ex1_correct: last week, a student forgot to bring his textbook to the class.
+Ex2_error: every morning, a police officer patrol the neighborhood to ensure safety .
+Ex2_correct: every morning, a police officer patrols the neighborhood to ensure safety.
+Ex3_error: at the concert, a musician play the guitar beautifully .
+Ex3_correct: at the concert, a musician plays the guitar beautifully.
+
+--------------------------------------------------------------------------------
+Error_type: Number CC
+Error: The cost of having a car is hence not as cheap as we think if we also take into account those unavoidable extra cost .
+Correct: The cost of having a car is hence not as cheap as we think if we also take into account those unavoidable extra costs .
+Wrong word: cost
+Correct word: costs
+Explanation: the error in the original sentence is the incorrect pluralization of 'cost'. in the corrected sentence, 'costs' is used to match the plural noun 'extra costs.'
+Ex1_error: she needs to consider all possible risk before making a decision.
+Ex1_correct: she needs to consider all possible risks before making a decision.
+Ex2_error: he enjoys trying out different type of cuisine when he travels.
+Ex2_correct: he enjoys trying out different types of cuisine when he travels.
+Ex3_error: i always make sure to confirm all hotel booking before traveling.
+Ex3_correct: i always make sure to confirm all hotel bookings before traveling.
+
+--------------------------------------------------------------------------------
+Error_type: Others CX
+Error: To begin with is design , we have to consider background colour , artwork , and security issues , and then we are supposed to prepare metal plates , such using skilled machinists .
+Correct: To begin with is design , we have to consider background colour , artwork , and security issues , and then we are supposed to prepare metal plates ,  using skilled machinists .
+Wrong word: such
+Correct word: [NONE]
+Explanation: the error in the erroneous sentence is the inclusion of 'such' before 'using skilled machinists', which makes the sentence grammatically incorrect. 'such' is unnecessary in this context and should be removed to make the sentence flow correctly.
+Ex1_error: she needs to buy such using skilled machinists for her project.
+Ex1_correct: she needs to buy using skilled machinists for her project.
+Ex2_error: he wanted to visit such watching tv.
+Ex2_correct: he wanted to visit watching tv.
+Ex3_error: they are going to hire such writing experts for their company.
+Ex3_correct: they are going to hire writing experts for their company.
+
+--------------------------------------------------------------------------------
+Error_type: Others CC
+Error: In my opinion , it is so really exciting , because you are constantly thinking about where the girls are or who could be the kidnaper .
+Correct: In my opinion , it is  really exciting , because you are constantly thinking about where the girls are or who could be the kidnaper .
+Wrong word: so
+Correct word: [NONE]
+Explanation: the error in the sentence is the use of both 'so' and 'really' together, which is redundant. 'so' and 'really' are both used as intensifiers, so using them together is unnecessary.
+Ex1_error: i am so really happy to see you today.
+Ex1_correct: i am really happy to see you today.
+Ex2_error: she was so really tired after running the marathon.
+Ex2_correct: she was really tired after running the marathon.
+Ex3_error: the movie was so really good, i want to watch it again.
+Ex3_correct: the movie was really good, i want to watch it again.
+
+--------------------------------------------------------------------------------
+Error_type: Others  CC
+Error: I am not sure that mine is the best family in the world , but I am pretty sure that I have the best parents I could never wished for .
+Correct: I am not sure that mine is the best family in the world , but I am pretty sure that I have the best parents I could ever have wished for .
+Wrong word: have
+Correct word: ever
+Explanation: the error lies in the phrase 'could never wished for'. the correct form should be 'could ever have wished for' to convey the intended meaning.
+Ex1_error: she never thought she could never achieve her goals in life.
+Ex1_correct: she never thought she could ever achieve her goals in life.
+Ex2_error: i could never imagined a better vacation than the one we just had.
+Ex2_correct: i could ever have imagined a better vacation than the one we just had.
+Ex3_error: they could never dream of a more loving pet than their old dog.
+Ex3_correct: they could ever have dreamed of a more loving pet than their old dog.
+
+--------------------------------------------------------------------------------
+Error_type: Others CX
+Error: I am have 24 years old and I live in Rena .
+Correct: I am  24 years old and I live in Rena .
+Wrong word: have
+Correct word: [NONE]
+Explanation: the error in the erroneous sentence is the use of 'am have' instead of 'am'. the correct sentence should be 'i am 24 years old and i live in rena.'
+Ex1_error: she is goes to school by bus.
+Ex1_correct: she goes to school by bus.
+Ex2_error: they are not like to watch horror movies.
+Ex2_correct: they do not like to watch horror movies.
+Ex3_error: he is have a pet dog named max.
+Ex3_correct: he has a pet dog named max.
+
+--------------------------------------------------------------------------------
+Error_type: Others  CC
+Error: I will help you as much  I can .
+Correct: I will help you as much as I can .
+Wrong word: [NONE]
+Correct word: as
+Explanation: the word 'as' is necessary after 'much' to complete the comparison.
+Ex1_error: she studied hard for the test, but she still didn't do well  she hoped .
+Ex1_correct: she studied hard for the test, but she still didn't do as well as she hoped .
+Ex2_error: he ran as fast  he could to catch the bus.
+Ex2_correct: he ran as fast as he could to catch the bus.
+Ex3_error: i need to finish this project as soon  possible.
+Ex3_correct: i need to finish this project as soon as possible.
+
+--------------------------------------------------------------------------------
+Error_type: POS Confusion CX
+Error: First of all , it is absolutely minimum . You just need boots for running !
+Correct: First of all , it is absolutely minimal . You just need boots for running !
+Wrong word: minimum
+Correct word: minimal
+Explanation: the error in the erroneous sentence is the incorrect use of 'minimum' instead of 'minimal'. 'minimum' is a noun or an adjective that refers to the lowest or smallest amount, while 'minimal' is an adjective that means very small or minimal.
+Ex1_error: she packed the minimum amount of clothes for the trip.
+Ex1_correct: she packed the minimal amount of clothes for the trip.
+Ex2_error: the project requires a minimum amount of funding.
+Ex2_correct: the project requires a minimal amount of funding.
+Ex3_error: i have the minimum qualifications for the job.
+Ex3_correct: i have the minimal qualifications for the job.
+
+--------------------------------------------------------------------------------
+Error_type: POS Confusion  CX
+Error: It is more fun when we travelling by car .
+Correct: It is more fun when we travel by car .
+Wrong word: travelling
+Correct word: travel
+Explanation: the error in the erroneous sentence is the incorrect verb form 'travelling' in place of 'travel'. the correction replaces 'travelling' with 'travel' to use the correct verb form.
+Ex1_error: she enjoy reading books in her free time.
+Ex1_correct: she enjoys reading books in her free time.
+Ex2_error: they prefers to eat dinner early.
+Ex2_correct: they prefer to eat dinner early.
+Ex3_error: he not wants to go to the party.
+Ex3_correct: he does not want to go to the party.
+
+--------------------------------------------------------------------------------
+Error_type: POS Confusion CX
+Error: I like to drive my moped , because I love speed , and its fun to go out and drive with your friends to a beach or maybe a BBQ party .
+Correct: I like to drive my moped , because I love speed , and it 's fun to go out and drive with your friends to a beach or maybe a BBQ party .
+Wrong word: 's
+Correct word: it
+Explanation: the error is in the contraction of 'it is' which should be written as 'it's' instead of 'its'.
+Ex1_error: she enjoys reading in the park because its peaceful and relaxing.
+Ex1_correct: she enjoys reading in the park because it's peaceful and relaxing.
+Ex2_error: i believe its important to always be honest with yourself.
+Ex2_correct: i believe it's important to always be honest with yourself.
+Ex3_error: the dog wagged its tail happily when it saw its owner.
+Ex3_correct: the dog wagged its tail happily when it saw it's owner.
+
+--------------------------------------------------------------------------------
+Error_type: POS Confusion CC
+Error: Since then , everything had gone so perfect between the two of them .
+Correct: Since then , everything had gone so perfectly between the two of them .
+Wrong word: perfect
+Correct word: perfectly
+Explanation: the error is in the incorrect use of the adverb 'perfect' when it should be the adverb 'perfectly' to modify the verb 'had gone.'
+Ex1_error: i played the piano so perfect at the recital.
+Ex1_correct: i played the piano so perfectly at the recital.
+Ex2_error: she painted the picture so perfect that it sold for a high price.
+Ex2_correct: she painted the picture so perfectly that it sold for a high price.
+Ex3_error: the chef cooked the steak so perfect that everyone praised his skills.
+Ex3_correct: the chef cooked the steak so perfectly that everyone praised his skills.
+
+--------------------------------------------------------------------------------
+Error_type: POS Confusion CC
+Error: so the government must take action to make it easy .
+Correct: so the government must take action to make it easier .
+Wrong word: easy
+Correct word: easier
+Explanation: the word 'easy' needs to be in comparative form ('easier') to correctly modify the verb 'make'.
+Ex1_error: i need to find a way to make it simple.
+Ex1_correct: i need to find a way to make it simpler.
+Ex2_error: she wanted to make it quick.
+Ex2_correct: she wanted to make it quicker.
+Ex3_error: we are trying to make it efficient.
+Ex3_correct: we are trying to make it more efficient.
+
+--------------------------------------------------------------------------------
+Error_type: Participle
+Error: And when the sheets of bank notes are being printed , colour on both sides , special ink and slightly raise images should be on the bank notes .
+Correct: And when the sheets of bank notes are being printed , colour on both sides , special ink and slightly raised images should be on the bank notes .
+Wrong word: raise
+Correct word: raised
+Explanation: the error in the sentence is the incorrect verb form 'raise' should be 'raised' to match the plural subject 'images'.
+Ex1_error: she always wear a blue dress on fridays.
+Ex1_correct: she always wears a blue dress on fridays.
+Ex2_error: he like to play basketball after school.
+Ex2_correct: he likes to play basketball after school.
+Ex3_error: the children ride their bike to school every day.
+Ex3_correct: the children ride their bikes to school every day.
+
+--------------------------------------------------------------------------------
+Error_type: Participle
+Error: The other chart is about employer support . Under 26 years old is the highest because it is almost 70% , the second highest is age 26 - 29 years old ; it has 50% ; the lowerst is 35% and the age of the group is 30 - 39 years old .
+Correct: The other chart is about employer support . Under 26 years old is the highest because it is almost 70% , the second highest is aged 26 - 29 years old ; it has 50% ; the lowerst is 35% and the age of the group is 30 - 39 years old .
+Wrong word: age
+Correct word: aged
+Explanation: the error in the erroneous sentence is the incorrect usage of 'age' as a verb instead of an adjective. the correction replaces 'age' with 'aged' to correctly modify the age range.
+Ex1_error: she is five year old.
+Ex1_correct: she is five years old.
+Ex2_error: the puppy is four month old.
+Ex2_correct: the puppy is four months old.
+Ex3_error: he is twenty years old and she is twenty-five year old.
+Ex3_correct: he is twenty years old and she is twenty-five years old.
+
+--------------------------------------------------------------------------------
+Error_type: Participle
+Error: After that , western clothes became popular in Japan and the recycling system was forgot for a long time .
+Correct: After that , western clothes became popular in Japan and the recycling system was forgotten for a long time .
+Wrong word: forgot
+Correct word: forgotten
+Explanation: the error is in the use of 'forgot' where it should be 'forgotten' to maintain proper verb tense.
+Ex1_error: she had sing a beautiful song last night.
+Ex1_correct: she had sung a beautiful song last night.
+Ex2_error: the dog was bite by the cat.
+Ex2_correct: the dog was bitten by the cat.
+Ex3_error: he have went to the store earlier.
+Ex3_correct: he have gone to the store earlier.
+
+--------------------------------------------------------------------------------
+Error_type: Participle
+Error: I pack my backpack , pick up my garbage bag and look around my room for one last time to make sure I have n't forget anything . I go downstairs and put the garbage bag into the trash bin .
+Correct: I pack my backpack , pick up my garbage bag and look around my room for one last time to make sure I have n't forgotten anything . I go downstairs and put the garbage bag into the trash bin .
+Wrong word: forget
+Correct word: forgotten
+Explanation: the error is using 'forget' instead of 'forgotten' in the past participle form. the correction should use 'forgotten' because it follows the auxiliary verb 'have'.
+Ex1_error: she has n't eat breakfast yet.
+Ex1_correct: she has n't eaten breakfast yet.
+Ex2_error: we haven't gone to the museum last weekend.
+Ex2_correct: we haven't gone to the museum last weekend.
+Ex3_error: he hasn't write the report for the meeting.
+Ex3_correct: he hasn't written the report for the meeting.
+
+--------------------------------------------------------------------------------
+Error_type: Participle
+Error: My future career in teaching would be greatly enhance by earning a degree at your university .
+Correct: My future career in teaching would be greatly enhanced by earning a degree at your university .
+Wrong word: enhance
+Correct word: enhanced
+Explanation: the error is in the word 'enhance', which should be 'enhanced'. 'enhance' is a verb, while 'enhanced' is the past tense of the verb, which is needed in this sentence.
+Ex1_error: he should be greatly improve by attending the workshop.
+Ex1_correct: he should be greatly improved by attending the workshop.
+Ex2_error: her cooking skills will greatly benefit by taking a culinary course.
+Ex2_correct: her cooking skills will greatly benefit by taking a culinary course.
+Ex3_error: the team's performance can be greatly enhance through team-building activities.
+Ex3_correct: the team's performance can be greatly enhanced through team-building activities.
+
+--------------------------------------------------------------------------------
+Error_type: Possessive
+Error: After this , he became the Director of the International Trade Center based in London and he was in charge of all relationships with international companies .
+Correct: After that , he became the Director of the International Trade Center based in London and he was in charge of all relationships with international companies .
+Wrong word: this
+Correct word: that
+Explanation: the error is in the use of 'this' which refers to something specific that was not mentioned in the sentence. 'that' should be used as a conjunction to indicate a time or order of events.
+Ex1_error: after this, she graduated from university and started her own business.
+Ex1_correct: after that, she graduated from university and started her own business.
+Ex2_error: he finished his dinner and after this, he went for a walk in the park.
+Ex2_correct: he finished his dinner and after that, he went for a walk in the park.
+Ex3_error: she completed her internship and after this, she accepted a full-time position at the company.
+Ex3_correct: she completed her internship and after that, she accepted a full-time position at the company.
+
+--------------------------------------------------------------------------------
+Error_type: Possessive
+Error: Which has many branches and types . Some are traditional : owned by any part of the world , and the other international types that all people throughout the world share .
+Correct: It has many branches and types . Some are traditional : owned by any part of the world , and the other international types that all people throughout the world share .
+Wrong word: Which
+Correct word: It
+Explanation: the error in the erroneous sentence is in the beginning where 'which' is incorrectly used instead of 'it' for referring to the subject. 'it' is the appropriate pronoun to use when referencing a singular noun.
+Ex1_error: the dog has many breeds , some are domestic: suitable for families , and the other wild types that inhabit in the forests .
+Ex1_correct: it has many breeds , some are domestic: suitable for families , and the other wild types that inhabit in the forests .
+Ex2_error: the book has many chapters and topics . some are fictional: set in imaginary worlds , and the other non-fictional types that provide information about real events .
+Ex2_correct: it has many chapters and topics . some are fictional: set in imaginary worlds , and the other non-fictional types that provide information about real events .
+Ex3_error: the game has many levels and challenges . some are easy: suitable for beginners , and the other difficult types that require advanced skills .
+Ex3_correct: it has many levels and challenges . some are easy: suitable for beginners , and the other difficult types that require advanced skills .
+
+--------------------------------------------------------------------------------
+Error_type: Possessive
+Error: And it is a serious problem , because in the not too distant future , we wo n't be able to handle the garbage - there wo n't be enough space where we can deposit it .
+Correct: And that is a serious problem , because in the not too distant future , we wo n't be able to handle the garbage - there wo n't be enough space where we can deposit it .
+Wrong word: it
+Correct word: that
+Explanation: the error is in using 'it' instead of 'that' to refer back to the previously mentioned serious problem. 'it' is a pronoun that should refer to a singular noun mentioned earlier in the sentence, whereas 'that' is used to refer back to a noun mentioned in a previous sentence.
+Ex1_error: she failed her driving test twice, it made her feel discouraged.
+Ex1_correct: she failed her driving test twice, that made her feel discouraged.
+Ex2_error: the new restaurant has great reviews, it is located downtown.
+Ex2_correct: the new restaurant has great reviews, that is located downtown.
+Ex3_error: this book is a bestseller, it is a thriller novel.
+Ex3_correct: this book is a bestseller, that is a thriller novel.
+
+--------------------------------------------------------------------------------
+Error_type: Possessive
+Error: Remarkably , teenagers like eating these and it is where you can find some of the best .
+Correct: Remarkably , teenagers like eating these and this is where you can find some of the best .
+Wrong word: it
+Correct word: this
+Explanation: the error is in the misuse of 'it' when referring to the food mentioned in the previous clause. 'it' should be replaced with 'this' to correctly refer to the food.
+Ex1_error: i love trying new foods and it is where i can find the most exotic dishes.
+Ex1_correct: i love trying new foods and this is where i can find the most exotic dishes.
+Ex2_error: she enjoys going to different restaurants and it is where she can try a variety of cuisines.
+Ex2_correct: she enjoys going to different restaurants and this is where she can try a variety of cuisines.
+Ex3_error: traveling to new countries is exciting and it is where you can taste authentic local dishes.
+Ex3_correct: traveling to new countries is exciting and this is where you can taste authentic local dishes.
+
+--------------------------------------------------------------------------------
+Error_type: Possessive
+Error: It is easier to find a job at the beach than to find it in the centre of Spain .
+Correct: It is easier to find a job at the beach than to find one in the centre of Spain .
+Wrong word: it
+Correct word: one
+Explanation: the error is in the use of 'it' without a clear antecedent. 'it' should refer back to 'a job' to maintain clarity.
+Ex1_error: she prefers to eat ice cream by the pool rather than to eat in the park .
+Ex1_correct: she prefers to eat ice cream by the pool rather than to eat it in the park .
+Ex2_error: i want to go to the movies rather than to stay at home .
+Ex2_correct: i want to go to the movies rather than to stay there at home .
+Ex3_error: he would rather play video games than to do his homework .
+Ex3_correct: he would rather play video games than to do it his homework .
+
+--------------------------------------------------------------------------------
+Error_type: Preposition CC
+Error: It 's worth seeing because a young boy , Charlie , helps him get through his sadness in a very luxurious trip to New York .
+Correct: It 's worth seeing because a young boy , Charlie , helps him get through his sadness on a very luxurious trip to New York .
+Wrong word: in
+Correct word: on
+Explanation: the error is the use of the preposition 'in' before 'a very luxurious trip to new york', when 'on' should be used to indicate the mode of transportation or experience.
+Ex1_error: she succeeded in a difficult test with the help of her tutor.
+Ex1_correct: she succeeded on a difficult test with the help of her tutor.
+Ex2_error: he traveled in a fast train to reach his destination on time.
+Ex2_correct: he traveled on a fast train to reach his destination on time.
+Ex3_error: they had a fun time in a thrilling roller coaster ride at the amusement park.
+Ex3_correct: they had a fun time on a thrilling roller coaster ride at the amusement park.
+
+--------------------------------------------------------------------------------
+Error_type: Preposition CC
+Error: Although there are many differences among these two , similarities can be found as well .
+Correct: Although there are many differences between these two , similarities can be found as well .
+Wrong word: among
+Correct word: between
+Explanation: the error in the erroneous sentence is the use of 'among' instead of 'between' when comparing two things. 'among' should be used when comparing more than two things, while 'between' should be used when comparing two things.
+Ex1_error: she couldn't choose among the two dresses.
+Ex1_correct: she couldn't choose between the two dresses.
+Ex2_error: there are many differences among the two books.
+Ex2_correct: there are many differences between the two books.
+Ex3_error: he couldn't decide among the two candidates.
+Ex3_correct: he couldn't decide between the two candidates.
+
+--------------------------------------------------------------------------------
+Error_type: Preposition CC
+Error: Sarah and Stephan are friends in the same school and also neighbors .
+Correct: Sarah and Stephan are friends at the same school and also neighbors .
+Wrong word: in
+Correct word: at
+Explanation: the error is the use of 'in' instead of 'at' to describe the location of the school. 'at' is the correct preposition to use when referring to a specific location like a school.
+Ex1_error: i work in the hospital across the street.
+Ex1_correct: i work at the hospital across the street.
+Ex2_error: she lives in my building on main street.
+Ex2_correct: she lives at my building on main street.
+Ex3_error: he studies in a university downtown.
+Ex3_correct: he studies at a university downtown.
+
+--------------------------------------------------------------------------------
+Error_type: Preposition CX
+Error: Nowadays , Easter is associated more with spring 's arrival than  religious rituals .
+Correct: Nowadays , Easter is associated more with spring 's arrival than with religious rituals .
+Wrong word: [NONE]
+Correct word: with
+Explanation: the error in the erroneous sentence is the missing 'with' before 'religious rituals'. the correction adds the necessary preposition to make the sentence grammatically correct.
+Ex1_error: she prefers going to the beach swimming in the pool.
+Ex1_correct: she prefers going to the beach than swimming in the pool.
+Ex2_error: he is more interested playing video games than studying for his exam.
+Ex2_correct: he is more interested in playing video games than studying for his exam.
+Ex3_error: jack enjoys watching movies than reading books.
+Ex3_correct: jack enjoys watching movies more than reading books.
+
+--------------------------------------------------------------------------------
+Error_type: Preposition CC
+Error: Today , I will mention one of the iconic places of Vietnam which you should not miss when you travel to Vietnam .
+Correct: Today , I will mention one of the iconic places in Vietnam which you should not miss when you travel to Vietnam .
+Wrong word: of
+Correct word: in
+Explanation: the error lies in the use of 'of' before 'vietnam.' in this context, 'in' should be used to indicate the location of the iconic places.
+Ex1_error: she visited one of the famous markets of france during her trip.
+Ex1_correct: she visited one of the famous markets in france during her trip.
+Ex2_error: he discovered one of the hidden gems of italy on his vacation.
+Ex2_correct: he discovered one of the hidden gems in italy on his vacation.
+Ex3_error: they explored one of the breathtaking beaches of greece last summer.
+Ex3_correct: they explored one of the breathtaking beaches in greece last summer.
+
+--------------------------------------------------------------------------------
+Error_type: Pronoun-Antecedent Agreement CC
+Error: The bank notes are designed carefully . Workers need to design it background colour and artwork .
+Correct: The bank notes are designed carefully . Workers need to design their background colour and artwork .
+Wrong word: it
+Correct word: their
+Explanation: the error in the erroneous sentence is the use of 'it' instead of 'their' to refer to 'bank notes'. 'it' is a singular pronoun, while 'bank notes' is a plural noun. therefore, the correct pronoun to use is 'their'.
+Ex1_error: the student should bring it books to class .
+Ex1_correct: the student should bring their books to class .
+Ex2_error: the chef must carefully select it ingredients for the recipe .
+Ex2_correct: the chef must carefully select their ingredients for the recipe .
+Ex3_error: the team is known for it teamwork and dedication .
+Ex3_correct: the team is known for their teamwork and dedication .
+
+--------------------------------------------------------------------------------
+Error_type: Pronoun-Antecedent Agreement CX
+Error: For example , American public transport has a special line and a schedule and it works like a train . I mean  comes at an exact time , like a train .
+Correct: For example , American public transport has a special line and a schedule and it works like a train . I mean it comes at an exact time , like a train .
+Wrong word: [NONE]
+Correct word: it
+Explanation: the error is a missing pronoun 'it' before 'comes' in the second mention of the action.
+Ex1_error: she saw her brother last saturday and then asked me had i also seen him.
+Ex1_correct: she saw her brother last saturday and then asked me if i had also seen him.
+Ex2_error: he went to the store to buy bread but forgot he was going to also get milk.
+Ex2_correct: he went to the store to buy bread but forgot he was going to also get milk.
+Ex3_error: the teacher explained the concept to the students but they did not understand.
+Ex3_correct: the teacher explained the concept to the students but they did not understand it.
+
+--------------------------------------------------------------------------------
+Error_type: Pronoun-Antecedent Agreement CX
+Error: They always look at me like I 'm a kid  never grew up .
+Correct: They always look at me like I 'm a kid who never grew up .
+Wrong word: [NONE]
+Correct word: who
+Explanation: the error in the erroneous sentence is the missing relative pronoun 'who' after 'kid'. adding 'who' creates a complete and grammatically correct sentence.
+Ex1_error: she treated him as if he 's a stranger  we've never met before .
+Ex1_correct: she treated him as if he 's a stranger who we've never met before .
+Ex2_error: the teacher looked at the students as though they 're incapable of understanding the lesson .
+Ex2_correct: the teacher looked at the students as though they 're incapable of understanding the lesson who .
+Ex3_error: he acts as if he 's some kind of superhero  saving the day .
+Ex3_correct: he acts as if he 's some kind of superhero who saving the day .
+
+--------------------------------------------------------------------------------
+Error_type: Pronoun-Antecedent Agreement  CX
+Error: On the other hand , the bad thing about when there is such delicious food , is that you always want to eat some typical food from your country and in the end it 's very bad for the body because we eat them to excess .
+Correct: On the other hand , the bad thing about when there is such delicious food , is that you always want to eat some typical food from your country and in the end it 's very bad for the body because we eat it to excess .
+Wrong word: them
+Correct word: it
+Explanation: the error in the original sentence is the incorrect use of the pronoun 'them' instead of 'it' to refer to 'typical food'. in this case, 'typical food' is singular and should be replaced with 'it'.
+Ex1_error: she bought two new dresses, but neither of them fit her well.
+Ex1_correct: she bought two new dresses, but neither of them fit her well.
+Ex2_error: i have three dogs and all of them have their own beds.
+Ex2_correct: i have three dogs and all of them have their own beds.
+Ex3_error: there are ten different flavors of ice cream, and i want all of them!
+Ex3_correct: there are ten different flavors of ice cream, and i want all of them!
+
+--------------------------------------------------------------------------------
+Error_type: Pronoun-Antecedent Agreement CC
+Error: Second , computer systems look like they solve most problems . However , this systems are more dangerous in specific situations .
+Correct: Second , computer systems look like they solve most problems . However , these systems are more dangerous in specific situations .
+Wrong word: this
+Correct word: these
+Explanation: the error is in the misuse of the word 'this' instead of 'these,' which is the correct plural form of 'systems.'
+Ex1_error: she bought a new car, but this cars are expensive.
+Ex1_correct: she bought a new car, but these cars are expensive.
+Ex2_error: i have three dogs, and this animals are very playful.
+Ex2_correct: i have three dogs, and these animals are very playful.
+Ex3_error: the company launched a new product, but this products are not selling well.
+Ex3_correct: the company launched a new product, but these products are not selling well.
+
+--------------------------------------------------------------------------------
+Error_type: Subject-Verb Agreement CC
+Error: It was the summer holidays and Michael 's family was at the airport waiting impatiently for their flight to Mexico .
+Correct: It was the summer holidays and Michael 's family were at the airport waiting impatiently for their flight to Mexico .
+Wrong word: was
+Correct word: were
+Explanation: the error is in subject-verb agreement. 'family' is a collective noun that can be either singular or plural depending on the context. in this case, 'family' refers to multiple people (michael and his family members), so the plural form 'were' should be used instead of 'was'.
+Ex1_error: the team was celebrating their victory.
+Ex1_correct: the team were celebrating their victory.
+Ex2_error: the committee was divided on the issue.
+Ex2_correct: the committee were divided on the issue.
+Ex3_error: the jury was deliberating on the case.
+Ex3_correct: the jury were deliberating on the case.
+
+--------------------------------------------------------------------------------
+Error_type: Subject-Verb Agreement CC
+Error: He also cooks tasty meals and give me them .
+Correct: He also cooks tasty meals and gives me them .
+Wrong word: give
+Correct word: gives
+Explanation: the error is in subject-verb agreement. 'he' is a singular subject, so it should be followed by 'gives' instead of 'give'.
+Ex1_error: she always sings beautiful songs and play the guitar.
+Ex1_correct: she always sings beautiful songs and plays the guitar.
+Ex2_error: the cat chases mice and catch them.
+Ex2_correct: the cat chases mice and catches them.
+Ex3_error: my brother reads books and watch tv shows.
+Ex3_correct: my brother reads books and watches tv shows.
+
+--------------------------------------------------------------------------------
+Error_type: Subject-Verb Agreement CC
+Error: Based on necessity , the people and government of this town together effectually takes care of the environment .
+Correct: Based on necessity , the people and government of this town together effectually take care of the environment .
+Wrong word: takes
+Correct word: take
+Explanation: the error in the original sentence is a subject-verb agreement issue. 'people and government' is a plural subject, so the verb 'takes' should be 'take' to match the plural subject.
+Ex1_error: the team and coach is preparing for the upcoming match.
+Ex1_correct: the team and coach are preparing for the upcoming match.
+Ex2_error: my sister and brother goes to the same school.
+Ex2_correct: my sister and brother go to the same school.
+Ex3_error: the company and its employees has achieved great success.
+Ex3_correct: the company and its employees have achieved great success.
+
+--------------------------------------------------------------------------------
+Error_type: Subject-Verb Agreement CC
+Error: Sports activity also make us feel more flexible and ready to face every day .
+Correct: Sports activity also makes us feel more flexible and ready to face every day .
+Wrong word: make
+Correct word: makes
+Explanation: the error in the erroneous sentence is a subject-verb agreement issue. 'sports activity' is singular, so it should be followed by 'makes' instead of 'make'.
+Ex1_error: she enjoy reading books.
+Ex1_correct: she enjoys reading books.
+Ex2_error: the cat and dog play in the yard.
+Ex2_correct: the cat and dog plays in the yard.
+Ex3_error: listening to music are my favorite pastime.
+Ex3_correct: listening to music is my favorite pastime.
+
+--------------------------------------------------------------------------------
+Error_type: Subject-Verb Agreement  XC
+Error: In the morning , a waste collection truck came and it takes this waste away .
+Correct: In the morning , a waste collection truck comes and it takes this waste away .
+Wrong word: came
+Correct word: comes
+Explanation: the error is in the verb tense agreement. 'takes' should be 'comes' to maintain consistency with the present tense of the sentence.
+Ex1_error: she go to school every day.
+Ex1_correct: she goes to school every day.
+Ex2_error: he play basketball with his friends on weekends.
+Ex2_correct: he plays basketball with his friends on weekends.
+Ex3_error: the cat chase the mouse all around the house.
+Ex3_correct: the cat chases the mouse all around the house.
+
+--------------------------------------------------------------------------------
+Error_type: Transitive Verb
+Error: We prepared  it for a long time , but I had a wonderful experience .
+Correct: We prepared for it for a long time , but I had a wonderful experience .
+Wrong word: [NONE]
+Correct word: for
+Explanation: the error in the erroneous sentence is the placement of the preposition 'for'. it should be placed before the pronoun 'it' to correctly connect 'prepared' and 'for a long time'.
+Ex1_error: she studied  for the exam , all night long.
+Ex1_correct: she studied for the exam all night long.
+Ex2_error: they planned  for the trip , all week.
+Ex2_correct: they planned for the trip all week.
+Ex3_error: he saved money  for the car , a long time.
+Ex3_correct: he saved money for the car a long time.
+
+--------------------------------------------------------------------------------
+Error_type: Transitive Verb
+Error: It is a good time to turn to the entertaining programs , when we feel bored and gaze  the wall all day .
+Correct: It is a good time to turn to the entertaining programs , when we feel bored and gaze at the wall all day .
+Wrong word: [NONE]
+Correct word: at
+Explanation: the error in the erroneous sentence is the missing preposition 'at' before 'the wall'. in english, the verb 'gaze' is typically followed by the preposition 'at' when referring to looking at a specific location.
+Ex1_error: she spent hours staring  her phone waiting for a message.
+Ex1_correct: she spent hours staring at her phone waiting for a message.
+Ex2_error: he sat on the bench watching  the children play in the park.
+Ex2_correct: he sat on the bench watching the children play in the park.
+Ex3_error: they stood in front of the painting admiring  the intricate details.
+Ex3_correct: they stood in front of the painting admiring the intricate details.
+
+--------------------------------------------------------------------------------
+Error_type: Transitive Verb
+Error: I have saved some money to pay  the air fare .
+Correct: I have saved some money to pay for the air fare .
+Wrong word: [NONE]
+Correct word: for
+Explanation: the error in the erroneous sentence is the missing preposition 'for' before 'the air fare', which is needed to show purpose or destination.
+Ex1_error: she needs to buy a new dress the party.
+Ex1_correct: she needs to buy a new dress for the party.
+Ex2_error: he is studying medicine become a doctor.
+Ex2_correct: he is studying medicine to become a doctor.
+Ex3_error: we are going vacation next month.
+Ex3_correct: we are going on vacation next month.
+
+--------------------------------------------------------------------------------
+Error_type: Transitive Verb
+Error: Then , Symba saves to Pumba from a lion and this lion is Nala , who is an old friend of Symba .
+Correct: Then , Symba saves  Pumba from a lion and this lion is Nala , who is an old friend of Symba .
+Wrong word: to
+Correct word: [NONE]
+Explanation: there is an extra 'to' before pumba in the erroneous sentence which is unnecessary and grammatically incorrect. it should be removed to make the sentence correct.
+Ex1_error: she gives to bob a present for his birthday.
+Ex1_correct: she gives bob a present for his birthday.
+Ex2_error: he sends to lisa an invitation to the party.
+Ex2_correct: he sends lisa an invitation to the party.
+Ex3_error: they offer to sarah some help with her homework.
+Ex3_correct: they offer sarah some help with her homework.
+
+--------------------------------------------------------------------------------
+Error_type: Transitive Verb
+Error: Watching our national team 's games , I came  the conclusion that we have no need to check our heart condition .
+Correct: Watching our national team 's games , I came to the conclusion that we have no need to check our heart condition .
+Wrong word: [NONE]
+Correct word: to
+Explanation: the error in the erroneous sentence is the missing preposition 'to' before the verb 'come'. the correction adds the preposition 'to' to form the correct sentence.
+Ex1_error: she arrived a decision without consulting anyone.
+Ex1_correct: she arrived at a decision without consulting anyone.
+Ex2_error: after the meeting, they came the conclusion that a change in strategy was necessary.
+Ex2_correct: after the meeting, they came to the conclusion that a change in strategy was necessary.
+Ex3_error: i finally came my senses and realized the mistake i had made.
+Ex3_correct: i finally came to my senses and realized the mistake i had made.
+
+--------------------------------------------------------------------------------
+Error_type: Verb Tense
+Error: Vesuvius - this is the volcano 's name - covered it with a lot of ash so that walls , houses , food , clothes , bodies of citizens has been preserved as they were .
+Correct: Vesuvius - this is the volcano 's name - covered it with a lot of ash so that walls , houses , food , clothes , bodies of citizens were preserved as they were .
+Wrong word: has
+Correct word: were
+Explanation: the error is in subject-verb agreement. 'has' should be 'were' to match the plural subject 'bodies of citizens.'
+Ex1_error: the teacher or the students has to clean the classroom after the party.
+Ex1_correct: the teacher or the students have to clean the classroom after the party.
+Ex2_error: the dog or the cat eats from the same bowl.
+Ex2_correct: the dog or the cat eat from the same bowl.
+Ex3_error: either the red or the blue car has to be moved.
+Ex3_correct: either the red or the blue car have to be moved.
+
+--------------------------------------------------------------------------------
+Error_type: Verb Tense
+Error: To put it simply , the things that school teaches us were no longer used in the real world .
+Correct: To put it simply , the things that school teaches us are no longer used in the real world .
+Wrong word: were
+Correct word: are
+Explanation: the error in the original sentence is the use of 'were' instead of 'are'. since the context is present tense, 'are' is the correct verb to use.
+Ex1_error: she thought her skills learned in college were not applicable in her job.
+Ex1_correct: she thought her skills learned in college are not applicable in her job.
+Ex2_error: the information i learned during high school were forgotten over time.
+Ex2_correct: the information i learned during high school is forgotten over time.
+Ex3_error: the lessons that university provided were no longer relevant in my career.
+Ex3_correct: the lessons that university provided are no longer relevant in my career.
+
+--------------------------------------------------------------------------------
+Error_type: Verb Tense
+Error: Anxiousness got the better of him as he prepare himself to enter the sanctuary .
+Correct: Anxiousness got the better of him as he prepared himself to enter the sanctuary .
+Wrong word: prepare
+Correct word: prepared
+Explanation: the error in the erroneous sentence is that the verb 'prepare' should be in the past tense 'prepared' to match the past tense of 'got'.
+Ex1_error: i feel so excited as i finish my work for the day.
+Ex1_correct: i felt so excited as i finished my work for the day.
+Ex2_error: she love going to the beach and spend hours under the sun.
+Ex2_correct: she loves going to the beach and spending hours under the sun.
+Ex3_error: they buy a new car and drive it around the city.
+Ex3_correct: they bought a new car and drove it around the city.
+
+--------------------------------------------------------------------------------
+Error_type: Verb Tense
+Error: When we used a car , in general , one person is the only person who is accustomed to using their own car , so this is not exploiting the potential of the car .
+Correct: When we use a car , in general , one person is the only person who is accustomed to using their own car , so this is not exploiting the potential of the car .
+Wrong word: used
+Correct word: use
+Explanation: the error in the original sentence is the verb tense used. 'used' should be 'use' to match the present tense of the sentence.
+Ex1_error: i used to go to the gym every day, but now i am too busy.
+Ex1_correct: i go to the gym every day, but now i am too busy.
+Ex2_error: she used to sings in the choir, but she stopped last year.
+Ex2_correct: she sings in the choir, but she stopped last year.
+Ex3_error: he used to plays soccer on weekends, but now he focuses on other hobbies.
+Ex3_correct: he plays soccer on weekends, but now he focuses on other hobbies.
+
+--------------------------------------------------------------------------------
+Error_type: Verb Tense
+Error: On the other hand , public transport  now become unhygienic , as lots of people are crowded into a small and enclosed area , and so , a lot of breath & air droplets are easily propagated in this enclosed space , and consequently , you are more susceptible to the various contagious diseases , especially in the winter season when respiratory tract infections flourish , e.g. colds & flu .
+Correct: On the other hand , public transport has now become unhygienic , as lots of people are crowded into a small and enclosed area , and so , a lot of breath & air droplets are easily propagated in this enclosed space , and consequently , you are more susceptible to the various contagious diseases , especially in the winter season when respiratory tract infections flourish , e.g. colds & flu .
+Wrong word: [NONE]
+Correct word: has
+Explanation: the error is in the verb tense. 'now become' should be 'has now become' to indicate that public transport's unhygienic state is ongoing.
+Ex1_error: she always prefer spending time outdoors rather than indoors.
+Ex1_correct: she always prefers spending time outdoors rather than indoors.
+Ex2_error: the company recently update their software to improve user experience.
+Ex2_correct: the company recently updated their software to improve user experience.
+Ex3_error: i plan to visit spain next year as it seem like a beautiful country.
+Ex3_correct: i plan to visit spain next year as it seems like a beautiful country.
+
+--------------------------------------------------------------------------------

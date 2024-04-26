@@ -1,0 +1,15 @@
+2024-04-12 04:03:47.458958: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-04-12 04:03:47.502020: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-04-12 04:03:47.502246: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-04-12 04:03:47.503956: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-04-12 04:03:47.511621: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-04-12 04:03:49.100369: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[nltk_data] Downloading package punkt to
+[nltk_data]     /home/abdelrahman.sadallah/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [01:18<01:18, 78.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:20<00:00, 33.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:20<00:00, 40.24s/it]
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [01:47<14:18, 107.30s/it] 22%|██▏       | 2/9 [03:34<12:31, 107.34s/it] 33%|███▎      | 3/9 [05:22<10:44, 107.35s/it] 44%|████▍     | 4/9 [07:11<09:01, 108.37s/it] 56%|█████▌    | 5/9 [08:59<07:12, 108.10s/it] 67%|██████▋   | 6/9 [10:47<05:24, 108.13s/it] 78%|███████▊  | 7/9 [12:36<03:36, 108.27s/it] 89%|████████▉ | 8/9 [14:24<01:48, 108.38s/it]100%|██████████| 9/9 [16:16<00:00, 109.29s/it]100%|██████████| 9/9 [16:16<00:00, 108.47s/it]
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.

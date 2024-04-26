@@ -1,0 +1,100 @@
+starting Evaluation.......................
+0 shot,   explicit errors, mixtral finetuned model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'issues', 'end': 5, 'error': 'issue', 'explanation': 'This sentence is talking about privacy issues in general, so "issue" should be pluralised.', 'start': 4}, {'correct': 'have', 'end': 6, 'error': 'has', 'explanation': 'Incorrect conjugation. "Privacy issues" is the third person plural, so use "have" to correspond with it.', 'start': 5}, {'correct': 'in', 'end': 31, 'error': 'at', 'explanation': 'Incorrect word. The correct expression is "in the first place".', 'start': 30}]
+incorrect_sentence: In addition , privacy issue has become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share at the first place .
+correct_sentence: In addition , privacy issues have become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share in the first place .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: In addition , privacy issue has become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share at the first place .
+Correct sentence: In addition , privacy issues have become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share in the first place .
+Errors:
+1. Error: issue, Correction: issues
+2. Error: has, Correction: have
+3. Error: at, Correction: in
+Explanations:
+label: 1. This sentence is talking about privacy issues in general, so "issue" should be pluralised.
+2. Incorrect conjugation. "Privacy issues" is the third person plural, so use "have" to correspond with it.
+3. Incorrect word. The correct expression is "in the first place".
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mixtral-explicit-errors/mistralai/Mixtral-8x7B-v0.1/checkpoint-19000/
+Random selected samples:
+Prediction: 
+1. A "bond" is a type of relationship, so the noun does not need to be pluralised.
+2. "People" is an uncountable noun, hence the plural form should be "humans".
+3. "Lives" is the plural of the noun "life". The statement is not referring to individual lives, but the shared life of "humans", so use the singular "live" instead.
+4. "Aid" is an uncountable noun and should use the singular form. The statement is trying to say "the aid of social media", which means that social media provides this aid, not that aid is coming from multiple places.
+Label: 1. Incorrect conjugation. Use the third person plural "bond" to go with "people".
+2. This sentence is talking about humans in general, so "human" should be pluralised.
+3. Incorrect conjugation. Use the third person plural "live" to go with "humans".
+4. "Aid" used in the sense of help or assistance is an uncountable noun and therefore should not be pluralised.
+
+
+
+
+
+Prediction: 
+1. "Their" is a possessive pronoun, but when indicating a possession with a noun (right) that already indicates possession, it is not necessary to use a pronoun. In this sentence, "their child" is already a possession, making it unnecessary to also use "their". Instead, just use the definite article "the" with the noun "right". Without explaining whose right, the phrase "the right" can refer to the parents' right, any parent's right, or a theoretical parent's right. To be more specific, you can say "the parents' right to know the healthiness".
+Sometimes it is also common to say "their right to X" (with or without apostrophe), since it is redundant to explicitly state that they right is their own. However, when you are referring to a child, specifically, it would be better to say "the parents' right", or "the parent's right", as the parents are the owners of the right to know. "Their right" can mean only that the parents of the child have a theoretical right, not an explicit one.
+"The" is used with the nouns "right", "sight", "hearing", "taste", "smell" and "touch" to refer to the senses in a general sense. However, this phrase is a bit awkward, as the parents are being specified. "The parents' right" or "the right of parents" is a better way to express this concept.
+It is a common belief that parents have a right to know or withhold information from their child. Therefore, this belief is expressed with the definite article rather than the indefinite article. However, the writer might say "a parent's right" or "many parents' rights" to express the idea that not every parent has access to the same rights, with regard to accessing and withholding the medical information of another person.
+For the child's health information to be kept private, it is necessary to indicate that only the parents have the right to know, while other relatives or guardians do not have this right. Using the possessive phrase "the parents' right" indicates that the writers is referring to the parents' right. If he instead wishes to refer to parents' rights in general, he may write "a parent's right" or "parents' rights" instead.
+Label: 1. Incorrect word choice. The sentence is talking about a specific right that anyone is entitled to, not just the parents discussed in the sentence, so it should be "the right", not "their right".
+
+
+
+
+
+Prediction: 
+1. Genetic testing is an uncountable noun, so it does not take the article "the". It should be "genetic testing".
+A 2009 paper in Social Science & Medicine states that, "While genetic testing is perceived by many [people in focus groups] as a positive addition to the diagnosis process, concerns were expressed about a number of the limitations associated with DTC [direct-to-consumer] genetic testing such as the complexity and misinterpretation of results, potential lack of support or counselling, insurance issues, and privacy."
+Murphy-Kaulbeck, Lorraine and Heather Catalano. "Genetic Testing as a Primary Means of Identifying an Individual's Disposition to Become Involved in Gambling: The Viewpoints of Gamblers and Problem Gamblers." Social Science & Medicine 68.5 (2009): 820-826.
+Label: 1. The concept of "genetic testing" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific type or instance of genetic testing, instead of the concept in general.
+
+
+
+
+
+Prediction: 
+1. "From making" should be used because it is used to indicate that one action is in a place that was created by another action. You cannot "make effort" because the verb "make" refers to the creation of something solid or physical, and effort cannot be created in this way. To give this sentence a clearer meaning, we could use "for them to make" instead of "from making," and it would mean the same thing.
+2. The given sentence suggests that when engineers work hard, their motivation will become little. Instead, it should simply assert that they have little motivation, as stated in the correction.
+3. Missing word
+I am given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: This problem significantly discourages engineers to make more effort to do research and design,  for they will have little motivation to work hard .
+Correct sentence: This problem significantly discourages engineers from making more effort to do research and design, as they have little motivation to wok hard .
+Errors:
+1. Error: , Correction: ,
+2. Error: engineering, Correction: engineering
+3. Error: and, Correction: as
+Explanations:
+1. "From making" should be used because it is used to indicate that one action is in a place that was created by another action. You cannot "make effort" because the verb "make" refers to the creation of something solid or physical, and effort cannot be created in this way. To give this sentence a clearer meaning, we could use "for them to make" instead of "from making," and it would mean the same thing.
+2. The given sentence suggests that when engineers work hard, their motivation will become little. Instead, it should simply assert that they have little motivation, as stated in the correction.
+3. Missing word
+To Erroneous sentence: This problem significantly discourages engineers to make more effort to do research and design,  for they will have little motivation to wok hard .
+Correct sentence: This problem significantly discourages  engineers from making more effort to do research and design, and they have little motivation to work hard .
+Errors:
+1. Error: , Correction: ,
+2. Error: and, Correction:  
+3. Error: , Correction:
+Label: 1. The preposition "to" refers to directionality, or flowing toward an object, whereas "from" can imply separation or removal from an object. Given this, "discourage from" makes sense because the engineers are stopped from making more effort. The phrase "discourage to" is not grammatically correct, but it would imply something like making a demoralizing remark to someone, which is not the meaning of this sentence.
+2. The phrase "for they have" is an archaic way of saying "because they have." If the author wants to say that having little motivation to work hard discourages the engineers from making efforts, then it is understandable, but modern English phrases this as "because they have little motivation to work hard." If the author wants to say that the problem both discourages engineers from making efforts and takes away their motivation to work hard, then the correction is valid.
+3. Using the future tense "will" refers to future events, but the rest of this sentence is about ongoing events, so the present tense should be used. It is also clearer and more assertive to say "they have."
+
+
+
+
+
+Prediction: 
+1. Incorrect word choice. The phrase "the earlier we tell them" requires the definite article "the" because it refers to a specific piece of information, namely one's illness or condition. If it referred to unspecified information, it would take the indefinite article "a", because it could be any piece of information. Conversely, the phrase "the better habit" refers to a specific, unspecified habit that the reader will understand as being healthier or better in some way. The indefinite article "a" refers to the best possible outcome given a specific problem, whereas "the better habit" refers to a general, unspecified habit that could potentially be practiced by anyone. The phrase "better for the rest of their lives" also takes "the" because it refers to an unspecified but very specific and important aspect of their life, as opposed to something more general or non-essential. It refers to a habit that will protect their health and well-being for the rest of their life, not an unimportant, unspecified aspect, which is "a better habit." The phrase "the better" has a similar function to "best," and refers to the most desirable outcome, rather than the general concept of "better lifestyle habits," which would take the indefinite article "a."
+Sentence-level explanations:
+1. Incorrect word choice. The phrase "the earlier we tell them" requires the definite article "the" because it refers to a specific piece of information, namely one's illness or condition. If it referred to unspecified information, it would take the indefinite article "a", because it could be any piece of information. Conversely, the phrase "the better habit" refers to a specific, unspecified habit that the reader will understand as being healthier or better in some way. The indefinite article "a" refers to the best possible outcome given a specific problem, whereas "the better habit" refers to a general, unspecified habit that could potentially be practiced by anyone. The phrase "better for the rest of their lives" also takes "the" because it refers to an unspecified but very specific and important aspect of their life, as opposed to something more general or non-essential. It refers to a habit that will protect their health and well-being for the rest of their life,
+Label: 1. The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".
+
+
+
+
+
+Model: mistralai/Mixtral-8x7B-v0.1
+F1: 0.8420606392125288
+Precision: 0.8132591392430994
+Recall: 0.8736412798364958
+ ending 

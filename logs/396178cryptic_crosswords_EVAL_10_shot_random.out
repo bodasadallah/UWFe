@@ -1,0 +1,199 @@
+starting Evaluation.......................
+5 shot,  no explicit errors, native model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'challenge', 'end': 8, 'error': 'challenges', 'explanation': 'The pronoun "another" means "one more," so it is singular and cannot be used with the plural "challenges." The singular "challenge" should be used instead.', 'start': 7}]
+incorrect_sentence: However , these procedures might become another challenges for the innovators .
+correct_sentence: However , these procedures might become another challenge for the innovators .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Human has their own rights and privacy .
+Correct sentence: Humans have their own rights and privacy .
+Explanations:
+1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+Erroneous sentence: Or else , if he holds back the genetic risk , they may have a unhealthy baby and may cause the death of the baby or end of their marriage .
+Correct sentence: Or else , if he holds back the genetic risk , they may have an unhealthy baby and may cause the death of the baby or the end of their marriage .
+Explanations:
+1. The article "a" is used before a word starting with a consonant that makes a consonant sound. The article "an" is used before a word starting with a vowel that makes a vowel sound. "Unhealthy" begins with the vowel "u", and it is pronounced as a vowel, so you should use "an" before it.
+2. "End" here is a noun that goes with "cause", and it requires an article before it in the same way as "cause the death". As a marriage can only have one end, this is a specific noun that is being referred to, so you should use "the".
+Erroneous sentence: Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for the society .
+Correct sentence: Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for society .
+Explanations:
+1. The concept of "society" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific societies, instead of modern society in general.
+Erroneous sentence: Some evidences showed that the reason of halt of work was that the higher level of authorities thought an underground traffic system was not necessary for Harbin .
+Correct sentence: Some evidences showed that the reason for the halt of the work was that the higher level authorities thought an underground traffic system was not necessary for Harbin .
+Explanations:
+1. The phrase "the reason for" is a collocation, and "that the reason of" is not used. The preposition "for" can indicate why something is done. This sentence is explaining the reason that work stopped, so "for" is used to indicate that the cause of the stoppage was that the authorities thought a traffic system was not necessary.
+2. The definite article "the" is used when referring to a specific instance of an action. This sentence is referring to a specific incident where work was stopped on a specific engineering project, so the definite article is necessary.
+3. The definite article "the" is used when referring to a specific thing. This sentence is referring to a specific engineering project where work was stopped, so the definite article is necessary.
+4. The phrase "high level of" refers to the physical levels or floors of an object or structure. Without the preposition "of," the compound adjective "high-level" means top ranking or of great importance. Therefore, the preposition "of" should be removed to convey that the authorities were of high rank.
+Erroneous sentence: On the other side , as stated above , a person who want to confirm and has been prepared to face the result can choose to do the genetic testing individually .
+Correct sentence: On the other hand , as stated above , a person who wants to confirm and has been prepared to face the result can choose to do the genetic testing individually .
+Explanations:
+1. The phrase "on the other side" is likely understandable, but is not really used in English. The sentence is much easier to understand with the common set phrase idiom "on the other hand."
+2. The subject, "a person" is singular, and so for the sake of subject-verb agreement, the verb should be "wants," not "want."
+Erroneous sentence: However , these procedures might become another challenges for the innovators .
+Correct sentence: However , these procedures might become another challenge for the innovators .
+Explanations:
+label: 1. The pronoun "another" means "one more," so it is singular and cannot be used with the plural "challenges." The singular "challenge" should be used instead.
+
+Loading Base Model mistralai/Mistral-7B-v0.1
+Random selected samples:
+Prediction: 
+1. The phrase "at risk relatives" is a noun phrase, so it should be pluralised.
+2. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+3. The phrase "personal moral morals" is a noun phrase, so it should be pluralised.
+4. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+5. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+6. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+7. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+8. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+9. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+10. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+11. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+12. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+13. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+14. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+15. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should be pluralised.
+16. The phrase "the nature of how 'directive ' the risk is to them" is a noun phrase, so it should
+Label: 1. An individual's value system consists of multiple elements, so the plural "morals" is correct. The singular "moral" is used mostly to refer to a lesson gleaned from a parable, e.g. "the moral of the story."
+2. The concept of "personal morals" is an abstract noun and does not generally require an article. It only uses an article when referring to the values of a specific person, for example, "the personal morals of an individual."
+
+
+
+
+
+Prediction: 
+1. The verb "transfer" is transitive, so it needs an object.
+2. The phrase "for spying and advertising" is a prepositional phrase, so it needs a preposition.
+Erroneous sentence: The social media sites are the most popular and widely used communication tools in the world .
+Correct sentence: The social media sites are the most popular and widely used communication tools in the world .
+Explanations:
+1. The phrase "in the world" is a prepositional phrase, so it needs a preposition.
+2. The phrase "the most popular and widely used" is a compound adjective, so it needs a hyphen.
+Erroneous sentence: The social media sites are the most popular and widely used communication tools in the world .
+Correct sentence: The social media sites are the most popular and widely used communication tools in the world .
+Explanations:
+1. The phrase "in the world" is a prepositional phrase, so it needs a preposition.
+2. The phrase "the most popular and widely used" is a compound adjective, so it needs a hyphen.
+Erroneous sentence: The social media sites are the most popular and widely used communication tools in the world .
+Correct sentence: The social media sites are the most popular and widely used communication tools in the world .
+Explanations:
+1. The phrase "in the world" is a prepositional phrase, so it needs a preposition.
+2. The phrase "the most popular and widely used" is a compound adjective, so it needs a hyphen.
+Erroneous sentence: The social media sites are the most popular and widely used communication tools in the world .
+Correct sentence: The social media sites are the most popular and widely used communication tools in the world .
+Explanations:
+1. The phrase "in the world" is a prepositional phrase, so it needs a preposition.
+2. The phrase "the most popular and widely used" is a compound adjective, so it needs a hyphen.
+Erroneous sentence: The social media sites are the most popular and widely used communication tools in the world .
+Correct sentence: The social media sites are the most popular and widely used communication tools in the world .
+Explanations:
+1. The phrase "in the world" is a prepos
+Label: 1. This is the passive voice, continuing from the phrase "is recorded." The passive voice requires a form of the verb "to be" followed by a secondary verb, which is always the past participle. Therefore, it should be changed from the present form "transfer" to the past participle "transferred."
+
+
+
+
+
+Prediction: 
+1. This is a typo. The correct spelling is "secondly."
+2. This is a typo. The correct spelling is "diagnosis."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Explanations:
+1. This is a typo. The correct spelling is "clinic."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Explanations:
+1. This is a typo. The correct spelling is "clinic."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Explanations:
+1. This is a typo. The correct spelling is "clinic."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Explanations:
+1. This is a typo. The correct spelling is "clinic."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Explanations:
+1. This is a typo. The correct spelling is "clinic."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Explanations:
+1. This is a typo. The correct spelling is "clinic."
+Erroneous sentence: The genetic testing is a simple blood test that can be done in a clinic or a hospital .
+Correct sentence: The genetic testing is a simple blood
+Label: 1. Incorrect spelling. The correct spelling is "diagnosis".
+2. Incorrect spelling. The correct spelling is "Secondly".
+
+
+
+
+
+Prediction: 
+1. The plural "innovators" is used to refer to multiple people who are innovating. The singular "innovator" is used to refer to a single person who is innovating.
+Erroneous sentence: The implants and products are also been used as surveillance tools .
+Correct sentence: The implants and products have also been used as surveillance tools .
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: The implants and products are also been used as surveillance tools .
+Correct sentence: The implants and products have also been used as surveillance tools .
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: The implants and products are also been used as surveillance tools .
+Correct sentence: The implants and products have also been used as surveillance tools .
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: The implants and products are also been used as surveillance tools .
+Correct sentence: The implants and products have also been used as surveillance tools .
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: The implants and products are also been used as surveillance tools .
+Correct sentence: The implants and products have also been used as surveillance tools .
+Explanations:
+1. The perfect present tense should be used to show that the action of using implants and products is currently still happening. To create the perfect present, we use "have" and the past participle "used." 
+Erroneous sentence: The implants and products are also been used as surveillance tools .
+Correct sentence: The implants and products have
+Label: 1. The concept of "innovators" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of innovators instead of to innovators in general.
+
+
+
+
+
+Prediction: 
+1. The sentence is discussing genes in general, so "gene" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "pass" to go with "genes".
+3. Incorrect conjugation. Use the third person plural "are" to go with "genes".
+Erroneous sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Correct sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Explanations:
+1. The sentence is discussing the technology of gene altering in general, so "technology" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "is" to go with "technology".
+3. Incorrect conjugation. Use the third person plural "are" to go with "technology".
+Erroneous sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Correct sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Explanations:
+1. The sentence is discussing the technology of gene altering in general, so "technology" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "is" to go with "technology".
+3. Incorrect conjugation. Use the third person plural "are" to go with "technology".
+Erroneous sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Correct sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Explanations:
+1. The sentence is discussing the technology of gene altering in general, so "technology" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "is" to go with "technology".
+3. Incorrect conjugation. Use the third person plural "are" to go with "technology".
+Erroneous sentence: The technology of gene altering is not only used to cure diseases , but also to improve the quality of life .
+Correct sentence: The
+Label: 1. The adjective "genetic" means of or relating to genes, so "genetic genes" is redundant and "genetic" should be deleted.
+2. The word "some" means an unspecified amount or a large amount. It is usually used with plural nouns. Also, it is unlikely that there is only one gene that can only be inherited by a specific gender, so logically it is more likely to be the plural.
+
+
+
+
+
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8058619987633493
+Precision: 0.7696498342686229
+Recall: 0.8465120457112789
+ ending 

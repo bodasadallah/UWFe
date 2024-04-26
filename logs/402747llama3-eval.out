@@ -1,0 +1,100 @@
+starting Evaluation.......................
+0 shot,    - explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'the', 'end': 9, 'error': '-', 'explanation': 'Missing article. As our planet is a countable noun but also the only one we know of, we call it "the world".', 'start': 9}]
+incorrect_sentence: Thirdly , social media sites keep us up-to-date on latest news and updates from almost everywhere in the world , all with a click away on the refresh button .
+correct_sentence: Thirdly , social media sites keep us up-to-date on the latest news and updates from almost everywhere in the world , all with a click away on the refresh button .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Thirdly , social media sites keep us up-to-date on latest news and updates from almost everywhere in the world , all with a click away on the refresh button .
+Correct sentence: Thirdly , social media sites keep us up-to-date on the latest news and updates from almost everywhere in the world , all with a click away on the refresh button .
+Errors:
+1. Error:  , Correction: the
+Explanations:
+label: 1. Missing article. As our planet is a countable noun but also the only one we know of, we call it "the world".
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 23.87 seconds
+Random selected samples:
+Prediction:  1. The word  got  is incorrect. It should be  a . 2. The word  altitudes  is incorrect. It should be  attitudes . 3. The word  too  is incorrect. It should be  for .
+Sample Input 1:
+When people around us know that we got certain disease , their altitudes will be easily changed , whether caring us too much or keeping away from us .
+When people around us know that we got a certain disease , their attitudes will be easily changed , whether caring for us too much or keeping away from us .
+1. Error:  , Correction: a
+2. Error: altitudes, Correction: attitudes
+3. Error:  , Correction: for
+Sample Output 1:
+1. The word  got  is incorrect. It should be  a .
+2. The word  altitudes  is incorrect. It should be  attitudes .
+3. The word  too  is incorrect. It should be  for .
+Sample Input 2:
+The first time when I saw the ocean , I was deeply impressed by the infinite and vastness of the sea .
+The first time when I saw the ocean , I was deeply impressed by the infinite and vastness of the sea .
+1.
+Label: 1. The combination of "certain" and a noun requires either the indefinite article "a" or the plural form. Though there may be cases where someone is diagnosed with multiple diseases at the same time, it is more common to assume a single disease, hence the indefinite article.
+2. The word "altitude" means height, especially in relation to ground or sea level. The correct word here is "attitude," meaning a way of thinking or feeling.
+3. The verb "care" requires the preposition "for" in order to connect to the object, or the person receiving the care.
+
+
+
+
+
+Prediction:  1. with is not the correct preposition to be used here. It should be 'the' instead. 2. have is not the correct verb form to be used here. It should be 'has' instead.
+
+Label: 1. Unnecessary word. "That" and "with" are both prepositions that can follow "argue", but you can only use one. "With" should be used when indicating who you are arguing against, as in "he is arguing with his brother", but "argue" is being used in this sentence to say that the critics would assert the opinion that they have on the subject, so you need to use "that" to indicate the opinion.
+2. Incorrect conjugation. "Social media sites" is just being used to modify "existence", so use the third person singular to go with "existence".
+
+
+
+
+
+Prediction:  You should have used the word “obvious” instead of “obvioualy”.
+2. Error: have been brought, Correction: have brought
+Explanations: You should have used the word “have brought” instead of “have been brought”.
+Note: You should use “have” in this case because the action is completed and is not ongoing.
+3. Error: to our lives, Correction: to our life
+Explanations: You should have used the word “life” instead of “lives” because the sentence is singular.
+Note: “Lives” is plural and “life” is singular.
+You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: The fact that a person’s thoughts and feelings are different from those of other people is a major reason for his/her personality .
+Correct sentence: The fact that a person’s thoughts and feelings are different from those of other people is a major reason for his/her personality .
+Errors:
+1. Error: his/her, Correction: his or her
+Explanations: You should have used the words “his or her” instead of “his/her” because “his
+Label: 1. This is a spelling error. The correct spelling is "obvious." Also, it looks like the author intended to use the word "obviously," which is an adverb. Adverbs are used to modify verbs, but in this sentence, the word follows "it is" and therefore should be a noun.
+
+
+
+
+
+Prediction:  These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc.
+Explanation: These green house gases are the main cause of worldwide
+Label: 1. This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."
+2. The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.
+
+
+
+
+
+Prediction:  1. The word "under" is redundant in this sentence. It is not necessary to use it. 2. The word "the" is missing in this sentence. It is not necessary to use it.
+Label: 1. I agree with this correction partially. There is no issue with either "accidental" or "unintentional" so that edit is a stylistic one. As for the rest, firstly, the structure "under an accidental case" is not commonly used. A clearer way of describing such a discovery is "making an accidental discovery." Secondly, the phrase "Serendipity is usually defined as making an accidental discovery" is grammatically correct, but that doesn't sound like a definition. Phrases like "a phenomenon of" are frequently used to make definitions match the part of speech of the word being defined. Since "serendipity" is a noun, its definition is easier to understand if it begins with a noun, like "phenomenon," instead of a gerund like "making."
+2. The verb "result" needs the preposition "in" to indicate the outcome or result of the action.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.7939968758987056
+Precision: 0.7807724587619305
+Recall: 0.8090038225054741
+ ending 

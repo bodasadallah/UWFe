@@ -1,0 +1,7 @@
+starting Evaluation.......................
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8441236726939678
+Precision: 0.8234648083647093
+Recall: 0.8670786590211921
+ ending 

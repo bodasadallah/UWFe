@@ -1,0 +1,49 @@
+starting Evaluation.......................
+ 3 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B-Instruct
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'a', 'end': 4, 'error': '-', 'explanation': 'The indefinite article "a" is used when something exists in an unspecified manner or amount, or to express one out of multiple options. The phrase "convenient contact environment" means one potential environment out of many, with varying degrees of convenience. This condition is best expressed by the indefinite article "a."', 'start': 4}]
+incorrect_sentence: It provides people with more convenient contact environment and improve the frequency of meeting with each others .
+correct_sentence: It provides people with a more convenient contact environment and improve the frequency of meeting with each others .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: On one side , it is obvioualy that many advantages have been brought to our lives .
+Correct sentence: On one side , it is obvious that many advantages have been brought to our lives .
+Errors:
+1. Error: obvioualy, Correction: obvious
+Explanations:
+1. This is a spelling error. The correct spelling is "obvious." Also, it looks like the author intended to use the word "obviously," which is an adverb. Adverbs are used to modify verbs, but in this sentence, the word follows "it is" and therefore should be a noun.
+Erroneous sentence: This essay will discuss about the advantages and disadvantages of using social media in our daily life .
+Correct sentence: This essay will discuss the advantages and disadvantages of using social media in our daily lives .
+Errors:
+1. Error: about, Correction:  
+2. Error: life, Correction: lives
+Explanations:
+1. "Discuss" does not need to be followed by a preposition.
+2. This sentence is talking about people's daily lives in general, so "life" should be pluralised.
+Erroneous sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+Correct sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+Errors:
+1. Error: of, Correction: on
+2. Error: the, Correction:  
+Explanations:
+1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+Erroneous sentence: It provides people with more convenient contact environment and improve the frequency of meeting with each others .
+Correct sentence: It provides people with a more convenient contact environment and improve the frequency of meeting with each others .
+Errors:
+1. Error:  , Correction: a
+Explanations:
+label: 1. The indefinite article "a" is used when something exists in an unspecified manner or amount, or to express one out of multiple options. The phrase "convenient contact environment" means one potential environment out of many, with varying degrees of convenience. This condition is best expressed by the indefinite article "a."
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 18.55 seconds
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.831112520976199
+Precision: 0.8069141709970103
+Recall: 0.8572231609788206
+Cleaned F1: 0.8259009896881051
+Cleaned Precision: 0.8422168133159479
+Cleaned Recall: 0.8104802030656073
+ ending 

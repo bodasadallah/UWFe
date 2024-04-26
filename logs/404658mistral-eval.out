@@ -1,0 +1,73 @@
+starting Evaluation.......................
+ 5 shot,    -    1  explicit errors,  -    Meta-Llama-3-8B
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'issues', 'end': 5, 'error': 'issue', 'explanation': 'This sentence is talking about privacy issues in general, so "issue" should be pluralised.', 'start': 4}, {'correct': 'have', 'end': 6, 'error': 'has', 'explanation': 'Incorrect conjugation. "Privacy issues" is the third person plural, so use "have" to correspond with it.', 'start': 5}, {'correct': 'in', 'end': 31, 'error': 'at', 'explanation': 'Incorrect word. The correct expression is "in the first place".', 'start': 30}]
+incorrect_sentence: In addition , privacy issue has become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share at the first place .
+correct_sentence: In addition , privacy issues have become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share in the first place .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: In the past decades , when the social media sites are not yet fully developed , people connect with others who live far away by using a phone , or even a letter .
+Correct sentence: In past decades , when the social media sites were not yet fully developed , people connected with others who lived far away by using a phone , or even a letter .
+Errors:
+1. Error: the, Correction:  
+2. Error: are, Correction: were
+3. Error: connect, Correction: connected
+4. Error: live, Correction: lived
+Explanations:
+1. The concept of "past decades" is a general concept and can be assumed to be understood by the reader. It takes the definite article only with the singular "the past decade," meaning the last ten years, or with an adjective like "the past few decades," which refer to specific decades, instead of past decades in general.
+2. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "observes" implies that social media sites are still not yet fully developed, so it should be the past tense "were" instead.
+3. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "connect" implies that phone calls and letters are still the default method of communication, so it should be the past tense "connected" instead.
+4. This sentence is referring to past events, as shown by the phrase "In past decades." It's discussing how people in the past communicated with friends and relatives living far away. Because it is referring to the same time period, the present tense "live" should be changed to the past tense "lived."
+Erroneous sentence: More supports must be provided through different means to give better direction when one is standing of such junction whether should him/her to inform the relatives .
+Correct sentence: More support must be provided through different means to give better direction when one is standing of such junction whether should him/her to inform the relatives .
+Errors:
+1. Error: supports, Correction: support
+Explanations:
+1. In the context of care and aid from other people, the word "support" is an uncountable noun and is not pluralized. It generally refers to actions or gestures, which are not tangible and cannot be counted. The word "supports" is a verb form or a noun referring to the structural components of a building that allow it to withstand force.
+Erroneous sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her but just communicate with friends on facebook .
+Correct sentence: In addition , with all those " nice " guys around on the social network website , one may neglect people surrounding him or her and just communicate with friends on facebook .
+Errors:
+1. Error: but, Correction: and
+Explanations:
+1. "But" should be used in the situation where you do one thing, but not the other, so you could say, "they don't speak to the people around them, but do communicate with friends on Facebook," but in the context of your sentence, you are saying that both these actions are going on at the same time, so you should use "and", as in they shun/ignore the people around them AND only communicate with friends on Facebook.
+Erroneous sentence: Researches show that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Correct sentence: Research shows that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Errors:
+1. Error: Researches, Correction: Research
+2. Error: show, Correction: shows
+Explanations:
+1. "Researches" is the third person singular verb form, as in "He/she researches social media use". Based on the context of this sentence, you are most likely talking about research as a noun, and it does not need to be pluralised as it is an uncountable noun, so just use "research".
+2. Incorrect conjugation. "Research" is treated as the third person singular, so use "shows" to correspond with it.
+Erroneous sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+Correct sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+Errors:
+1. Error: disadvantage, Correction: disadvantages
+2. Error: the, Correction:  
+3. Error: of, Correction: in
+Explanations:
+1. The noun "disadvantage" requires either pluralization or an article. It refers to a result of something, so it is often plural because it is assumed that any action can cause multiple results. Unless it is known that there is only one singular disadvantage, usually it is used in the plural. Also, the phrase "one of" implies that there are multiple potential members of a group, so what comes after it must be plural.
+2. I partially agree with the correction because "the" should be deleted, but that does not fix the issue. The phrase "lose interest in" is a commonly used expression, and it never uses an article. The first word is always a verb form, and "loss" is a noun, so it should be changed to "lose."
+3. The phrase "lose interest in" is a commonly used expression, and it always uses the article "in." The phrase "lose interest of" is incorrect, and it would mean that the "interest" belongs to face-to-face communication or is an aspect of it.
+Erroneous sentence: In addition , privacy issue has become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share at the first place .
+Correct sentence: In addition , privacy issues have become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share in the first place .
+Errors:
+1. Error: issue, Correction: issues
+2. Error: has, Correction: have
+3. Error: at, Correction: in
+Explanations:
+label: 1. This sentence is talking about privacy issues in general, so "issue" should be pluralised.
+2. Incorrect conjugation. "Privacy issues" is the third person plural, so use "have" to correspond with it.
+3. Incorrect word. The correct expression is "in the first place".
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 52.77 seconds
+Model: Meta-Llama-3-8B
+F1: 0.7395993802282546
+Precision: 0.7151499084300466
+Recall: 0.7665483777721723
+Cleaned F1: 0.782222112847699
+Cleaned Precision: 0.7868979527718492
+Cleaned Recall: 0.7779464092519548
+ ending 

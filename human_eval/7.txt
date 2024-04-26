@@ -1,0 +1,163 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction: 1. "qualified" should be removed because it is redundant with "creative." the term "qualified" suggests that the human resources need to meet certain specific criteria, which is not the main point being made in this sentence.
+2. "resource" should be changed to "resources" to make the noun plural. the lack of multiple resources, not just one, is what hampers the engineering design processes.
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction: 1. error: "polices" should be "police"
+explanation: the word "police" is a singular noun, so it should be used in its singular form when referring to a group of individuals belonging to that profession.
+
+2. error: "roam" should be "roaming"
+explanation: in this context, the verb should be in the gerund form "roaming" to indicate ongoing or continuous action by the cyber police on social networking platforms.
+
+3. error: redundancy in "hoaxes spreading around"
+explanation: the phrase "spreading around" and "hoaxes" both convey the same idea of false information being circulated, so the sentence is redundant. it would be clearer to simply say "to prevent these hoaxes from spreading."
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction: 1. "the social media" should be replaced with "social media" because "the" is not necessary before a plural noun like "media".
+2. "on" should be used instead of "of" to indicate the relationship between "usage and reliance" with "social media and the internet".
+3. "advance" should be replaced with "advanced" to convey the correct form of the adjective.
+4. the phrase "through the cyber" is awkward and may not be grammatically correct. it could be improved by saying "through the internet" or "through online platforms".
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction: 1. error: incorrect use of "the" before "genetic field"
+   explanation: the phrase "the genetic field" does not require the definite article "the" before it because it is used in a general sense, not referring to a specific genetic field.
+
+2. error: repetition of "further"
+   explanation: the word "further" is repeated unnecessarily in the erroneous sentence. it is not needed to convey the meaning effectively.
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction: 1. error: "using it over us" should be "use it on us"
+   explanation: "using it over us" is not the correct phrase to indicate that more people will have power over us. the correct preposition to use in this context is "on us" to show control or influence.
+
+2. error: missing comma before "however"
+   explanation: a comma is needed before "however" to indicate a contrast or shift in the sentence structure. this helps make the sentence clearer and easier to understand.
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction: 1. error: the verb "do" should be singular, "does," to match the singular subject "social media."
+explanation: subject-verb agreement error. the singular subject "social media" should be followed by the singular form of the verb "does."
+
+2. error: repetition of the word "relationships" at the beginning of the sentence.
+explanation: wordiness error. the sentence could be clearer and more concise by removing the unnecessary repetition of the word "relationships."
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction: 1. the error in the erroneous sentence is the use of "the" before face-to-face human contacts. the correction omits "the" before face-to-face human contact because it is a general concept rather than a specific instance.
+2. the error in the erroneous sentence is using "has decresed" instead of "has decreased." the correction uses the correct past tense form of the verb "decrease."
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction: 1. error: "claimed" is used instead of "claim"
+explanation: the correct verb tense should be present tense "claim" since it is referring to something that is currently happening among teenagers today.
+
+2. error: extra space before the comma after "media"
+explanation: there should not be a space before the comma in this sentence.
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction: 1. "human" should be pluralized to "humans" to match the plural noun "rights".
+2. "their" should be changed to "have" to correctly match the subject-verb agreement with the plural noun "humans".
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction: 1. "has" should be changed to "have" because it is referring to plural subjects (both parents).
+2. "under high risk" should be changed to "at high risk" for correct preposition usage.
+3. "runing" should be changed to "running" for correct spelling.
+4. "know" should be changed to "knows" to match the subject-verb agreement.
+5. "the gene aa" should be changed to "the gene aa" for accuracy.
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

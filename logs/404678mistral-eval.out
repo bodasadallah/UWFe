@@ -1,0 +1,26 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    Meta-Llama-3-8B-Instruct
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'the phenomenon of making an unintentional discovery', 'end': 11, 'error': 'a discovery under an accidental case', 'explanation': 'I agree with this correction partially. There is no issue with either "accidental" or "unintentional" so that edit is a stylistic one. As for the rest, firstly, the structure "under an accidental case" is not commonly used. A clearer way of describing such a discovery is "making an accidental discovery." Secondly, the phrase "Serendipity is usually defined as making an accidental discovery" is grammatically correct, but that doesn\'t sound like a definition. Phrases like "a phenomenon of" are frequently used to make definitions match the part of speech of the word being defined. Since "serendipity" is a noun, its definition is easier to understand if it begins with a noun, like "phenomenon," instead of a gerund like "making."', 'start': 5}, {'correct': 'in', 'end': 16, 'error': '-', 'explanation': 'The verb "result" needs the preposition "in" to indicate the outcome or result of the action.', 'start': 16}]
+incorrect_sentence: Serendipity is usually defined as a discovery under an accidental case , and it often results the invention of a new technology .
+correct_sentence: Serendipity is usually defined as the phenomenon of making an unintentional discovery , and it often results in the invention of a new technology .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Serendipity is usually defined as a discovery under an accidental case , and it often results the invention of a new technology .
+Correct sentence: Serendipity is usually defined as the phenomenon of making an unintentional discovery , and it often results in the invention of a new technology .
+Explanations:
+label: 1. I agree with this correction partially. There is no issue with either "accidental" or "unintentional" so that edit is a stylistic one. As for the rest, firstly, the structure "under an accidental case" is not commonly used. A clearer way of describing such a discovery is "making an accidental discovery." Secondly, the phrase "Serendipity is usually defined as making an accidental discovery" is grammatically correct, but that doesn't sound like a definition. Phrases like "a phenomenon of" are frequently used to make definitions match the part of speech of the word being defined. Since "serendipity" is a noun, its definition is easier to understand if it begins with a noun, like "phenomenon," instead of a gerund like "making."
+2. The verb "result" needs the preposition "in" to indicate the outcome or result of the action.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 23.27 seconds
+Model: Meta-Llama-3-8B-Instruct
+F1: 0.8527490434547266
+Precision: 0.8381713036861684
+Recall: 0.8681482391224967
+Cleaned F1: 0.8615996113253964
+Cleaned Precision: 0.8826923606296381
+Cleaned Recall: 0.8420939354432954
+ ending 

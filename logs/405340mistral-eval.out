@@ -1,0 +1,50 @@
+starting Evaluation.......................
+ 5 shot,    -    0  explicit errors,  -    Meta-Llama-3-8B
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'the', 'end': 7, 'error': 'a', 'explanation': 'The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".', 'start': 6}]
+incorrect_sentence: The earlier we tell them , a better habit they will arise and better for the rest of their lives .
+correct_sentence: The earlier we tell them , the better habit they will arise and better for the rest of their lives .
+prompt: You are given a few examples of erroneous sentences and their corrections. You are also given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+Correct sentence: The engineering design process can be defined as a process by fellow engineers in the aid of developing either an entirely new system or improvising on the current to cater to .
+Explanations:
+1. The definite article “the” can imply a comparison. The phrase “the engineering process” implies the existence of other processes, such as the development process or the design process, and marks “the engineering process” as being distinct from those other processes.
+2. The verb "fuse" means to combine or to join together. Its meaning and its connection to the engineering design process are unclear, so it should be deleted.
+3. I don't agree with this correction because it does not fix the problem. As a noun, "current" means electrical or water currents, or an idea that is shared by a group. It cannot be used alone to mean "the current process." I think the author intended to write "the current one," meaning "the current process," but made a spelling error. The correct way to fix this is to change "on" to "one."
+4. I don't agree with this correction because it does not fix the problem and it creates a grammatically unsound sentence. The verb "cater to" requires an object, which here is "desired deeds." Removing the object destroys the meaning of the whole phrase. While it's true that the meaning of the phrase "desired deeds" is unclear, it cannot be removed entirely and so it should be changed to something like "what others desire."
+Erroneous sentence: These green house gases are the main cause to worldwide global warming which give rise to further catastrophes such as the rise in global temperature etc .
+Correct sentence: These green house gases are the main cause of worldwide global warming which gives rise to further catastrophes such as the rise in global temperature etc .
+Explanations:
+1. This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."
+2. The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.
+Erroneous sentence: Through those sites we are able to talk to them , to know what their activities are and who their friends are , etc. From the surface point of view it is no doubt that these sites help us to have a better relationship with our relatives despite of the distance .
+Correct sentence: Through those sites we are able to talk to them , to know what their activities are and who their friends are , etc. From the surface point of view it is no doubt that these sites help us to have a better relationship with our relatives despite the distance .
+Explanations:
+1. Unnecessary word. If you were using "in spite" it would be okay to write "in spite of the distance", but "of" is not necessary when using "despite".
+Erroneous sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+Correct sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+Explanations:
+1. "Contact" is an uncountable noun and therefore should not have an article.
+2. When used in the context of "face-to-face human contact", "contact" is an uncountable noun and therefore should not have an "s" at the end.
+Erroneous sentence: According to Khandani ( 2005 ) ,to design an efficient and safe artificial limb may usually need five basic design processes which are defining the problem , gathering pertinent information , generating possible solutions , analyzing and selecting the best possible solution and finally testing and implementing it .
+Correct sentence: According to Khandani ( 2005 ) ,to design an efficient and safe artificial limb may usually need five basic design processes , which are defining the problem , gathering pertinent information , generating possible solutions , analyzing and selecting the best possible solution and finally testing and implementing it .
+Explanations:
+1. A comma is always needed before a non-restrictive clause. A non-restrictive clause is a clause that adds additional information to the sentence and that can be removed. The phrase "According to... design processes," is a full sentence on its own, making the phrase "which are... implementing it" a non-restrictive clause, so it requires a comma.
+Erroneous sentence: The earlier we tell them , a better habit they will arise and better for the rest of their lives .
+Correct sentence: The earlier we tell them , the better habit they will arise and better for the rest of their lives .
+Explanations:
+label: 1. The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 29.77 seconds
+Model: Meta-Llama-3-8B
+F1: 0.5958786250816451
+Precision: 0.5803360020120939
+Recall: 0.6129025183618069
+Cleaned F1: 0.6123614298800627
+Cleaned Precision: 0.6146463933918211
+Cleaned Recall: 0.6105549111962318
+ ending 

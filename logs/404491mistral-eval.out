@@ -1,0 +1,22 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'other', 'end': 24, 'error': 'others', 'explanation': '"Each" needs to be followed by a singular noun, because use of "each" in this case means that you are talking about every person separately, so use "other" here.', 'start': 23}, {'correct': 'role', 'end': 50, 'error': 'aspect', 'explanation': 'Incorrect word choice. You could say "it is an important aspect", but in your sentence you are using the verb "play" which "aspect" does not fit with. The word that fits with "play" and the rest of the sentence is "role", as something can "play an important role in our lives".', 'start': 49}]
+incorrect_sentence: With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each others through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important aspect in our life .
+correct_sentence: With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each other through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important role in our life .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each others through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important aspect in our life .
+Correct sentence: With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each other through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important role in our life .
+Explanations:
+label: 1. "Each" needs to be followed by a singular noun, because use of "each" in this case means that you are talking about every person separately, so use "other" here.
+2. Incorrect word choice. You could say "it is an important aspect", but in your sentence you are using the verb "play" which "aspect" does not fit with. The word that fits with "play" and the rest of the sentence is "role", as something can "play an important role in our lives".
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8142100241449144
+Precision: 0.7774101893107096
+Recall: 0.8558830693364143
+Cleaned F1: 0.8144189094503721
+Cleaned Precision: 0.7776961024436686
+Cleaned Recall: 0.8559820565084616
+ ending 

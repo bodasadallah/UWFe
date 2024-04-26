@@ -1,0 +1,7 @@
+starting Evaluation.......................
+Loading Base Model mistralai/Mistral-7B-v0.1
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8026303781403435
+Precision: 0.7778665199875832
+Recall: 0.8307506413095527
+ ending 

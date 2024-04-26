@@ -1,0 +1,20 @@
+starting Evaluation.......................
+ 0 shot,    -    1  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 12, 'error': "other 's", 'explanation': 'As "permission" is something granted by another person, this is already taken for granted without needing to explicitly say "other\'s". ', 'start': 10}, {'correct': 'technology', 'end': 15, 'error': '-', 'explanation': 'You should explicitly state "technology" for clarity.', 'start': 15}, {'correct': 'in', 'end': 22, 'error': 'to', 'explanation': 'An implant goes inside the body, so you need to use "in" accordingly.', 'start': 21}]
+incorrect_sentence: We should respect that everyone has human rights and without other 's permission , this should not be placed or implanted to anyone .
+correct_sentence: We should respect that everyone has human rights and without permission , this technology should not be placed or implanted in anyone .
+prompt: You are given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: We should respect that everyone has human rights and without other 's permission , this should not be placed or implanted to anyone .
+Correct sentence: We should respect that everyone has human rights and without permission , this technology should not be placed or implanted in anyone .
+Errors:
+1. Error: other 's, Correction:  
+2. Error:  , Correction: technology
+3. Error: to, Correction: in
+Explanations:
+label: 1. As "permission" is something granted by another person, this is already taken for granted without needing to explicitly say "other's". 
+2. You should explicitly state "technology" for clarity.
+3. An implant goes inside the body, so you need to use "in" accordingly.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+ ending 

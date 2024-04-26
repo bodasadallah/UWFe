@@ -1,0 +1,141 @@
+starting Evaluation.......................
+5 shot,    -   explicit errors, llama3 babyyy  model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'skills', 'end': 6, 'error': 'skill', 'explanation': 'This sentence is talking about interpersonal skills in general, so "skill" should be pluralised.', 'start': 5}, {'correct': 'are', 'end': 7, 'error': 'is', 'explanation': 'Incorrect conjugation. "Interpersonal skills" is the third person plural, so use "are" to correspond with it.', 'start': 6}]
+incorrect_sentence: In this case , interpersonal skill is not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+correct_sentence: In this case , interpersonal skills are not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: This also means that as soon a person is made aware of his or her genetic profile , he or she concurently has a knowledge about others .
+Correct sentence: This also means that as soon a person is made aware of his or her genetic profile , he or she concurently has knowledge about others .
+Errors:
+1. Error: a, Correction:  
+Explanations:
+1. "Knowledge" is an uncountable and abstract noun, so it cannot be made singular or plural, thus it cannot be used with the indefinite article 'a.'
+Erroneous sentence: However , social media site is a double-sided sword , it also bring in some negative effect on our daily life .
+Correct sentence: However , social media site is a double-sided sword , it also bring some negative effects on our daily lives .
+Errors:
+1. Error: in, Correction:  
+2. Error: life, Correction: lives
+3. Error: effect, Correction: effects
+Explanations:
+1. Unnecessary word. "Bring in" means to yield or earn something, as in "His YouTube career brings in $40 million a year", but this is not the sense you want in your sentence, so just use "bring" on its own.
+2. This sentence is talking about people's daily lives in general, so "life" should be pluralised.
+3. This sentence is talking about negative effects in general, so "effect" should be pluralised.
+Erroneous sentence: Seconly , the relatives of the carrier can also choose to do genetic testing regardless of the dignosis of the carrier .
+Correct sentence: Secondly , the relatives of the carrier can also choose to do genetic testing regardless of the diagnosis of the carrier .
+Errors:
+1. Error: dignosis, Correction: diagnosis
+2. Error: Seconly, Correction: Secondly
+Explanations:
+1. Incorrect spelling. The correct spelling is "diagnosis".
+2. Incorrect spelling. The correct spelling is "Secondly".
+Erroneous sentence: It is weird that people sit around the table but all face to their phones and do not talk with each other .
+Correct sentence: It is weird that people sit around the table but all face their phones and do not talk with to other .
+Errors:
+1. Error: with, Correction: to
+2. Error: to, Correction:  
+Explanations:
+1. When referring to conversation, the phrases "talk with" and "talk to" are mostly interchangeable, so I'm not sure if I agree with this correction. I agree that it is more common to say "talk to" when the pronoun "each other" is used, but "talk with each other" is not grammatically incorrect. The phrase "talk to" may also have a more general meaning, where "talk with" can have the nuance of consulting with someone, or of a conversation between peers or equals.
+2. The verb "face" is an intransitive verb meaning to turn one's body or head toward something. It can be used without an object, and it already indicates the direction without a preposition.
+Erroneous sentence: This can protect the students from being in a dangerous situation in particularly for the small children who are studying in nursery .
+Correct sentence: This can protect the students from being in a dangerous situation , particularly small children who are studying in nursery .
+Errors:
+1. Error:  , Correction: ,
+2. Error: in particularly for, Correction: particularly
+3. Error: the, Correction:  
+Explanations:
+1. Add a comma to separate the clauses.
+2. "In particularly for" does not make sense, it is correct here to use "particularly" on its own.
+3. This sentence is talking about small children in general and therefore it does not need an article.
+Erroneous sentence: In this case , interpersonal skill is not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+Correct sentence: In this case , interpersonal skills are not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+Errors:
+1. Error: skill, Correction: skills
+2. Error: is, Correction: are
+Explanations:
+label: 1. This sentence is talking about interpersonal skills in general, so "skill" should be pluralised.
+2. Incorrect conjugation. "Interpersonal skills" is the third person plural, so use "are" to correspond with it.
+
+ ================ Loading LLAMA3 ===============
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 9.21 seconds
+Random selected samples:
+Prediction:  
+1. The conjunction "and" is used to connect two or more words, phrases, or clauses. In this sentence, the conjunction "and" is used to connect the two clauses "the benefits from investing such enormous time and energy" and "is not reflected as something positive to the users." The conjunction "and" is used to connect two or more words, phrases, or clauses. In this sentence, the conjunction "and" is used to connect the two clauses "the benefits from investing such enormous time and energy" and "is not reflected as something positive to the users."
+2. The verb "reflect" is used to describe the action of reflecting light, sound, or heat. In this sentence, the verb "reflect" is used to describe the action of reflecting the benefits of social media. The verb "reflect" is used to describe the action of reflecting light, sound, or heat. In this sentence, the verb "reflect" is used to describe the action of reflecting the benefits of social media.
+Erroneous sentence: The social media is a powerful tool to disseminate information to the people around them .
+Correct sentence: The social media is a powerful tool to disseminate information to the people around them .
+Errors:
+1. Error: 
+Label: 1. Unnecessary comma. The position of the comma is grammatically incorrect.
+2. Incorrect spelling. The correct spelling is "reflected".
+
+
+
+
+
+Prediction: 
+Label: 1. This is a spelling error. The correct spelling is "believe."
+
+
+
+
+
+Prediction:  
+1. The preposition "for" is used to indicate the purpose of an action. In this case, the purpose of the action of leaking information is to receive cash reimbursement.
+Erroneous sentence: The social media sites are not only used for communication , but also for entertainment .
+Correct sentence: The social media sites are not only used for communication , but also for entertainment .
+Errors:
+1. Error:  , Correction: for
+Explanations:
+1. The preposition "for" is used to indicate the purpose of an action. In this case, the purpose of using social media sites is for communication and entertainment.
+Erroneous sentence: The social media sites are not only used for communication , but also for entertainment .
+Correct sentence: The social media sites are not only used for communication , but also for entertainment .
+Errors:
+1. Error:  , Correction: for
+Explanations:
+1. The preposition "for" is used to indicate the purpose of an action. In this case, the purpose of using social media sites is for communication and entertainment.
+Erroneous sentence: The social media sites are not only used for communication , but also for entertainment .
+Correct sentence: The social media sites are not only used for communication , but also
+Label: 1. The phrase "with cash imbursement" means that the social media sites provided companies with both user information and cash reimbursement. The preposition "for" can mean in exchange, so "for cash reimbursement" means that companies paid social media sites in order to receive user information.
+
+
+
+
+
+Prediction:  
+1. The phrase "to make" is used to indicate that something is being created. The phrase "from making" is used to indicate that something is being stopped from being created. This sentence is explaining that engineers are discouraged from making more effort to do research and design, so the phrase "from making" is used.
+2. The phrase "for" is used to indicate the reason for something. The phrase "and" is used to indicate the result of something. This sentence is explaining that engineers are discouraged from making more effort to do research and design, and that they have little motivation to work hard. The phrase "and" is used to indicate the result of the discouragement.
+3. The phrase "will have" is used to indicate that something will happen in the future. The phrase "have" is used to indicate that something is happening in the present. This sentence is explaining that engineers have little motivation to work hard, so the phrase "have" is used.
+Erroneous sentence: The reason is that the government has not provided enough funds for the project .
+Correct sentence: The reason is that the government has not provided enough funds for the project .
+Errors:
+1. Error:  , Correction:  
+Explanations:
+1. The phrase
+Label: 1. The preposition "to" refers to directionality, or flowing toward an object, whereas "from" can imply separation or removal from an object. Given this, "discourage from" makes sense because the engineers are stopped from making more effort. The phrase "discourage to" is not grammatically correct, but it would imply something like making a demoralizing remark to someone, which is not the meaning of this sentence.
+2. The phrase "for they have" is an archaic way of saying "because they have." If the author wants to say that having little motivation to work hard discourages the engineers from making efforts, then it is understandable, but modern English phrases this as "because they have little motivation to work hard." If the author wants to say that the problem both discourages engineers from making efforts and takes away their motivation to work hard, then the correction is valid.
+3. Using the future tense "will" refers to future events, but the rest of this sentence is about ongoing events, so the present tense should be used. It is also clearer and more assertive to say "they have."
+
+
+
+
+
+Prediction:  
+1. The possessive form of "Forest" is "Forest's", not "Forest'view".
+Label: 1. An "s" and a space are missing. There should be an "s" after the apostrophe and "view" should be a separate word.
+
+
+
+
+
+Model: Meta-Llama-3-8B
+F1: 0.73960141878989
+Precision: 0.7151511303252645
+Recall: 0.7665513075060315
+Cleaned F1: 0.7822215383251508
+Cleaned Precision: 0.7868902472158273
+Cleaned Recall: 0.7779520543085204
+ ending 

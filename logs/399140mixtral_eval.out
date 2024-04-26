@@ -1,0 +1,154 @@
+starting Evaluation.......................
+0 shot,   explicit errors, mixtral finetuned model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'disadvantages', 'end': 4, 'error': 'disadvantage', 'explanation': 'The noun "disadvantage" requires either pluralization or an article. It refers to a result of something, so it is often plural because it is assumed that any action can cause multiple results. Unless it is known that there is only one singular disadvantage, usually it is used in the plural. Also, the phrase "one of" implies that there are multiple potential members of a group, so what comes after it must be plural.', 'start': 3}, {'correct': '-', 'end': 13, 'error': 'the', 'explanation': 'I partially agree with the correction because "the" should be deleted, but that does not fix the issue. The phrase "lose interest in" is a commonly used expression, and it never uses an article. The first word is always a verb form, and "loss" is a noun, so it should be changed to "lose."', 'start': 12}, {'correct': 'in', 'end': 15, 'error': 'of', 'explanation': 'The phrase "lose interest in" is a commonly used expression, and it always uses the article "in." The phrase "lose interest of" is incorrect, and it would mean that the "interest" belongs to face-to-face communication or is an aspect of it.', 'start': 14}]
+incorrect_sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+correct_sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+Correct sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+Explanations:
+label: 1. The noun "disadvantage" requires either pluralization or an article. It refers to a result of something, so it is often plural because it is assumed that any action can cause multiple results. Unless it is known that there is only one singular disadvantage, usually it is used in the plural. Also, the phrase "one of" implies that there are multiple potential members of a group, so what comes after it must be plural.
+2. I partially agree with the correction because "the" should be deleted, but that does not fix the issue. The phrase "lose interest in" is a commonly used expression, and it never uses an article. The first word is always a verb form, and "loss" is a noun, so it should be changed to "lose."
+3. The phrase "lose interest in" is a commonly used expression, and it always uses the article "in." The phrase "lose interest of" is incorrect, and it would mean that the "interest" belongs to face-to-face communication or is an aspect of it.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-mixtral-explicit-errors/mistralai/Mixtral-8x7B-v0.1/checkpoint-19000/
+Random selected samples:
+Prediction: 
+1. The definite article "the" is used to refer to a specific thing, but "research" is a general concept and therefore does not need an article.
+2. The definite article "the" is used to refer to a specific thing, but "Facebook" is a general concept and therefore does not need an article.
+Incorrect spelling: unknowingly, unknowingly
+Correct spelling: unknowingly, unknowingly
+Explanations:
+1. The word "unknowingly" is spelled incorrectly. The correct spelling is "unknowingly."
+2. The word "unknowingly" is spelled incorrectly. The correct spelling is "unknowingly."
+Erroneous sentence: Also , according to a research , it has been proven that the users feel more sad after using the Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Correct sentence: Also , according to research , it has been proven that users feel more sad after using Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Explanations:
+1. The definite article "the" is used to refer to a specific thing, but "research" is a general concept and therefore does not need an article.
+2. The definite article "the" is used to refer to a specific thing, but "Facebook" is a general concept and therefore does not need an article.
+3. The word "unknowingly" is spelled incorrectly. The correct spelling is "unknowingly."
+4. The word "unknowingly" is spelled incorrectly. The correct spelling is "unknowingly."
+Erroneous sentence: Also , according to a research , it has been proven that the users feel more sad after using the Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Correct sentence: Also , according to research , it has been proven that users feel more sad after using Facebook and this is because users unknowingly compare their lives with other people 's lives .
+Explanations:
+1. The definite article "the" is used to refer to a specific thing, but "research" is a general concept and therefore does not need an article.
+2. The definite article "the" is used to refer to
+Label: 1. "Research" is an uncountable noun, so it does not take the indefinite article "a." To refer to one specific study, it is common to say "according to a research study" or "according to research by [author/institution]," but for research-based knowledge in general, the phrase is "according to research."
+2. The concept of "users" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific groups of users instead of to users in general.
+3. Names of websites are proper nouns and therefore do not take an article in general. As an exception, organizational names that contain "Group," "Association," or similar words often have "the" added when used in a sentence, like "the American Medical Association" or "the Sony Group." But outside of these special cases, there should be no article.
+
+
+
+
+
+Prediction: 
+1. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+Error 2: Incorrect article, Correct sentence: Therefore I believe the parents have the right to know the healthiness of their child .
+Explanations:
+1. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+Erroneous sentence: Therefore I believe the parents have their right to know the healthiness of their child .
+Correct sentence: Therefore I believe the parents have the right to know the healthiness of their child .
+Explanations:
+1. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+2. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+Erroneous sentence: Therefore I believe the parents have their right to know the healthiness of their child .
+Correct sentence: Therefore I believe the parents have the right to know the healthiness of their child .
+Explanations:
+1. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+2. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+3. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+Erroneous sentence: Therefore I believe the parents have their right to know the healthiness of their child .
+Correct sentence: Therefore I believe the parents have the right to know the healthiness of their child .
+Explanations:
+1. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+2. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+3. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+4. The phrase "the right to" is a set phrase that is always used with the definite article "the."
+Erroneous sentence: Therefore I believe the parents have their right to know the healthiness of their child .
+Correct sentence: Therefore I believe the parents have the right to know the healthiness
+Label: 1. Incorrect word choice. The sentence is talking about a specific right that anyone is entitled to, not just the parents discussed in the sentence, so it should be "the right", not "their right".
+
+
+
+
+
+Prediction: 
+1. The verb "connect" is an irregular verb, and the past tense is "connected."
+Error 2: Incorrect word, should be "connects"
+You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
+Erroneous sentence: It is obvious to see that internet saves people 's time and also connect people globally .
+Correct sentence: It is obvious to see that internet saves people 's time and also connects people globally .
+Explanations:
+1. The verb "connect" is an irregular verb, and the past tense is "connected."
+Error 2: Incorrect word, should be "connects"
+Incorrect word, should be "connects"
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "connect" is an irregular verb, and the past tense is "connected."
+The verb "
+Label: 1. When used as a noun, "Internet" almost always takes the definite article "the." This may be an idiomatic use, or it may be because everyone who uses the Internet is connected to the same network, no matter where they are.
+
+
+
+
+
+Prediction: 
+1. The preposition "of" is used to indicate possession or ownership, but the sentence is talking about the amount of writing skills, not the amount of writing skills that belong to someone. Use the preposition "the" instead.
+2. The preposition "on" is used to indicate that something is done on a surface or on a website. Use "on" instead of "in" to indicate that the time is spent on the social media sites.
+3. The conjunction "and" is used to join two things together, but the sentence is talking about two different things: the amount of writing skills and the amount of time spent on social media sites. Use a comma to separate the two clauses.
+Errors
+Correct
+Explanations
+1.   Based on the statistic report , the more of the writing skills will be reduced when the more time used in the social media sites .
+2.   Based on the statistic report , the more the writing skills will be reduced when the more time used on the social media sites .
+Incorrect phrases   and   Incorrect words   and   Missing words
+2.   Based on the statistic report , the more the writing skills will be reduced when the more time used on the social media sites .
+Incorrect phrases   and   Incorrect words   and   Missing words
+Label: 1. I partially agree with this correction because "of" needs to be removed, but that does not fix the problem. The sentence should be rephrased as "the more time spent on social media sites, the more a person's writing skills will be reduced." First, this construction does not use "of." Second, it always consists of two phrases, and the first is always the cause and the second is always the outcome. Therefore, "time spent on social media" should come first and "writing skills will be reduced" should come second. 
+This suggestion also fixes the other grammar issues. First, it is not common to say "time used on social media sites." Instead, it is common to say "time spent on social media sites" or "time spent using social media sites." Second, the phrase "the more of the writing skills" is not commonly used and is different to understand. Also, it is not clear to whom the phrase "writing skills" refers, so it should be changed to "the more a person's writing skills." This makes the meaning clear.
+2. When talking about "time spent," English uses the preposition "in" for physical locations and "on" for activities or pursuits. For example, a dedicated scholar might spend a lot of time in the library or spend a lot of time on her studies. Social media is not a physical location, so "on" is appropriate here. 
+
+
+
+
+
+Prediction: 
+1. The phrase "at risk for" is used to describe the possibility of something happening, so it should be followed by a noun. "Risk" is a noun, so it should be followed by the preposition "of" to show that it is the object of the phrase "at risk for."
+Error 2: Incorrect word, should be "of"
+Correct sentence: As many people realize , a genetic disorder can be related to the carrier 's relatives , that is , one of the family members is at risk for a genetic disorder means that other family members also have almost the equally risk of have it , so this problem should be treated seriously by the family .
+Explanations:
+2. The phrase "at risk for" is used to describe the possibility of something happening, so it should be followed by a noun. "Risk" is a noun, so it should be followed by the preposition "of" to show that it is the object of the phrase "at risk for."
+Error 3: Incorrect word, should be "of"
+Correct sentence: As many people realize , a genetic disorder can be related to the carrier 's relatives , that is , one of the family members is at risk for a genetic disorder means that other family members also have almost the equally risk of have it , so this problem should be treated seriously by the family .
+Explanations:
+3. The phrase "at risk for" is used to describe the possibility of something happening, so it should be followed by a noun. "Risk" is a noun, so it should be followed by the preposition "of" to show that it is the object of the phrase "at risk for."
+Error 4: Incorrect word, should be "of"
+Correct sentence: As many people realize , a genetic disorder can be related to the carrier 's relatives , that is , one of the family members is at risk for a genetic disorder means that other family members also have almost the equally risk of have it , so this problem should be treated seriously by the family .
+Explanations:
+4. The phrase "at risk for" is used to describe the possibility of something happening, so it should be followed by a noun. "Risk" is a noun, so it should be followed by the preposition "of" to show that it is the object of the phrase "at risk for
+Label: 1. Incorrect preposition. As "risk" is a possibility, it should be followed by the preposition "of".
+
+
+
+
+
+Model: mistralai/Mixtral-8x7B-v0.1
+F1: 0.8116758606500096
+Precision: 0.779700761867894
+Recall: 0.8474514074623585
+ ending 

@@ -1,0 +1,266 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction: Here are the explanations for each error:
+
+1. The erroneous sentence is missing a comma after "situation". This is because "particularly small children who are studying in nursery" is a non-essential clause that provides additional information about the situation, and it should be separated from the main clause with a comma.
+
+2. The phrase "in particularly for" is incorrect because "particularly" is an adverb that means "to a high degree" or "especially", and it doesn't need a preposition like "for". It's correct to use "particularly" on its own to modify the noun "children".
+
+3. The sentence is talking about small children in general, so it doesn't need the article "the" before "small children". The sentence is making a general statement about small children, not referring to a specific group of small children.
+
+Erroneous sentence: Human has their own rights and privacy .
+Correct sentence: Humans have their own rights and privacy .
+Explanations:
+1. The sentence is discussing people in general, so "human" should be pluralised to "humans". This is because "human" is a singular noun, and when referring to people in general, it's more accurate to use the plural form.
+
+2. The verb "
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction: Here are the explanations for each error:
+
+1. Erroneous sentence: Thus , having the knowledge that such genetic disorder is benign would be beneficial towards their emotinal thoughts .
+Correct sentence: Thus , having the knowledge that such genetic disorder is benign would be beneficial towards their emotional thoughts .
+Explanation: This is a typo. The correct spelling is "emotional."
+
+2. Erroneous sentence: It is just because that you do not become strong enough to overcome the hard time .
+Correct sentence: It is just because that you do not become strong enough to overcome the hard times .
+Explanation: When generally referring to a period of hardship, "time" is pluralized, so the correct expression is "the hard times".
+
+3. Erroneous sentence: In the past decades , when the social media sites are not yet fully developed , people connect with others who live far away by using a phone , or even a letter .
+Correct sentence: In past decades , when the social media sites were not yet fully developed , people connected with others who lived far away by using a phone , or even a letter .
+Explanation: The concept of "past decades" is a general concept and can be assumed to be understood by the reader. It takes the definite article only with the singular "the
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction: Here are the explanations for each error:
+
+1. Erroneous sentence: Secondly , annouance the potential risk would cause the family member to be scared of this certain issue , although the factor would not be that serious , people would still fear that they would have some potential disease in the future thus go to hospital and do additional check or take more medicine in order to prevent the disease , and this creats unnecessary costs to the family .
+
+Explanation: The error is in the verb "annouance" which should be "announce". The sentence should read "Secondly, announce the potential risk...".
+
+2. Erroneous sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Explanation: The error is in the verb "do" which should be "does". The subject "social media" is singular, so the verb should be "does" for subject-verb agreement.
+
+3. Erroneous sentence: Otherwise , making it an obligation will restric the choice of carriers and bring a lot of confusion to their relatives .
+
+Explanation: The error is in the spelling "restric" which should be "restrict". The correct spelling is "restrict".
+
+4. Err
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+Erroneous sentence: These social media makes people 's life much more colorful and provide a lot of fun .
+Correct sentence: These social media makes people 's lives much more colorful and provide a lot of fun .
+Explanation:
+1. The sentence mentions multiple people, so "life" should be pluralised, as there are multiple lives.
+
+Erroneous sentence: Recently , a student got a very good result in the National College Entrance Examination ( NCEE ) , but he did not enter the university which he applied for , because the secondary school offered him ¥ 100,000 encouraging him to stay another year in secondary school for the next year 's NCEE , expecting that he could become the top 1 student in his province .
+Correct sentence: Recently , a student got a very good result in the National College Entrance Examination ( NCEE ) , but he did not enter the university which he applied for , because the secondary school offered him ¥ 100,000 encouraging him to stay for another year in the secondary school for the next year 's NCEE , expecting that he could become the top student in his province .
+Explanation:
+1. The phrase "stay another year" is used in spoken English and
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction: Here are the explanations for each error in the erroneous sentence:
+
+Erroneous sentence: Social media provides people a way of talking and chatting which can never be considered as a way of communication .
+
+Explanation:
+1. Missing word. Use "with" to link "provides" and "a way of talking and chatting" so we know what is being provided by social media.
+
+Erroneous sentence: These green house gases are the main cause to worldwide global warming which give rise to further catastrophes such as the rise in global temperature etc .
+
+Explanation:
+1. This sentence uses the noun "cause," meaning a person or thing that gives rise to something. In such cases, "cause" takes the pronoun "of," which is used to indicate what caused an event. Therefore, the phrase "the main cause of global warming" means "the main thing that causes global warming."
+2. The subject here is "global warming," which is singular, so the verb should be "gives" for subject-verb agreement.
+
+Erroneous sentence: When electronic devices are not grounded properly , there is a probability that the user might get an electric shock when he/she accidentally come into contact with the device .
+
+Explanation:
+1. The subject is "he/she," which is
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction: I'll provide explanations for each error in the erroneous sentences.
+
+1. Erroneous sentence: It is weird that people sit around the table but all face to their phones and do not talk with each other .
+
+Correct sentence: It is weird that people sit around the table but all face their phones and do not talk with to other .
+
+Explanation: The error is in the use of the preposition "to" instead of the correct preposition "their". The verb "face" is an intransitive verb, and it does not require an object. The phrase "face to" is incorrect, and the correct phrase is simply "face their phones".
+
+2. Erroneous sentence: These are not the only challenges that the innovators are going to deal with .
+
+Correct sentence: These are not the only challenges that innovators are going to deal with .
+
+Explanation: The error is in the use of the definite article "the" before the noun "innovators". The noun "innovators" is a general concept and does not require the definite article. The sentence is referring to innovators in general, rather than a specific group of innovators.
+
+3. Erroneous sentence: There are many people in the social media with beautiful image and good content in their
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction: Here are the explanations for each error:
+
+Erroneous sentence: Besides , there are more people shwing their pictures of yummy food or travelling experience .
+Correct sentence: Besides , there are more people showing their pictures of yummy food or travelling experiences .
+
+Explanation:
+1. This is a spelling error. The correct spelling is "showing."
+
+Erroneous sentence: Researches show that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+Correct sentence: Research shows that face-to-face meeting frequency among people that are addicted to social media sites has been decreasing .
+
+Explanation:
+1. "Researches" is the third person singular verb form, as in "He/she researches social media use". Based on the context of this sentence, you are most likely talking about research as a noun, and it does not need to be pluralised as it is an uncountable noun, so just use "research".
+2. Incorrect conjugation. "Research" is treated as the third person singular, so use "shows" to correspond with it.
+
+Erroneous sentence: Although the surveillance technology is an issue in invading the human privacy , it has also brought us lots of benefits and security .
+Correct sentence: Although surveillance technology is an issue in safeguarding
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction: Here are the explanations for each error:
+
+1. The erroneous sentence: The earlier we tell them , a better habit they will arise and better for the rest of their lives .
+
+Explanation: The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".
+
+2. The erroneous sentence: Parents know what the best is for their children , thus they will make a right decision after they have be informed .
+
+Explanation: The sentence is mentioning one specific decision, i.e., the correct one, so use the definite article, "the".
+
+3. The erroneous sentence: With a small smart phone or a computer at school , at work or at home , we can easily make friends worldwide with a 'click ' and get to know about their life through having conversations with them , reading their blogs , photos and status .
+
+Explanation: The list is talking about things in general, and so "status" should be pluralised to match "conversations", "blogs" and "photos".
+
+4. The erroneous sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction: Here are the explanations for each error:
+
+1. You are expressing an opinion that you hold now, not something that you thought in the past, so you should use the present tense, "think".
+
+The original sentence uses the past tense "thought", which implies that the opinion was held in the past. However, the context suggests that the speaker is expressing a current opinion, so the present tense "think" is more appropriate.
+
+2. An individual's value system consists of multiple elements, so the plural "morals" is correct. The singular "moral" is used mostly to refer to a lesson gleaned from a parable, e.g. "the moral of the story."
+
+The original sentence uses the singular "moral", which is incorrect because an individual's value system typically consists of multiple moral principles. The plural "morals" is more accurate.
+
+3. The concept of "personal morals" is an abstract noun and does not generally require an article. It only uses an article when referring to the values of a specific person, for example, "the personal morals of an individual."
+
+The original sentence uses the article "personal" before "morals", which is incorrect because "personal morals" is an abstract concept and does not require an article.
+
+4
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction: Here are the explanations for each error:
+
+1. Erroneous sentence: Thus , having the knowledge that such genetic disorder is benign would be beneficial towards their emotinal thoughts .
+Correct sentence: Thus , having the knowledge that such genetic disorder is benign would be beneficial towards their emotional thoughts .
+Explanations:
+1. This is a typo. The correct spelling is "emotional."
+
+2. Erroneous sentence: A family of four having dinners in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Correct sentence: A family of four having dinner in a restaurant without any chatting , because their holding and looking at their display screen with one hand when the other hand is holding a fork .
+Explanations:
+1. The plural "dinners" refers either to each family member's individual orders at the restaurant or to multiple instances of gathering for dinner. A meal is still referred to in the singular when it is shared by multiple people. Therefore, it should be "having dinner" rather than "having dinners."
+
+3. Erroneous sentence: Finding old friends through Facebook , for example , is more easier than asking people around in real life .
+Correct sentence: Finding old friends through Facebook , for
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

@@ -1,0 +1,219 @@
+Error_sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
+
+Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
+
+Prediction:  
+1. The word "qualified" is not in the correct form. It should be "creative".
+2. The word "resource" is not in the correct form. It should be "resources".
+
+
+Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
+2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
+
+
+------------------------------
+
+
+Error_sentence: Nevertheless , there are cyber polices who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
+
+Prediction:  The word polices is a plural form of the word police. The word police is a singular noun. The word police is used to refer to a person who works in the police force. The word police is also used to refer to the police force as a whole. The word police is a countable noun. The word police is used to refer to a person who works in the police force. The word police is also used to refer to the police force as a whole. The word police is a countable noun. The word police is used to refer to a person who works in the police force. The word police is also used to refer to the police force as a whole. The word police is a countable noun. The word police is used to refer to a person who works in the police force. The word police is also used to refer to the police force as a whole. The word police is a countable noun. The word police is used to refer to a person who works in the police force. The word police is also used to refer to the police force as a whole. The word police is a countable noun. The word police is used to refer to a person who works in the police force. The word police is also used to refer
+
+Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
+
+
+------------------------------
+
+
+Error_sentence: With the frequent usage and reliance of the social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
+
+Prediction:  
+1. The preposition of is used to indicate the source of something. In this case, the source of the frequent usage and reliance is the social media and the Internet. Therefore, the preposition of is used correctly.
+2. The preposition the is used to indicate a specific thing or person. In this case, the specific thing or person is the society that socialises through the cyber. Therefore, the preposition the is used correctly.
+3. The preposition on is used to indicate a surface or a location. In this case, the surface or location is the social media and the Internet. Therefore, the preposition on is used correctly.
+4. The preposition through is used to indicate a means of transportation or a way of doing something. In this case, the means of transportation or way of doing something is the cyber. Therefore, the preposition through is used correctly.
+5. The preposition will is used to indicate a future event or action. In this case, the future event or action is the society that socialises through the cyber will be more advance and adapted to the highly connected world. Therefore, the preposition will is used correctly.
+6. The preposition be is used to indicate a state of being. In this case,
+
+Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
+2. "Social media" is an uncountable noun and therefore should not have an article.
+
+
+------------------------------
+
+
+Error_sentence: Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
+
+Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
+
+Prediction:  
+2. Error: in, Correction:  
+Explanations: 
+3. Error: the, Correction:  
+Explanations: 
+4. Error: due, Correction:  
+Explanations: 
+5. Error: to, Correction:  
+Explanations: 
+6. Error: the, Correction:  
+Explanations: 
+7. Error: high-velocity, Correction:  
+Explanations: 
+8. Error: technological, Correction:  
+Explanations: 
+9. Error: advancement, Correction:  
+Explanations: 
+
+
+Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
+
+
+------------------------------
+
+
+Error_sentence: The more people using it over us , the more power they will have on us .
+
+Correct_sentence: However , the more people use it on us , the more power they will have over us .
+
+Prediction:  1. The more people using it over us , the more power they will have on us .
+2. The more people using it over us , the more power they will have on us .
+3. The more people using it over us , the more power they will have on us .
+4. The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over us , the more power they will have on us .
+Explanation: The more people using it over
+
+Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
+2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
+3. Incorrect preposition. Use "on" to indicate the thing (us) that you will perform the action (use) on.
+4. If someone is in a position of power or authority, we think of them as being metaphorically above us, therefore if they wield/exert power from that position, then they would be wielding/exerting their power "over" us.
+
+
+------------------------------
+
+
+Error_sentence: Though social media do create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
+
+Prediction:  The verb create is singular, so the verb in the subject-verb agreement should be singular.
+2. Error: relationships, Correction: relationship
+Explanations: The noun relationships is plural, so the noun in the subject-verb agreement should be plural.
+3. Error: are, Correction: is
+Explanations: The verb create is singular, so the verb in the subject-verb agreement should be singular.
+4. Error: relationships, Correction: relationship
+Explanations: The noun relationships is plural, so the noun in the subject-verb agreement should be plural.
+5. Error: and, Correction: if
+Explanations: The conjunction and is used to connect two clauses, but the conjunction if is used to connect two clauses when the second clause is a condition.
+6. Error: have, Correction: has
+Explanations: The verb gone is singular, so the verb in the subject-verb agreement should be singular.
+7. Error: and, Correction: in
+Explanations: The conjunction and is used to connect two clauses, but the preposition in is used to indicate the location of something.
+8. Error: face-to-face, Correction: face-to-face interaction
+Explanations: The phrase face-to-face is
+
+Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
+
+
+------------------------------
+
+
+Error_sentence: As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
+
+Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
+
+Prediction:  
+1. The word "the" is not needed here. It is a redundant word. 
+2. The word "contacts" is not needed here. It is a redundant word. 
+3. The word "face-to-face" is not needed here. It is a redundant word. 
+4. The word "human" is not needed here. It is a redundant word. 
+5. The word "has" is not needed here. It is a redundant word. 
+6. The word "decresed" is not needed here. It is a redundant word. 
+7. The word "more" is not needed here. It is a redundant word. 
+8. The word "and" is not needed here. It is a redundant word. 
+9. The word "such" is not needed here. It is a redundant word. 
+10. The word "on" is not needed here. It is a redundant word. 
+11. The word "time" is not needed here. It is a redundant word. 
+12. The word "spend" is not needed here. It is a redundant word. 
+13. The word "more" is not needed here. It is a redundant word. 
+14. The
+
+Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
+2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
+
+
+------------------------------
+
+
+Error_sentence: Many of the teenagers today claimed that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
+
+Prediction:  The verb claimed is in the past tense, but the sentence is in the present tense. The verb claim is in the present tense, so it is the correct verb to use in this sentence.
+2. Error: they, Correction: they’re
+Explanations: The word they’re is a contraction of the words they and are. The word they’re is used to indicate possession, so it is the correct word to use in this sentence.
+3. Error: able, Correction: able to
+Explanations: The word able is an adjective, but the sentence requires an adverb. The word able to is an adverb, so it is the correct word to use in this sentence.
+4. Error: through, Correction: through
+Explanations: The word through is a preposition, but the sentence requires a conjunction. The word through is a conjunction, so it is the correct word to use in this sentence.
+5. Error: regardless, Correction: regardless of
+Explanations: The word regardless is an adverb, but the sentence requires a preposition. The word regardless of is a preposition, so it is the correct word to use in this sentence.
+6. Error: their, Correction: their
+Explanations: The
+
+Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
+
+
+------------------------------
+
+
+Error_sentence: Human has their own rights and privacy .
+
+Correct_sentence: Humans have their own rights and privacy .
+
+Prediction:  1. The word Human is singular, but the word Humans is plural. 2. The word has is in the third person singular, but the word have is in the third person plural.
+Explanation: The word Human is singular, but the word Humans is plural.
+Explanation: The word has is in the third person singular, but the word have is in the third person plural.
+Explanation: The word Human is singular, but the word Humans is plural.
+Explanation: The word has is in the third person singular, but the word have is in the third person plural.
+Explanation: The word Human is singular, but the word Humans is plural.
+Explanation: The word has is in the third person singular, but the word have is in the third person plural.
+Explanation: The word Human is singular, but the word Humans is plural.
+Explanation: The word has is in the third person singular, but the word have is in the third person plural.
+Explanation: The word Human is singular, but the word Humans is plural.
+Explanation: The word has is in the third person singular, but the word have is in the third person plural.
+Explanation: The word Human is singular, but the word Humans is plural.
+Explanation: The word has is in the third person singular
+
+Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
+2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
+
+
+------------------------------
+
+
+Error_sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
+
+Prediction:  1. The verb has is used with singular nouns, and the verb have is used with plural nouns. 2. The preposition under is used with nouns that refer to a location, and the preposition at is used with nouns that refer to a location. 3. The preposition under is used with nouns that refer to a location, and the preposition at is used with nouns that refer to a location. 4. The verb run is used with the present participle running.
+
+Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
+2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+3. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
+4. This is a spelling error. The correct spelling is "running" because the final consonant is doubled when the verb ends with a vowel followed by a consonant.
+
+
+------------------------------
+
+

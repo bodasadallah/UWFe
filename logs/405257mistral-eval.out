@@ -1,0 +1,21 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 27, 'error': 'the', 'explanation': 'The concept of "society" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific societies, instead of modern society in general.', 'start': 26}]
+incorrect_sentence: Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for the society .
+correct_sentence: Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for society .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for the society .
+Correct sentence: Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for society .
+Explanations:
+label: 1. The concept of "society" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific societies, instead of modern society in general.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best/
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8352661165926192
+Precision: 0.8120638860596551
+Recall: 0.8608222144345442
+Cleaned F1: 0.8352995378275713
+Cleaned Precision: 0.8121492432223426
+Cleaned Recall: 0.8607934907906585
+ ending 

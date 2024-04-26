@@ -1,0 +1,83 @@
+starting Evaluation.......................
+0 shot,   no - explicit errors, mistral finetuned model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': '-', 'end': 53, 'error': 'if', 'explanation': 'I agree that "if" needs to be corrected, but have additional edits. First, in the original sentence, the engineer needs to answer two questions: (1) which method is suitable, and (2) if that method is legal. The latter is a choice between two options: if it agrees with existing laws or if it does not. This type choice is better expressed as "whether," which can indicate different choices or possibilities. Therefore, "if" should be changed to whether.', 'start': 52}]
+incorrect_sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and if agrees with existing international laws .
+correct_sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and agrees with existing international laws .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and if agrees with existing international laws .
+Correct sentence: Looking at this third step we realize why the second stage of an engineering design process of gathering information is important.Once all the information is put together into the different possible solutions , the engineer is put to decide which method out of the lot is suited best for the purpose and agrees with existing international laws .
+Explanations:
+label: 1. I agree that "if" needs to be corrected, but have additional edits. First, in the original sentence, the engineer needs to answer two questions: (1) which method is suitable, and (2) if that method is legal. The latter is a choice between two options: if it agrees with existing laws or if it does not. This type choice is better expressed as "whether," which can indicate different choices or possibilities. Therefore, "if" should be changed to whether.
+
+Loading model from /l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best
+Random selected samples:
+Prediction: 
+1. The plural "statuses" should be used because it is a general statement about people's social media statuses. As a singular or plural, "status" refers to the condition of a person or thing, but this "status" refers to a social media profile setting. Likewise, you might refer to a banker's "status", and that uses the singular. Or you might refer to "people's statuses", and in that case you should use the plural, as "statuses" means different positions in the hierarchy of family and society, and if you are referring to those of different people, you are referring to multiple positions.
+2. The plural "statuses" should be used because it is a general statement about people's social media statuses. As a singular or plural, "status" refers to the condition of a person or thing, but this "status" refers to a social media profile setting. Likewise, you might refer to a banker's "status", and that uses the singular. Or you might refer to "people's statuses", and in that case you should use the plural, as "statuses" means different positions in the hierarchy of family and society, and if you are referring to those of different people, you are referring to multiple positions.
+3. When referencing an instance of information sharing on social media, the plural "statuses" is used because an individual might have many such instances, while "status" means one's rank or social standing, as in "the status of bank manager".
+4. The plural "statuses" should be used because it is a general statement about people's social media statuses. As a singular or plural, "status" refers to the condition of a person or thing, but this "status" refers to a social media profile setting. Likewise, you might refer to a banker's "status", and that uses the singular. Or you might refer to "people's statuses", and in that case you should use the plural, as "statuses" means different positions in the hierarchy of family and society, and if you are referring to those of different people, you are referring to multiple positions.
+5. The expression is "on (social) media" not "in media". Social media is a specific category of media and using "in media" implies that they are using all media. "In the media" or "In the social
+Label: 1. The list is talking about things in general, and so "status" should be pluralised to match "conversations", "blogs" and "photos".
+
+
+
+
+
+Prediction: 
+1. Interpersonal skills are an example of the countable noun skills, and therefore it is best to use the plural phrase "interpersonal skills" together instead.
+2. None
+3. None
+4. Interpersonal skills are an example of the countable noun skills, and therefore it is best to use the plural phrase "interpersonal skills" together instead.
+5. "As" is used to indicate how something is done or what happens. "Because" is used to give background information or reasons. In this use, "because" conveys a cause and effect relationship, and there is no causal relationship between whether somebody finds something interesting or not and how we communicate our knowledge. As we are interested, we choose to tell our friends about it, and even tell them as much as we know. This is a separate step and it is best to use "because" to connect these ideas. This is partly a stylistic choice, but would also make it less likely for the listener to mishear "interested" as "interesting" (a common source of confusion). Therefore, "Interested is both because" should be changed to "In this case, interpersonal skills are not as important because we are interested...". Also, the first clause "In this case..." is only referring to the word "interested" which comes next, so add a comma for clarity. Also, the first clause "In this case..." is only referring to the word "interested" which comes next, so add a comma for clarity. There is a spelling mistake here. It should be "we are both interested in." You need to add in the verb "interested", so you should write the full phrase "Interests are things that someone cares for or is passionate about. For example, a science geek might like everything to do with science, and they may "Like" to collect things, talk, read books, attend lectures, study, and play games related to science.
+5. "As" is used to indicate how something is done or what happens. "Because" is used to give background information or reasons. In this use, "because" conveys a cause and effect relationship, and there is no causal relationship between whether somebody finds something interesting or not and how we communicate our knowledge. As we are interested, we choose to tell our friends about it, and even tell them as much as we know. This is a separate step and
+Label: 1. This sentence is talking about interpersonal skills in general, so "skill" should be pluralised.
+2. Incorrect conjugation. "Interpersonal skills" is the third person plural, so use "are" to correspond with it.
+
+
+
+
+
+Prediction: 
+1. The phrase "be afraid", on its own, is enough to convey any sort of state, and it generally does not use a preposition. "Afraid of" only needs to be used as a phrase. "Be ashamed of" is an exception in that it requires the preposition, but "be afraid" does not.
+2. "For" does not require an object, and the expression "be afraid (for)" means to worry or fear that something will happen. It means the same as "be worried (for/about)", which does not take a preposition. Even if it does take a preposition, "afraid of" would be wrong here because this is not an object or a thing for someone to fear. The noun phrase "nothing" is a subject and the entire phrase "there is nothing to be afraid of" (without "for") implies an object. This phrase means something like "there is nothing to be anxious about", so it does not require the preposition "for".
+3. The phrase "be ashamed" uses the proposition phrase "of", but the phrase "be afraid" does not use a preposition, so "be" with "of" should be deleted.
+4. This correction is unnecessary. In an uncommon construction where "of" links adjectives or noun phrases, it does not need to be deleted (e.g., "She is a woman of compassion", and "She is a compassionate woman". The preposition is needed in those cases because they are modifying nouns, but here it is used as a conjunction between adjectives to indicate the subject's mood/state. Also without any modification, "there is nothing to be (x)" as a phrase means that the "x" is not present. An adjective is a modifier, while the "of" makes it clear that the sentence is describing a mood, which is a state. The "of" is also needed to describe the intensity of the state being described. The sentence "There is nothing to be afraid of" means there is nothing to be fearful about, while "there is nothing to be afraid in general" would be more like "I have nothing to be afraid of" meaning that the person in question does not feel fear. The preposition is added to make that contrast explicit, but the preposition "in" is more common in this context than "of". In "There
+Label: 1. The first "be" in the sentence can be used for both "shy" and "afraid", you do not need to repeat it for "afraid".
+
+
+
+
+
+Prediction: 
+1. The words "emotional" and "emotions" refer to the way people feel, while "emotional" also has the additional meaning of being "displaying, relating to, or involving strong feelings." Because emotional is also an adjective meaning "relating to feelings," it cannot be used as a synonym for "emotions." While "emotions" is plural, it is not used with a plural meaning, such as "certain emotions," and the singular "emotional" should not be used to refer to feelings in general.
+2. The noun "thoughts" can be either countable or uncountable, depending on its meaning. When referring to an abstract idea or concept, it is uncountable, but when referring to a single instance of thinking it is countable. The phrase "their emotional thoughts" may refer to their feelings about some unspecified topic, in which case it should be uncountable. Otherwise, it should say "their thoughts" or "their thought," depending on the meaning.
+3. Incorrect spelling. The correct spelling is "their."
+4. As it would not be appropriate to refer to a disorder's "benefit," it should say that it "is beneficial."
+5. None is necessary. The verb "be" can be used alone to make any of the other linking verbs. The past of "beneficial" is "beneficial," so the phrase means that the knowledge had benefit. The subject is "having the knowledge," so it must be the present.
+Label: 1. This is a typo. The correct spelling is "emotional."
+
+
+
+
+
+Prediction: 
+1. The word "genetic" refers to genes or to the study of heredity, but here, "genetic" is being used to modify the noun "gene." The possessive "genes'" is used instead. The apostrophe indicates that the noun it is associated with is "genes." This would be confusing to the reader: Is this sentence talking about one genetic gene, a subset of a genes, a single gene? None of that makes sense, but the possessive "genes'" solves that by clarifying that the gene(s) belongs to the thing the sentence is talking about—which is genes.
+2. The definitive article "the" is unnecessary. The sentence is talking about genes in general.
+3. The noun phrase "a gene" is used to refer to a single genetic trait, for example, the gene that makes you green-eyed or lactose-intolerant. The plural "genes" is used to refer to the genes in general, i.e. the collective traits passed down by a single person or set of genetic material.
+4. The noun phrase "a gene" is used to refer to a single genetic trait, for example, the gene that makes you green-eyed or lactose-intolerant. The plural "genes" is used to refer to the genes in general, i.e. the collective traits passed down by a single person or set of genetic material.
+5. The noun phrase "a gene" is used to refer to a single genetic trait, for example, the gene that makes you green-eyed or lactose-intolerant. The plural "genes" is used to refer to the genes in general, i.e. the collective traits passed down by a single person or set of genetic material.
+6. None. This correction is correct. "Contrary" is a noun so there is a proper relationship here: some genes are the opposite of or different from, some genes. This correction is correct. "Contrary" is a noun so there is a proper relationship here: some genes are the opposite of or different from, some genes.
+7. The verb phrase "to pass" is used to indicate genetic material or some information being transferred to the offspring of parents or descendants of a family. This is a metaphor that expresses the idea that children carry their parent's
+Label: 1. The adjective "genetic" means of or relating to genes, so "genetic genes" is redundant and "genetic" should be deleted.
+2. The word "some" means an unspecified amount or a large amount. It is usually used with plural nouns. Also, it is unlikely that there is only one gene that can only be inherited by a specific gender, so logically it is more likely to be the plural.
+
+
+
+
+
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8484351063768069
+Precision: 0.8227309646705786
+Recall: 0.8764471987055408
+ ending 

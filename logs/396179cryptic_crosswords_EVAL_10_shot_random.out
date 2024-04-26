@@ -1,0 +1,205 @@
+starting Evaluation.......................
+5 shot,   explicit errors, native model
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'challenge', 'end': 8, 'error': 'challenges', 'explanation': 'The pronoun "another" means "one more," so it is singular and cannot be used with the plural "challenges." The singular "challenge" should be used instead.', 'start': 7}]
+incorrect_sentence: However , these procedures might become another challenges for the innovators .
+correct_sentence: However , these procedures might become another challenge for the innovators .
+prompt: You are given a few examples of erroneous sentences and their corrections. For every example, you are given the explicit errors and their corrections. You are also given an erroneous input sentence and its correction, followed by the explicit errors in this sentence. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: I agree to a great extent that RFID technology shall not be easily available for the public and taken for granted .
+Correct sentence: I agree to a great extent that RFID technology should not be easily available to the public or taken for granted .
+Errors:
+1. Error: shall, Correction: should
+2. Error: for, Correction: to
+3. Error: and, Correction: or
+Explanations:
+1. "Shall" is an old-fashioned way of expressing future tense and is not commonly used in modern English. "Shall" is too formal. "Should" is a more commonly used word to express an opinion. The author believes making RFID available to the public is not beneficial, so "should not" is used. 
+2. "For" is used to indicate a purpose or a reason, while "to" is used to indicate the direction or the recipient of an action. In this sentence, the correction is made because the sentence is talking about making powerful devices not easily available to the public, and not for the public.
+3. The incorrect sentence uses "and" but the ideas of "not be easily available to the public" and "taken for granted" are two separate predicate phrases not dependent or causal to each other. The author's opinion is that either of these things "should" happen, so the conjunction "or" is more appropriate.
+Erroneous sentence: On top of that , as the genetic risk may pass down to next generation , thus it will involve more than just one family .
+Correct sentence: On top of that , as the genetic risk may pass down to the next generation , thus it will involve more than just one family .
+Errors:
+1. Error:  , Correction: the
+Explanations:
+1. Missing article. As you are talking specifically about the next generation, use the definite article, "the".
+Erroneous sentence: Through those sites we are able to talk to them , to know what their activities are and who their friends are , etc. From the surface point of view it is no doubt that these sites help us to have a better relationship with our relatives despite of the distance .
+Correct sentence: Through those sites we are able to talk to them , to know what their activities are and who their friends are , etc. From the surface point of view it is no doubt that these sites help us to have a better relationship with our relatives despite the distance .
+Errors:
+1. Error: of, Correction:  
+Explanations:
+1. Unnecessary word. If you were using "in spite" it would be okay to write "in spite of the distance", but "of" is not necessary when using "despite".
+Erroneous sentence: Whose duty it is to inform at risk relatives or not greatly depends on the personal moral and the nature of how 'directive ' the risk is to them .
+Correct sentence: Whose duty it is to inform at risk relatives or not greatly depends on personal moral morals the nature of how 'directive ' the risk is to them .
+Errors:
+1. Error: moral, Correction: morals
+2. Error: the, Correction:  
+Explanations:
+1. An individual's value system consists of multiple elements, so the plural "morals" is correct. The singular "moral" is used mostly to refer to a lesson gleaned from a parable, e.g. "the moral of the story."
+2. The concept of "personal morals" is an abstract noun and does not generally require an article. It only uses an article when referring to the values of a specific person, for example, "the personal morals of an individual."
+Erroneous sentence: Otherwise , making it an obligation will restric the choice of carriers and bring a lot of confusion to their relatives .
+Correct sentence: Otherwise , making it an obligation will restrict the choice of carriers and bring a lot of confusion to their relatives .
+Errors:
+1. Error: restric, Correction: restrict
+Explanations:
+1. Incorrect spelling. The correct spelling is "restrict".
+Erroneous sentence: However , these procedures might become another challenges for the innovators .
+Correct sentence: However , these procedures might become another challenge for the innovators .
+Errors:
+1. Error: challenges, Correction: challenge
+Explanations:
+label: 1. The pronoun "another" means "one more," so it is singular and cannot be used with the plural "challenges." The singular "challenge" should be used instead.
+
+Loading Base Model mistralai/Mistral-7B-v0.1
+Random selected samples:
+Prediction: 
+1. The verb "say" is used to describe a single action, so it is singular. The phrase "many people" is plural, so the verb should be plural as well.
+2. The phrase "many people" is plural, so the article "the" should be deleted.
+Erroneous sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Correct sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. The noun "platform" is plural, so the verb should be plural as well.
+Erroneous sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Correct sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. The noun "platform" is plural, so the verb should be plural as well.
+Erroneous sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Correct sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. The noun "platform" is plural, so the verb should be plural as well.
+Erroneous sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Correct sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. The noun "platform" is plural, so the verb should be plural as well.
+Erroneous sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Correct sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. The noun "platform" is plural, so the verb should be plural as well.
+Erroneous sentence: The social media is a platform that allows people to share their ideas and thoughts .
+Correct sentence: The social media is a platform that allows people
+Label: 1. The subject here is the plural "people," so for subject-verb agreement's sake, the verb form should be "say."
+2. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific social media site, instead of to such sites in general.
+
+
+
+
+
+Prediction: 
+1. Incorrect form. "Immediate" is an adjective, so it needs to go with an adjective, but in this sentence it is being used with the verb disseminate, so you need to use the adverb form, "immediately". Consider the following rearranged and simplified sentence: "Social media is powerful as a tool as it can almost immediately disseminate information to people".
+Erroneous sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediate to the people around them .
+Correct sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediately to the people around them .
+Errors:
+1. Error: immediate, Correction: immediately
+Explanations:
+1. Incorrect form. "Immediate" is an adjective, so it needs to go with an adjective, but in this sentence it is being used with the verb disseminate, so you need to use the adverb form, "immediately". Consider the following rearranged and simplified sentence: "Social media is powerful as a tool as it can almost immediately disseminate information to people".
+Erroneous sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediate to the people around them .
+Correct sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediately to the people around them .
+Errors:
+1. Error: immediate, Correction: immediately
+Explanations:
+1. Incorrect form. "Immediate" is an adjective, so it needs to go with an adjective, but in this sentence it is being used with the verb disseminate, so you need to use the adverb form, "immediately". Consider the following rearranged and simplified sentence: "Social media is powerful as a tool as it can almost immediately disseminate information to people".
+Erroneous sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediate to the people around them .
+Correct sentence: Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate
+Label: 1. Incorrect form. "Immediate" is an adjective, so it needs to go with an adjective, but in this sentence it is being used with the verb disseminate, so you need to use the adverb form, "immediately". Consider the following rearranged and simplified sentence: "Social media is powerful as a tool as it can almost immediately disseminate information to people".
+
+
+
+
+
+Prediction: 
+1. Incorrect preposition. As "risk" is a possibility, it should be followed by the preposition "of".
+Erroneous sentence: In the past decades , when the social media sites are not yet fully developed , people connect with others who live far away by using a phone , or even a letter .
+Correct sentence: In past decades , when the social media sites were not yet fully developed , people connected with others who lived far away by using a phone , or even a letter .
+Errors:
+1. Error: the, Correction:  
+2. Error: are, Correction: were
+3. Error: connect, Correction: connected
+4. Error: live, Correction: lived
+Explanations:
+1. The concept of "past decades" is a general concept and can be assumed to be understood by the reader. It takes the definite article only with the singular "the past decade," meaning the last ten years, or with an adjective like "the past few decades," which refer to specific decades, instead of past decades in general.
+2. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "observes" implies that social media sites are still not yet fully developed, so it should be the past tense "were" instead.
+3. This sentence is referring to past events, as shown by the phrase "In past decades." The present tense "connect" implies that phone calls and letters are still the default method of communication, so it should be the past tense "connected" instead.
+4. This sentence is referring to past events, as shown by the phrase "In past decades." It's discussing how people in the past communicated with friends and relatives living far away. Because it is referring to the same time period, the present tense "live" should be changed to the past tense "lived."
+Erroneous sentence: In addition , privacy issue has become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share at the first place .
+Correct sentence: In addition , privacy issues have become more popular nowadays since some people do not realize that they may actually share some information that they are not willing to share in the first place .
+Errors:
+1. Error: issue, Correction: issues
+2. Error: has, Correction: have
+
+Label: 1. Incorrect preposition. As "risk" is a possibility, it should be followed by the preposition "of".
+
+
+
+
+
+Prediction: 
+1. The comma is used to separate two independent clauses. The first clause is "Another problem with social media is that," and the second clause is "the benefits from investing such enormous time and energy is not reflected as something positive to the users."
+2. The verb "reflect" is used to describe the action of showing or displaying something. The past tense of "reflect" is "reflected."
+Erroneous sentence: The social media is a powerful tool that can be used to disseminate information to the masses .
+Correct sentence: Social media is a powerful tool that can be used to disseminate information to the masses .
+Errors:
+1. Error:  , Correction:
+2. Error: disseminate, Correction: disseminating
+Explanations:
+1. The definite article "the" is used to refer to a specific thing, so it implies that this social media is distinct from other ones.
+2. The verb "disseminate" is used to describe the action of spreading information, so the gerund "disseminating" should be used.
+Erroneous sentence: The social media is a powerful tool that can be used to disseminate information to the masses .
+Correct sentence: Social media is a powerful tool that can be used to disseminate information to the masses .
+Errors:
+1. Error:  , Correction:
+2. Error: disseminate, Correction: disseminating
+Explanations:
+1. The definite article "the" is used to refer to a specific thing, so it implies that this social media is distinct from other ones.
+2. The verb "disseminate" is used to describe the action of spreading information, so the gerund "disseminating" should be used.
+Erroneous sentence: The social media is a powerful tool that can be used to disseminate information to the masses .
+Correct sentence: Social media is a powerful tool that can be used to disseminate information to the masses .
+Errors:
+1. Error:  , Correction:
+2. Error: disseminate, Correction: disseminating
+Explanations:
+1. The definite article "the" is used to refer to a specific thing, so it implies that this social media is distinct from other ones.
+2. The verb "disseminate
+Label: 1. Unnecessary comma. The position of the comma is grammatically incorrect.
+2. Incorrect spelling. The correct spelling is "reflected".
+
+
+
+
+
+Prediction: 
+1. The sentence is mentioning one specific habit, i.e., the correct one, so use the definite article, "the".
+Erroneous sentence: The more time spent on social media sites , the more a person's writing skills will be reduced .
+Correct sentence: The more time spent on social media sites , the more a person's writing skills will be reduced .
+Errors:
+1. Error: of, Correction:  
+2. Error: in, Correction: on
+Explanations:
+1. I partially agree with this correction because "of" needs to be removed, but that does not fix the problem. The sentence should be rephrased as "the more time spent on social media sites, the more a person's writing skills will be reduced." First, this construction does not use "of." Second, it always consists of two phrases, and the first is always the cause and the second is always the outcome. Therefore, "time spent on social media" should come first and "writing skills will be reduced" should come second. 
+This suggestion also fixes the other grammar issues. First, it is not common to say "time used on social media sites." Instead, it is common to say "time spent on social media sites" or "time spent using social media sites." Second, the phrase "the more of the writing skills" is not commonly used and is different to understand. Also, it is not clear to whom the phrase "writing skills" refers, so it should be changed to "the more a person's writing skills." This makes the meaning clear.
+2. When talking about "time spent," English uses the preposition "in" for physical locations and "on" for activities or pursuits. For example, a dedicated scholar might spend a lot of time in the library or spend a lot of time on her studies. Social media is not a physical location, so "on" is appropriate here. 
+Erroneous sentence: The more time spent on social media sites , the more a person's writing skills will be reduced .
+Correct sentence: The more time spent on social media sites , the more a person's writing skills will be reduced .
+Errors:
+1. Error: of, Correction:  
+2. Error: in, Correction: on
+Explanations:
+1. I partially agree with this correction because "of" needs to
+Label: 1. The construction "the earlier A, the better B" is talking about specifics, with a greater focus on B. As such, B requires an article, and as you are talking about something specific, you should use the definite article, "the".
+
+
+
+
+
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8119562355180582
+Precision: 0.7697202277680238
+Recall: 0.8599406464232339
+ ending 

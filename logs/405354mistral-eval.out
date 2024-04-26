@@ -1,0 +1,21 @@
+starting Evaluation.......................
+ 0 shot,    -    0  explicit errors,  -    mistralai/Mistral-7B-v0.1
+Loaded 144 samples
+Randon sample:
+corrections: [{'correct': 'passes', 'end': 3, 'error': 'passed', 'explanation': 'The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "passed" implies that the author\'s perspective is in the past, but this sentence is about events in the present. Therefore, the present tense "passes" should be used.', 'start': 2}]
+incorrect_sentence: As time passed , we may have more " friends " on the list , but the meaning of friends needs to be redefined .
+correct_sentence: As time passes , we may have more " friends " on the list , but the meaning of friends needs to be redefined .
+prompt: You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.Erroneous sentence: As time passed , we may have more " friends " on the list , but the meaning of friends needs to be redefined .
+Correct sentence: As time passes , we may have more " friends " on the list , but the meaning of friends needs to be redefined .
+Explanations:
+label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "passed" implies that the author's perspective is in the past, but this sentence is about events in the present. Therefore, the present tense "passes" should be used.
+
+Loading Base Model mistralai/Mistral-7B-v0.1
+Model: mistralai/Mistral-7B-v0.1
+F1: 0.8118406165805128
+Precision: 0.7973241690132353
+Recall: 0.827660046517849
+Cleaned F1: 0.8097047089702554
+Cleaned Precision: 0.798305929534965
+Cleaned Recall: 0.8222518029312292
+ ending 
