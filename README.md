@@ -7,6 +7,12 @@ Repo for useful Writing Feedback project.
 * We use all available `HFTrainingArguments`. in addition to custom variables that are available at the `arguemnts.py` module.
 * You can see some of the default parameters at `tain.sh` script
 
+To run model fine-tuning: 
+### Run evaluation
+```bash
+bash or sbatch tain.sh
+```
+
 ### Run evaluation
 ```bash
 bash or sbatch eval_boda.sh
