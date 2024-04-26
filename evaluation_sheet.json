@@ -1,1 +1,142 @@
-[{"model_name": "cognitivecomputations/dolphin-2.8-mistral-7b-v02", "chkpt": "/l/users/abdelrahman.sadallah/UWFE-Mixtral/cognitivecomputations/dolphin-2.8-mistral-7b-v02/best", "shots": 0, "explicit_errors": 0, "id": "68"}, {"model_name": "Meta-Llama-3-8B", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B", "shots": 5, "explicit_errors": 1, "id": "8"}, {"model_name": "mistralai/Mistral-7B-v0.1", "chkpt": "", "shots": 0, "explicit_errors": 0, "base": true, "id": "87"}, {"model_name": "Meta-Llama-3-8B", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B", "shots": 0, "explicit_errors": 1, "id": "69"}, {"model_name": "chatgpt", "shots": 5, "explicit_errors": 0, "id": "2"}, {"model_name": "chatgpt", "shots": 5, "explicit_errors": 1, "id": "7"}, {"model_name": "mistralai/Mistral-7B-v0.1", "chkpt": "/l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best/", "shots": 0, "explicit_errors": 0, "id": "74"}, {"model_name": "Meta-Llama-3-8B-Instruct", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct", "shots": 5, "explicit_errors": 1, "id": "76"}, {"model_name": "Meta-Llama-3-8B-Instruct", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct", "shots": 5, "explicit_errors": 0, "id": "3"}, {"model_name": "mistralai/Mistral-7B-v0.1", "chkpt": "", "shots": 5, "explicit_errors": 0, "base": true, "id": "42"}, {"model_name": "mistralai/Mistral-7B-v0.1", "chkpt": "", "shots": 5, "explicit_errors": 1, "base": true, "id": "92"}, {"model_name": "Meta-Llama-3-8B-Instruct", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct", "shots": 0, "explicit_errors": 0, "id": "89"}, {"model_name": "chatgpt", "shots": 0, "explicit_errors": 1, "id": "24"}, {"model_name": "mistralai/Mistral-7B-v0.1", "chkpt": "", "shots": 0, "explicit_errors": 1, "base": true, "id": "72"}, {"model_name": "Meta-Llama-3-8B-Instruct", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct", "shots": 0, "explicit_errors": 1, "id": "62"}, {"model_name": "chatgpt", "shots": 0, "explicit_errors": 0, "id": "58"}, {"model_name": "Meta-Llama-3-8B", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B", "shots": 0, "explicit_errors": 0, "id": "90"}, {"model_name": "mistralai/Mixtral-8x7B-v0.1", "chkpt": "/l/users/abdelrahman.sadallah/UWFE-mixtral-explicit-errors/mistralai/Mixtral-8x7B-v0.1/checkpoint-18500/", "shots": 0, "explicit_errors": 1, "id": "11"}, {"model_name": "Meta-Llama-3-8B", "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B", "shots": 5, "explicit_errors": 0, "id": "53"}, {"model_name": "mistralai/Mistral-7B-v0.1", "chkpt": "/l/users/abdelrahman.sadallah/UWFE-mistral-explicit-errors/mistralai/Mistral-7B-v0.1/best", "shots": 0, "explicit_errors": 1, "id": "18"}]
+[
+    {
+        "model_name": "cognitivecomputations/dolphin-2.8-mistral-7b-v02",
+        "chkpt": "/l/users/abdelrahman.sadallah/UWFE-Mixtral/cognitivecomputations/dolphin-2.8-mistral-7b-v02/best",
+        "shots": 0,
+        "explicit_errors": 0,
+        "id": "68"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B",
+        "shots": 5,
+        "explicit_errors": 1,
+        "id": "8"
+    },
+    {
+        "model_name": "mistralai/Mistral-7B-v0.1",
+        "chkpt": "",
+        "shots": 0,
+        "explicit_errors": 0,
+        "base": true,
+        "id": "87"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B",
+        "shots": 0,
+        "explicit_errors": 1,
+        "id": "69"
+    },
+    {
+        "model_name": "chatgpt",
+        "shots": 5,
+        "explicit_errors": 0,
+        "id": "2"
+    },
+    {
+        "model_name": "chatgpt",
+        "shots": 5,
+        "explicit_errors": 1,
+        "id": "7"
+    },
+    {
+        "model_name": "mistralai/Mistral-7B-v0.1",
+        "chkpt": "/l/users/abdelrahman.sadallah/UWFE-Mixtral/mistralai/Mistral-7B-v0.1/best/",
+        "shots": 0,
+        "explicit_errors": 0,
+        "id": "74"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B-Instruct",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct",
+        "shots": 5,
+        "explicit_errors": 1,
+        "id": "76"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B-Instruct",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct",
+        "shots": 5,
+        "explicit_errors": 0,
+        "id": "3"
+    },
+    {
+        "model_name": "mistralai/Mistral-7B-v0.1",
+        "chkpt": "",
+        "shots": 5,
+        "explicit_errors": 0,
+        "base": true,
+        "id": "42"
+    },
+    {
+        "model_name": "mistralai/Mistral-7B-v0.1",
+        "chkpt": "",
+        "shots": 5,
+        "explicit_errors": 1,
+        "base": true,
+        "id": "92"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B-Instruct",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct",
+        "shots": 0,
+        "explicit_errors": 0,
+        "id": "89"
+    },
+    {
+        "model_name": "chatgpt",
+        "shots": 0,
+        "explicit_errors": 1,
+        "id": "24"
+    },
+    {
+        "model_name": "mistralai/Mistral-7B-v0.1",
+        "chkpt": "",
+        "shots": 0,
+        "explicit_errors": 1,
+        "base": true,
+        "id": "72"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B-Instruct",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B-Instruct",
+        "shots": 0,
+        "explicit_errors": 1,
+        "id": "62"
+    },
+    {
+        "model_name": "chatgpt",
+        "shots": 0,
+        "explicit_errors": 0,
+        "id": "58"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B",
+        "shots": 0,
+        "explicit_errors": 0,
+        "id": "90"
+    },
+    {
+        "model_name": "mistralai/Mixtral-8x7B-v0.1",
+        "chkpt": "/l/users/abdelrahman.sadallah/UWFE-mixtral-explicit-errors/mistralai/Mixtral-8x7B-v0.1/checkpoint-18500/",
+        "shots": 0,
+        "explicit_errors": 1,
+        "id": "11"
+    },
+    {
+        "model_name": "Meta-Llama-3-8B",
+        "chkpt": "/l/users/abdelrahman.sadallah/llama3/Meta-Llama-3-8B",
+        "shots": 5,
+        "explicit_errors": 0,
+        "id": "53"
+    },
+    {
+        "model_name": "mistralai/Mistral-7B-v0.1",
+        "chkpt": "/l/users/abdelrahman.sadallah/UWFE-mistral-explicit-errors/mistralai/Mistral-7B-v0.1/best",
+        "shots": 0,
+        "explicit_errors": 1,
+        "id": "18"
+    }
+]

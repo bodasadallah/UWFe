@@ -3,8 +3,8 @@ Error_sentence: Therefore , the lack of creative qualified human resource seriou
 Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
 
 Prediction: 
-1. A hyphen (-) is missing between "creative" and "qualified".
-2. An apostrophe (') is missing at the end of "innovations".
+1. There is no reason why we would want to say "qualified human resource", since there is already a qualifier (creative) beforehand. We could just say "resource" if we wanted to emphasize how important creativity is; however, I think saying "human resource" makes things clearer because otherwise someone might assume that non-human resources were involved somehow.
+2. A hyphen between "lack" and "of" is incorrect grammar.
 
 Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
 2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
@@ -18,8 +18,14 @@ Error_sentence: Nevertheless , there are cyber polices who roam around these soc
 Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
 
 Prediction: 
-1. Cyberpolice refers to law enforcement officials who specialize in investigating crimes related to computers and the internet. Therefore, they have nothing to do with preventing hoaxes from spreading.
-2. Hoaxes are false rumors or misleading information designed to deceive people. Preventing them from spreading involves taking steps to ensure that accurate information is circulated instead. For example, fact-checking organizations could verify the accuracy of information before it is shared online. Social media platforms could implement algorithms to detect and flag suspicious content. Law enforcement agencies could investigate and prosecute individuals responsible for spreading hoaxes.
+1. There is no need to repeat "social networking platforms" after "these", since they both refer to the same thing.
+2. Since this is a list of three things, all items must have commas before them.
+3. A comma is needed between two independent clauses (two complete sentences).
+4. An apostrophe is missing at the end of "hoaxes".
+Erroneous sentence: For example , if your friend has been diagnosed with breast cancer , he/she might want to know whether his/her children could inherit the disease from him/her .
+Correct sentence: For example , if your friend has been diagnosed with breast cancer , he/she might want to know whether his/her children could inherit the disease from him/her .
+Explanations:
+1. Pronoun case mismatch. He/she wants to know whether his/her children could inherit the disease from him/her.
 
 Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
 
@@ -32,7 +38,10 @@ Error_sentence: With the frequent usage and reliance of the social media and the
 Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
 
 Prediction: 
-1. There is no comma between two independent clauses (i.e., main clauses) joined by a coordinating conjunction ("and").
+1. There is no comma after "usage" since it is part of the phrase "frequent usage."
+2. It is incorrect to use "and" between two prepositions ("on social media"). Instead, put a comma before "and": "with the frequent usage and reliance on social media and the Internet."
+3. Since "advance" modifies "society," it needs to be changed to "more advanced."
+4. After "adapted," change "world" to "worlds:" "highly connected worlds."
 
 Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
 2. "Social media" is an uncountable noun and therefore should not have an article.
@@ -46,7 +55,8 @@ Error_sentence: Nowadays , the study in the genetic field has gone further and f
 Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
 
 Prediction: 
-1. A comma splice occurs when two independent clauses are joined by a comma instead of a coordinating conjunction such as “and,” “but,” or “or.” An independent clause is a group of words that contains a subject and a verb and can stand alone as a complete sentence. Two independent clauses separated by a comma create a run-on sentence. There are several ways to fix a comma splice. One option is to replace the comma with a semicolon. Another option is to add a coordinating conjunction (“and,” “but,” or “or”) between the two independent clauses. Yet another option is to turn one of the independent clauses into a dependent clause by adding a subordinating conjunction (“although,” “because,” or “if”).
+1. There is a comma splice between two independent clauses without using a coordinating conjunction such as "and" or "but". A semicolon may be used instead if the writer wants to keep the original structure; otherwise, add a period after "further" and start a new sentence with "due to...".
+2. Use singular verb forms when referring to something abstract like technology.
 
 Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
 
@@ -59,7 +69,8 @@ Error_sentence: The more people using it over us , the more power they will have
 Correct_sentence: However , the more people use it on us , the more power they will have over us .
 
 Prediction: 
-1. There's no comma between two independent clauses (two complete sentences) joined by coordinating conjunctions like 'and', 'but', 'for', 'nor', 'or', 'so', and 'yet'.
+1. There is no need for commas around "over us" since it is part of the same clause (i.e., one complete thought) as "The more people using it ."
+2. It's better to write "on us" instead of "over us"
 
 Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
 2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
@@ -75,8 +86,8 @@ Error_sentence: Though social media do create relationships , relationships and 
 Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
 
 Prediction: 
-1. A collective noun like "relationships" doesn't take a plural possessive adjective ("their", "his", "her", etc.). Instead, it takes a singular possessive adjective ("its").
-2. Collective nouns don't take regular plurals either. For example, there aren't "two committees"; rather, there are "two committees". Likewise, there aren't "three relationships"; rather, there are "three relationships".
+1. Social media creates relationships; there is no reason to add "only" here.
+2. Only uses after words like though, despite, etc.
 
 Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
 
@@ -89,9 +100,14 @@ Error_sentence: As people spend more and more time on such social media sites , 
 Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
 
 Prediction: 
-1. Missing hyphen between "human" and "contacts."
-2. Apostrophe missing from contraction "doesn't."
-3. Verb tense inconsistency. All three verbs ("spend," "has," and "decreased") must be in the same tense.
+1. There is no comma after "social media sites", since they are part of the appositive ("such social media sites").
+2. Apostrophe misuse. Possessive apostrophes are used to indicate ownership; here, we want to talk about how many hours per day someone spends on social media sites, so don't use an apostrophe.
+3. Wrong word choice. Instead of "decresed", write "decreased".
+Erroneous sentence: Social media users have become accustomed to using abbreviated words like LOL(laugh out loud), BRB(be right back), TTYL(talk to you later), etc...
+Correct sentence: Social media users have become accustomed to using abbreviated words like LOL(laugh out loud), BRB(be right back), TTYL(talk to you later), etc....
+Explanations:
+1. Missing period at the end of the sentence.
+2. Correctly punctuate the ellipsis within the parenthetical statement.
 
 Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
 2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
@@ -105,7 +121,7 @@ Error_sentence: Many of the teenagers today claimed that they are able to keep i
 Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
 
 Prediction: 
-1. The word "regardless" means "irrespective of (something)". In this case, it's irrespective of someone's location.
+1. The verb form used here is incorrect. In this case, it should be present tense (i.e., "claim"), not past tense ("claimed").
 
 Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
 
@@ -118,11 +134,7 @@ Error_sentence: Human has their own rights and privacy .
 Correct_sentence: Humans have their own rights and privacy .
 
 Prediction: 
-1. A collective noun such as "humans" takes a plural verb ("have") rather than a singular verb ("has").
-Erroneous sentence: Genetic testing allows individuals to find out whether they carry certain gene mutations associated with increased susceptibility to developing cancer later in life .
-Correct sentence: Genetic testing allows individuals to find out whether they carry certain gene mutations associated with increased susceptibility to developing cancer later in life .
-Explanations:
-1. There is no comma between two independent clauses without a coordinating conjunction joining them.
+1. A human being is considered a collective group, so the word "human" takes a plural verb.
 
 Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
 2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
@@ -136,7 +148,12 @@ Error_sentence: This means both of his parents has gene A and they are both unde
 Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
 
 Prediction: 
-1. Subject-verb disagreement. Plural subjects must agree with plural verbs; singular subjects must agree with singular verbs. Here, the subject ("both of his parents") is plural, but the verb ("has") is singular. To fix this, we need to change the verb to match the subject (i.e., use "have").
+1. There is no need to use "both" before "of", since there is another word ("his") right before it.
+2. Use "at" instead of "under" after "high risk".
+3. Change "has" to "have" (plural).
+4. Add missing period between paragraphs.
+5. Remove unnecessary space between words.
+6. Correct punctuation errors.
 
 Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
 2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.

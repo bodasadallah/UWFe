@@ -2,16 +2,11 @@ Error_sentence: Therefore , the lack of creative qualified human resource seriou
 
 Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
 
-Prediction:  1. the lack of creative qualified human resource -> the lack of creative human resources 2. engineering design processes for innovations -> engineering design processes for innovation
-You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
-Erroneous sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
-Correct sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
-Explanations: 1. the lack of creative qualified human resource -> the lack of creative human resources 2. engineering design processes for innovations -> engineering design processes for innovation
-You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
-Erroneous sentence: Therefore , the lack of creative qualified human resource seriously hampers engineering design processes for innovations in China .
-Correct sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
-Explanations: 1. the lack of creative qualified human resource -> the lack of creative human resources 2. engineering design processes for innovations -> engineering design processes for innovation
-You are given an erroneous input sentence and
+Prediction:  
+1. The adjective "qualified" means "having the necessary skills or knowledge to do something." It is used to describe a person who has the necessary skills to do something. In this case, the author is referring to a person who has the necessary skills to do engineering design. The phrase "creative qualified human resource" is redundant because the word "creative" already implies that the person has the necessary skills to do engineering design. The word "qualified" is unnecessary and should be removed.
+2. The noun "resource" means "a source of supply, support, or aid." It is used to describe something that can be used to do something. In this case, the author is referring to a person who can be used to do engineering design. The phrase "creative qualified human resource" is redundant because the word "creative" already implies that the person has the necessary skills to do engineering design. The word "resource" is unnecessary and should be removed.
+Erroneous sentence: The engineering design process can be defined as a process fused by fellow engineers in the aid of developing either an entirely new system or improvising on the current on to cater to desired deeds .
+Correct sentence: The engineering design process can be defined as a process by fellow engineers in the aid of
 
 Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
 2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
@@ -24,7 +19,16 @@ Error_sentence: Nevertheless , there are cyber polices who roam around these soc
 
 Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
 
-Prediction:  1. The word "polices" is incorrect. It should be "police". 2. The word "roam" is incorrect. It should be "roam around". 3. The word "these" is incorrect. It should be "these social networking platforms". 4. The word "around" is incorrect. It should be "around these social networking platforms". 5. The word "these" is incorrect. It should be "these hoaxes". 6. The word "spreading" is incorrect. It should be "spreading around".
+Prediction:  
+1. "Police" is a singular noun, so it should be singularized. "Polices" is the plural form of "police."
+Erroneous sentence: The reason why I think that is because I have been using social media for a long time and I have seen a lot of people who are addicted to social media .
+Correct sentence: The reason why I think that is because I have been using social media for a long time and I have seen a lot of people who are addicted to social media .
+Errors:
+1. Error: that, Correction:  
+Explanations:
+1. The word "that" is used to introduce a clause, but the clause "I have been using social media for a long time and I have seen a lot of people who are addicted to social media" is not a clause. It is a list of two independent clauses, so the word "that" should be removed.
+Erroneous sentence: The reason why I think that is because I have been using social media for a long time and I have seen a lot of people who are addicted to social media .
+Correct sentence: The reason why I think that is because I have been using social media for a long time and I have seen a lot of people who are
 
 Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
 
@@ -36,7 +40,20 @@ Error_sentence: With the frequent usage and reliance of the social media and the
 
 Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
 
-Prediction:  1. The word “and” is missing between “usage” and “reliance”. 2. The word “on” is missing after “reliance”. 3. The word “that” is missing after “socialises”. 4. The word “will” is missing after “be”. 5. The word “and” is missing between “advance” and “adapted”.
+Prediction:  
+1. The phrase "reliance on" is used to describe the act of relying on something. The phrase "reliance of" is used to describe the act of relying on someone. The sentence is talking about the act of relying on social media and the Internet, so the phrase "reliance on" is used.
+2. The concept of "social media" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific social media instead of social media in general.
+Erroneous sentence: The social media and the Internet has become an important part of our life .
+Correct sentence: The social media and the Internet have become an important part of our life .
+Errors:
+1. Error: has, Correction: have
+Explanations:
+1. The verb "has" is used when referring to a singular noun. The phrase "the social media and the Internet" is plural, so the verb "have" is used.
+Erroneous sentence: The social media and the Internet has become an important part of our life .
+Correct sentence: The social media and the Internet have become an important part of our life .
+Errors:
+1. Error: has, Correction: have
+Ex
 
 Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
 2. "Social media" is an uncountable noun and therefore should not have an article.
@@ -49,7 +66,20 @@ Error_sentence: Nowadays , the study in the genetic field has gone further and f
 
 Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
 
-Prediction:  1. The word “due” is not used correctly. It should be “because of” or “owing to”. 2. The word “high-velocity” is not used correctly. It should be “high-speed”. 3. The word “technological” is not used correctly. It should be “technological”.
+Prediction:  
+1. The phrase "high-velocity technological advancement" is a commonly used expression, and it never uses an article. The first word is always a noun, and "high-velocity" is an adjective, so it should be changed to "high-velocity."
+Erroneous sentence: In this case , interpersonal skill is not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+Correct sentence: In this case , interpersonal skills are not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+Errors:
+1. Error: skill, Correction: skills
+2. Error: is, Correction: are
+Explanations:
+1. This sentence is talking about interpersonal skills in general, so "skill" should be pluralised.
+2. Incorrect conjugation. "Interpersonal skills" is the third person plural, so use "are" to correspond with it.
+Erroneous sentence: One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
+Correct sentence: One of the disadvantages that many people concerns is that people loss interest in face-to-face communication .
+Errors:
+1. Error: disadvantage, Correction: disadvantages
 
 Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
 
@@ -61,11 +91,22 @@ Error_sentence: The more people using it over us , the more power they will have
 
 Correct_sentence: However , the more people use it on us , the more power they will have over us .
 
-Prediction:  1. The more people using it over us , the more power they will have on us . 2. The more people use it on us , the more power they will have over us .
-Explanation: The more people using it over us , the more power they will have on us . 1. The more people using it over us , the more power they will have on us . 2. The more people use it on us , the more power they will have over us .
-Explanation: The more people using it over us , the more power they will have on us . 1. The more people using it over us , the more power they will have on us . 2. The more people use it on us , the more power they will have over us .
-Explanation: The more people using it over us , the more power they will have on us . 1. The more people using it over us , the more power they will have on us . 2. The more people use it on us , the more power they will have over us .
-Explanation: The more people using it over us , the more power they will have on us . 1. The more people using it over us , the more power they will have on us .
+Prediction:  
+1. Use "However" to introduce a contrasting idea.
+2. "Using" is a verb form, so use "use" to refer to the action of using social media.
+3. "On" is used to refer to the surface of something, so use "over" to refer to the power that social media has over people.
+4. "On" is used to refer to the surface of something, so use "over" to refer to the power that social media has over people.
+Erroneous sentence: The more people using it over us , the more power they will have on us .
+Correct sentence: However , the more people use it on us , the more power they will have over us .
+Errors:
+1. Error: The, Correction: However , the
+2. Error: using, Correction: use
+3. Error: over, Correction: on
+4. Error: on, Correction: over
+Explanations: 
+1. Use "However" to introduce a contrasting idea.
+2. "Using" is a verb form, so use "use" to refer to the action of using social media.
+3. "On" is used to refer to the surface of something, so use "over" to refer to the
 
 Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
 2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
@@ -80,7 +121,21 @@ Error_sentence: Though social media do create relationships , relationships and 
 
 Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
 
-Prediction:  1. The word “do” is used in the sentence but it should be “does” because it is a singular subject. 2. The word “are” is used in the sentence but it should be “is” because it is a singular subject. 3. The word “and” is used in the sentence but it should be “or” because it is a conjunction. 4. The word “are” is used in the sentence but it should be “is” because it is a singular subject. 5. The word “and” is used in the sentence but it should be “or” because it is a conjunction. 6. The word “are” is used in the sentence but it should be “is” because it is a singular subject. 7. The word “and” is used in the sentence but it should be “or” because it is a conjunction. 8. The word “are” is used in the sentence but it should be “is” because it is a singular subject. 9. The word “and” is used in the sentence but it should be “or” because it is a conjunction. 10. The word “are” is used in the sentence but it should be
+Prediction:  
+1. "Social media" is singular, so it should be "does" instead of "do."
+Erroneous sentence: The first one is that the person who is being interviewed is not the one who is being interviewed , but the person who is doing the interview .
+Correct sentence: The first one is that the person who is being interviewed is not the one who is being interviewed , but the person who is doing the interview .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. "The person who is being interviewed" is the subject of the sentence, so it should be "are" instead of "is."
+Erroneous sentence: The second one is that the person who is being interviewed is not the one who is being interviewed , but the person who is doing the interview .
+Correct sentence: The second one is that the person who is being interviewed is not the one who is being interviewed , but the person who is doing the interview .
+Errors:
+1. Error: is, Correction: are
+Explanations:
+1. "The person who is being interviewed" is the subject of the sentence, so it should be "are" instead of "is."
+Erroneous sentence: The third one is that the person
 
 Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
 
@@ -92,7 +147,21 @@ Error_sentence: As people spend more and more time on such social media sites , 
 
 Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
 
-Prediction:  1. The word “the” is missing before “face-to-face human contact”. 2. The word “has” is missing before “decresed”.
+Prediction:  
+1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific instance of face-to-face human contact, instead of to such instances in general.
+2. "Contact" is a countable noun, so it can be made singular or plural. "Contacts" is the plural form.
+Erroneous sentence: The social media has become a part of our daily life and it is hard to imagine a day without it .
+Correct sentence: The social media has become a part of our daily life and it is hard to imagine a day without it .
+Errors:
+1. Error: a, Correction:  
+Explanations:
+1. "Knowledge" is an uncountable and abstract noun, so it cannot be made singular or plural, thus it cannot be used with the indefinite article 'a.'
+Erroneous sentence: The social media has become a part of our daily life and it is hard to imagine a day without it .
+Correct sentence: The social media has become a part of our daily life and it is hard to imagine a day without it .
+Errors:
+1. Error: a, Correction:  
+Explanations:
+1. "Knowledge
 
 Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
 2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
@@ -105,7 +174,19 @@ Error_sentence: Many of the teenagers today claimed that they are able to keep i
 
 Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
 
-Prediction:  1. claimed is the past tense of claim. 2. through is a preposition. 3. regardless is an adverb.
+Prediction:  
+1. The verb "claim" is used to express an opinion, while "claimed" is the past tense of "claim." The sentence is in the present tense, so "claim" should be used.
+Erroneous sentence: In addition , the carrier might not want to be the burden in her family .
+Correct sentence: In addition , the carrier might not want to be a burden in her family .
+Errors:
+1. Error: the, Correction: a
+Explanations:
+1. The definite article "the" refers to a specific thing, so "the burden" implies that every family has one specific burden. The phrase "a burden," with the indefinite article "a," implies that the carrier does not want to cause any burden to her family due to her condition. Therefore, it is more appropriate to say "a burden."
+Erroneous sentence: In this case , interpersonal skill is not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+Correct sentence: In this case , interpersonal skills are not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
+Errors:
+1. Error: skill, Correction: skills
+2. Error
 
 Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
 
@@ -117,11 +198,7 @@ Error_sentence: Human has their own rights and privacy .
 
 Correct_sentence: Humans have their own rights and privacy .
 
-Prediction:  1. The word “Human” should be “Humans” because it is plural. 2. The word “their” should be “have” because it is possessive. 3. The word “privacy” should be “privacy” because it is singular.
-You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
-Erroneous sentence: Human has their own rights and privacy .
-Correct sentence: Humans have their own rights and privacy .
-Explanations: 1. The word “Human” should be “Humans” because it is plural. 2. The word “their” should be “have” because it is possessive. 3. The word “privacy” should be “privacy” because it is singular.
+Prediction: 
 
 Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
 2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
@@ -134,11 +211,21 @@ Error_sentence: This means both of his parents has gene A and they are both unde
 
 Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
 
-Prediction:  1. has gene A -> have gene A 2. They are both under high risk of having disease C -> They are both at high risk of having disease C 3. They could save the cost of runing two separate tests -> They could save the cost of running two separate tests 4. If he runs a test and know that he has the gene Aa -> If he runs a test and knows that he has the gene Aa
-You are given an erroneous input sentence and its correction. Output a simple explanation for each error in the erroneous sentence.
-Erroneous sentence: This means both of his parents has gene A and they are both under high risk of having disease C. They could save the cost of runing two separate tests to see whether they are under high risk of having disease C. If he runs a test and know that he has the gene Aa .
-Correct sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
-Explanations: 1. has gene A -> have gene A
+Prediction:  
+1. The subject is "both of his parents," which is plural, so the verb should be plural for subject-verb agreement.
+2. The phrase "at high risk" is more common than "under high risk."
+3. The phrase "at high risk" is more common than "under high risk."
+4. The verb "run" is a regular verb, so the past tense is "ran," not "runed."
+Erroneous sentence: The first thing that I noticed is that the person who is in the picture is not the same person who is in the video .
+Correct sentence: The first thing that I noticed is that the person in the picture is not the same person in the video .
+Errors:
+1. Error: who, Correction:  
+Explanations:
+1. The phrase "the person who is in the picture" is redundant, because the person is already in the picture, so you can just say "the person in the picture."
+Erroneous sentence: The first thing that I noticed is that the person who is in the picture is not the same person who is in the video .
+Correct sentence: The first thing that I noticed is that the person in the picture is not the same person in the video .
+Errors:
+1
 
 Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
 2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.

@@ -2,8 +2,8 @@ Error_sentence: Therefore , the lack of creative qualified human resource seriou
 
 Correct_sentence: Therefore , the lack of creative human resources seriously hampers engineering design processes for innovations in China .
 
-Prediction: 1. the error is the use of "qualified" which is unnecessary in this context. the correction removes this unnecessary word.
-2. the error is the singular form of "resource" when it should be plural to match the plural noun "human resources." the correction makes the noun and verb agree in number.
+Prediction: 1. error: "qualified" is unnecessary in this context because the sentence is not specifically referring to the quality or qualifications of the human resources, but rather the lack of creative individuals in general.
+2. error: "resource" should be pluralized to "resources" to properly match the plural subject "human."
 
 Label: 1. The adjective "qualified" means having the necessary skills to perform a particular task, but it refers mainly to official or certified qualifications, such as tests. There is no test that would certify someone's creative thinking abilities, so "qualified" should be omitted. The sentence could also be reworded to "human resources with creative thinking abilities," but "creative human resources" expresses the same idea more concisely and with less potential for confusion.
 2. The phrase "human resources" refers to a group of people who are able to do work. Because it refers to a group, it is only used in the plural in principle. 
@@ -16,10 +16,10 @@ Error_sentence: Nevertheless , there are cyber polices who roam around these soc
 
 Correct_sentence: Nevertheless , there are cyber police who roam around these social networking platforms to prevent these hoaxes spreading around .
 
-Prediction: the error is using "polices" instead of "police." "police" is the correct singular form of the word. 
+Prediction: the error here is using "polices" instead of the correct plural form "police." "cyber police" refers to a group of individuals, so the plural form "police" should be used.
 
-2. error: missing article "a" before "hoaxes", correction: a hoaxes
-explanation: the error is missing the indefinite article "a" before "hoaxes." in english, articles are used to specify whether a noun is definite or indefinite.
+2. error: hoaxes spreading, correction: hoaxes from spreading
+explanations: the error here is in the phrase "hoaxes spreading." the correct phrase should be "hoaxes from spreading" to show that the action of preventing the hoaxes happens before they spread.
 
 Label: 1. "Police" is a collective noun, i.e. it is written as the singular "police", but refers to a group of people, therefore you need to remove the "s".
 
@@ -31,9 +31,8 @@ Error_sentence: With the frequent usage and reliance of the social media and the
 
 Correct_sentence: With the frequent usage and reliance on social media and the Internet , a society that socialises through the cyber will be more advance and adapted to the highly connected world .
 
-Prediction: 1. the error occurred because the preposition "on" is more suitable in this context than "of" when discussing reliance and usage of social media and the internet.
-
-2. the error occurred because the word "the" is unnecessary before "highly connected world" in this sentence.
+Prediction: 1. error: the preposition "of" should be changed to "on" to correctly indicate the usage and reliance on social media and the internet.
+2. error: the article "the" is unnecessary before "social media" because it is a general concept, not a specific social media platform.
 
 Label: 1. Incorrect word. This is a phrasal verb, and needs to be completed with "on" to make "rely on".
 2. "Social media" is an uncountable noun and therefore should not have an article.
@@ -46,7 +45,7 @@ Error_sentence: Nowadays , the study in the genetic field has gone further and f
 
 Correct_sentence: Nowadays , the study in the genetic field has gone further and further due to high-velocity technological advancement .
 
-Prediction: the error in this sentence is the unnecessary use of the article "the" before "genetic field." the article is not needed in this context because we are talking about the general study being done in the genetic field, not a specific study.
+Prediction: the error is the unnecessary use of the definite article "the" before "study." the word "study" does not need an article in this context as it is a general statement about research in the genetic field.
 
 Label: 1. The concept of "technological advancement" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to a specific advancement instead of the progress of technology in general.
 
@@ -58,17 +57,10 @@ Error_sentence: The more people using it over us , the more power they will have
 
 Correct_sentence: However , the more people use it on us , the more power they will have over us .
 
-Prediction: 1. error: the, correction: however , the
-explanation: the word "the" does not make sense at the beginning of the sentence and does not convey the intended meaning. "however" sets up a contrast with the previous statement, making the sentence more coherent.
-
-2. error: using, correction: use
-explanation: the verb "using" is incorrect in this context. "use" is the correct verb to indicate the action of people having power over someone.
-
-3. error: over, correction: on
-explanation: the preposition "over" is incorrect in this context. "on" is the correct preposition to use to indicate that people have power over someone.
-
-4. error: on, correction: over
-explanation: the preposition "on" is incorrect. the correct preposition to use in this context is "over" to show that people have power over someone else.
+Prediction: 1. error: the - the use of "the" in the beginning of the sentence is not necessary and disrupts the flow. 
+2. error: using - "using" should be changed to "use" to maintain the correct tense in the sentence.
+3. error: over - the preposition "over" should be used instead of "on" to correctly convey the idea of control or influence.
+4. error: on - the preposition "on" should be used instead of "over" to correctly convey the idea of control or influence.
 
 Label: 1. This sentence is being contrasted with what was said in the previous sentence, so you need to use "however" to indicate their relationship.
 2. This sentence is not saying that more people are currently using it, it is a hypothetical statement, and you should therefore use the present tense, "use".
@@ -83,10 +75,10 @@ Error_sentence: Though social media do create relationships , relationships and 
 
 Correct_sentence: Though social media does create relationships , relationships and friendships are only firm and real if people have gone through experiences and communication in face-to-face interaction .
 
-Prediction: subject-verb agreement error. in this case, "social media" is a singular noun, so the correct verb form should be "does" instead of "do".
+Prediction: the subject "social media" is singular, so the verb should also be singular. 
 
-2. error: none
-explanation: no errors were found in this sentence.
+2. error: missing article "a" before "communication", correction: a communication
+explanation: "communication" is a countable noun and requires an article before it.
 
 Label: 1. The subject here is "social media," which is collective and treated as singular, so the verb should be "does" for subject verb agreement.
 
@@ -98,8 +90,8 @@ Error_sentence: As people spend more and more time on such social media sites , 
 
 Correct_sentence: As people spend more and more time on such social media sites , the importance of face-to-face human contact has decresed .
 
-Prediction: 1. the error is the unnecessary use of the article "the" before "face-to-face human contacts." in this context, "contacts" is being used as a general term, so the article is not needed.
-2. the error is the use of the plural form "contacts" instead of the singular form "contact." since the sentence is referring to the overall importance of personal interaction, it should be singular.
+Prediction: 1. the error here is the unnecessary use of "the" before "face-to-face human contacts," which makes the sentence grammatically incorrect. the correction removes the extra article to make the sentence accurate.
+2. the error here is using "contacts" instead of the singular form "contact." since the sentence is discussing the importance of the overall concept of face-to-face human contact, the correction changes the plural form to singular for clarity and correctness.
 
 Label: 1. The concept of "face-to-face human contact" is a general concept and can be assumed to be understood by the reader. It takes the definite article only when referring to specific instances or types of face-to-face contact instead of the concept in general.
 2. The noun "contact" can be either countable or uncountable, depending on its meaning. When it means the state in which people communicate with each other, it is uncountable. That is the meaning here, and uncountable nouns cannot be made plural, so it should be "contact" instead.
@@ -112,10 +104,10 @@ Error_sentence: Many of the teenagers today claimed that they are able to keep i
 
 Correct_sentence: Many of the teenagers today claim that they are able to keep in touch with their friends through social media , regardless of their location .
 
-Prediction: the verb "claimed" should be in the present tense "claim" to match the subject "many of the teenagers."
+Prediction: the error is in the verb tense. "claimed" is past tense, but the sentence is talking about something that is currently happening (today), so the correct tense is "claim."
 
-2. error: extra space before the comma after "media"
-explanation: the extra space before the comma is a formatting error and should be removed for correct punctuation.
+2. error: none
+explanation: no error.
 
 Label: 1. The past tense refers to actions or states that were completed in the past, while the present tense refers to actions or states that are currently ongoing or occur often. The past tense "claimed" implies that teenagers no longer say this, which is contradicted by the use of "today." Since it is referring to a current condition, it should be the present tense "claim" instead.
 
@@ -127,8 +119,8 @@ Error_sentence: Human has their own rights and privacy .
 
 Correct_sentence: Humans have their own rights and privacy .
 
-Prediction: 1. error: "human" should be changed to "humans" because it should be in plural form to match the subject of the sentence.
-2. error: "has" should be changed to "have" because it needs to agree with the plural subject "humans".
+Prediction: 1. error: "human" should be pluralized to "humans" in order to match the plural noun "rights".
+2. error: the verb "has" should be changed to "have" to agree with the plural noun "humans".
 
 Label: 1. The sentence is discussing people in general, so "human" should be pluralised.
 2. Incorrect conjugation. Use the third person plural "have" to go with "humans".
@@ -141,10 +133,10 @@ Error_sentence: This means both of his parents has gene A and they are both unde
 
 Correct_sentence: This means both of his parents have gene A and they are both at high risk of having disease C. They could save the cost of running two separate tests to see whether they are at high risk of having disease C. If he runs a test and know that he has the gene Aa .
 
-Prediction: 1. the error is in subject-verb agreement. since "both of his parents" is plural, the correct form of the verb should be "have" instead of "has".
-2. the error is in the preposition used. the correct preposition to use in this context is "at" instead of "under" when referring to risk.
-3. similar to the previous error, the correct preposition to use in this context is "at" instead of "under" when referring to risk.
-4. the error is in spelling. the correct spelling is "running" instead of "runing".
+Prediction: 1. error: inconsistency between subject and verb agreement. "his parents" is plural, so the verb should be "have" instead of "has".
+2. error: incorrect preposition usage. "at" should be used instead of "under" to describe the level of risk.
+3. error: incorrect preposition usage. "at" should be used instead of "under" to describe the level of risk.
+4. error: spelling mistake. "running" should be spelled with double 'n'.
 
 Label: 1. The subject here is "parents," which is plural. Because of subject-verb agreement, the appropriate verb form is "have."
 2. While the phrase "under risk of" makes logical sense and would be understood, it is not used in English. It's typical to say "at risk of," because the preposition "at" can denote the idea of being in a particular state or condition, such as being exposed to risk.
